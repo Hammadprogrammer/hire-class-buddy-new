@@ -72,6 +72,8 @@ export default function RootLayout({
             __html: JSON.stringify(organizationSchema).replace(/</g, "\\u003c"),
           }}
         />
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPEBH39Z0T"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -80,10 +82,6 @@ export default function RootLayout({
         {children}
         <Footer />
 
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-MPEBH39Z0T"
-          strategy="afterInteractive"
-        />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
