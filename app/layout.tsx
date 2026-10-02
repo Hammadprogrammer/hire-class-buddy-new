@@ -78,12 +78,20 @@ export default function RootLayout({
 
 
 
-        {/* Zanderio Widget */}
-        <Script
-          src="https://cdn.zanderio.ai/widget/loader.js"
-          data-id="wdg_72CxIvSnxqPD2oPS5mEzzexi"
-          strategy="lazyOnload"
-        />
+        {/* Tawk.to Widget */}
+        <Script id="tawk-to" strategy="lazyOnload">
+          {`
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+              var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+              s1.async = true;
+              s1.src = 'https://embed.tawk.to/69dd78add113861c2e2d76dc/1jm4hupmi';
+              s1.charset = 'UTF-8';
+              s1.setAttribute('crossorigin', '*');
+              s0.parentNode.insertBefore(s1, s0);
+            })();
+          `}
+        </Script>
       </body>
     </html>
   );

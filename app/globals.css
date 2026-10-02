@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source not "../verify-export.mjs";
+@source not "../AGENTS.md";
 
 :root {
   --background: #ffffff;
