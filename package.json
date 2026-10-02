@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postbuild": "next-sitemap",
-    "lint": "eslint"
+    "lint": "eslint",
+    "verify:requirements": "node verify-requirements.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

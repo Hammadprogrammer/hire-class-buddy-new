@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Container, Divider } from '@mui/material';
 import { 
-  Email, Phone, Facebook, Instagram, X, 
+  Email, Phone, Facebook, Instagram,
   ChevronRight, LocationOn, WhatsApp
 } from '@mui/icons-material';
 import styles from './footer.module.scss';
@@ -66,10 +66,9 @@ const Footer = () => {
               Expert academic assistance at your fingertips. We help you navigate online classes and exams with ease.
             </p>
             <div className={styles.socialBox}>
-              <Link href="#" className={styles.fb} prefetch={false}><Facebook /></Link>
-              <Link href="#" className={styles.insta} prefetch={false}><Instagram /></Link>
-              <Link href="#" className={styles.tw} prefetch={false}><X /></Link>
-              <Link href="https://wa.me/12292028857" className={styles.wa} prefetch={false}><WhatsApp /></Link>
+              <Link prefetch={false} href="https://www.facebook.com/people/Hire-Class-Buddy/61571676454739/" className={styles.fb} target="_blank" rel="nofollow noopener noreferrer" aria-label="Facebook"><Facebook /></Link>
+              <Link prefetch={false} href="https://www.instagram.com/hireclassbuddy" className={styles.insta} target="_blank" rel="nofollow noopener noreferrer" aria-label="Instagram"><Instagram /></Link>
+              <Link prefetch={false} href="https://wa.me/12292028857" className={styles.wa} target="_blank" rel="nofollow noopener noreferrer" aria-label="WhatsApp"><WhatsApp /></Link>
             </div>
           </div>
 
@@ -105,12 +104,12 @@ const Footer = () => {
           <div className={styles.footerCol}>
             <h4 className={styles.colTitle}>Connect With Us</h4>
             <div className={styles.contactDetails}>
-              <a href="mailto:info@hireclassbuddy.com" className={styles.contactItem}>
+              <Link prefetch={false} href="mailto:info@hireclassbuddy.com" className={styles.contactItem}>
                 <Email className={styles.icon} /> <span>info@hireclassbuddy.com</span>
-              </a>
-              <a href="tel:+12292028857" className={styles.contactItem}>
+              </Link>
+              <Link prefetch={false} href="tel:+12292028857" className={styles.contactItem}>
                 <Phone className={styles.icon} /> <span>+1 229 202 8857</span>
-              </a>
+              </Link>
 
               <div className={styles.contactItem}>
                 <LocationOn className={styles.icon} /> <span>450 Lexington Ave, New York, NY 10017, United States</span>
