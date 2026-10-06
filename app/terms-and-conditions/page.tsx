@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Terms and Conditions – Hire Class Buddy',
   description: 'Please read our Terms and Conditions carefully before booking an order or any transaction with Hire Class Buddy. We have very strict policies and terms of use agreement to provide the best quality services.',
   alternates: {
-    canonical: "/terms-and-conditions",
+    canonical: "/terms-and-conditions/",
   }
 };
 

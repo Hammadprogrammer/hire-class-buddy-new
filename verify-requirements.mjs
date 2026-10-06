@@ -52,6 +52,19 @@ const sitemap = file => {
   assert.equal(new Set(records.map(record => record.loc)).size, 28, `${file}: duplicate sitemap URLs.`);
   return records.sort((a, b) => a.loc.localeCompare(b.loc));
 };
+const legacyRedirects = [
+  'RewriteCond %{REQUEST_URI} !^/refund-policy/$',
+  'RewriteRule ^refund-policy/?$ /refund-policy/ [NC,R=301,L]',
+  '',
+  'RewriteRule ^terms-conditions/?$ /terms-and-conditions/ [NC,R=301,L]',
+  'RewriteRule ^online-course-help/?$ /services/online-course-help/ [NC,R=301,L]',
+].join('\n');
+for (const directory of [join(root, 'public'), current]) {
+  const hosting = read(join(directory, '.htaccess')).replace(/\r\n/g, '\n');
+  const redirectIndex = hosting.indexOf(legacyRedirects);
+  assert(redirectIndex >= 0, `${directory}: missing legacy 301 redirects or case-sensitive refund loop guard.`);
+  assert(redirectIndex < hosting.indexOf('RewriteCond %{REQUEST_FILENAME}'), `${directory}: legacy redirects must run before filesystem rewrites and the homepage fallback.`);
+}
 const expected = sitemap(join(root, 'public', 'sitemap.xml'));
 assert(!existsSync(join(root, 'sitemap.xml')), 'Keep only public/sitemap.xml as the source sitemap; remove the duplicate root sitemap.');
 assert.deepEqual(sitemap(join(current, 'sitemap.xml')), expected, 'Exported sitemap must match public/sitemap.xml URLs and metadata, including lastmod; formatting and entry order are ignored.');
@@ -85,6 +98,11 @@ for (const { loc } of expected) {
     assert(files.has(file), `${file}: missing exact case-sensitive export for ${loc}; correct the source route casing and rebuild.`);
     const html = read(join(current, file));
     const clean = html.replace(/<!--[\s\S]*?-->/g, '').replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, '');
+    assert.equal(attributes(clean.match(/<html\b[^>]*>/i)?.[0] || '').lang, 'en-US', `${file}: HTML lang must be en-US.`);
+    if (['/refund-policy/', '/terms-and-conditions/', '/services/online-course-help/'].includes(pathname)) {
+      const canonicals = [...clean.matchAll(/<link\b[^>]*>/gi)].map(([tag]) => attributes(tag)).filter(attrs => attrs.rel === 'canonical');
+      assert.deepEqual(canonicals.map(attrs => attrs.href), [loc], `${file}: expected exactly one self-referencing canonical matching the sitemap URL.`);
+    }
     const metas = [...clean.matchAll(/<meta\b[^>]*>/gi)].map(([tag]) => attributes(tag));
     for (const token of tokens) {
       assert(metas.some(meta => meta.name === 'google-site-verification' && meta.content === token), `${file}: missing Google verification meta ${token}; preserve both tokens in app/layout.tsx.`);
@@ -157,7 +175,7 @@ for (const { loc } of expected) {
     failures.push(`${file}: ${error.message}`);
   }
 }
-console.log(`Requirements: public sitemap matches export, robots files valid; ${checked}/28 pages passed (verification, Organization, social links, WhatsApp, tracking).`);
+console.log(`Requirements: public sitemap matches export, robots files valid; ${checked}/28 pages passed (en-US, selected canonicals, verification, Organization, social links, WhatsApp, tracking); legacy redirect configuration checked.`);
 assert.equal(failures.length, 0, `Export requirements failed:\n${failures.join('\n')}\nFix source files and run npm run build before retrying.`);
 const layout = read(join(root, 'app', 'layout.tsx'));
 const inserted = [];

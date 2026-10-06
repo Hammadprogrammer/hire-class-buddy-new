@@ -7,3 +7,5 @@
 - `npm run lint` runs ESLint. The baseline has existing `prefer-const` and `react/no-unescaped-entities` errors in container components, plus image and unused-import warnings. Use targeted ESLint checks to distinguish new issues from that baseline.
 - Use Next.js `Link` rather than raw `<a>` tags for links, preserving `target`, `rel`, and accessibility attributes; match the existing `prefetch={false}` convention.
 - Deployment is to a case-sensitive Hostinger filesystem. Keep the refund page route lowercase (`app/refund-policy`) to match navigation, canonical URLs, and the sitemap.
+- Legacy refund casing variants, `/terms-conditions/`, and `/online-course-help/` use 301 redirects in `public/.htaccess` before filesystem rewrites. Keep the refund `REQUEST_URI` condition case-sensitive to avoid redirect loops. Deploy the exported `.htaccess` with the site; Next.js dev/preview servers do not execute these rules.
+- `npm run verify:requirements` also checks `en-US` on sitemap pages, exact self-canonicals for the three legacy redirect destinations, and the redirect configuration in source/export. Actual HTTP redirect behavior still needs verification on Hostinger.

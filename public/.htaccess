@@ -10,6 +10,12 @@ RewriteRule ^(.*)$ https://hireclassbuddy.com/$1 [L,R=301]
 RewriteCond %{THE_REQUEST} ^.*/index\.php [NC]
 RewriteRule ^(.*)index\.php$ / [R=301,L]
 
+RewriteCond %{REQUEST_URI} !^/refund-policy/$
+RewriteRule ^refund-policy/?$ /refund-policy/ [NC,R=301,L]
+
+RewriteRule ^terms-conditions/?$ /terms-and-conditions/ [NC,R=301,L]
+RewriteRule ^online-course-help/?$ /services/online-course-help/ [NC,R=301,L]
+
 # 3. Next.js Static Pages Fix (Bina .html ke pages kholne ke liye)
 # Agar aapne about.html upload ki hai, to ye use hireclassbuddy.com/about par chalayega
 RewriteCond %{REQUEST_FILENAME} !-d
