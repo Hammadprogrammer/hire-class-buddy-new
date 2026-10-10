@@ -103,14 +103,14 @@ export default function RootLayout({
         {/* --- WhatsApp Floating Button --- */}
         <Link
           prefetch={false}
-          href="https://wa.me/12292028857"
+          href="https://wa.me/14843315917"
           target="_blank"
           rel="nofollow noopener noreferrer"
           aria-label="Chat on WhatsApp"
           style={{
             position: 'fixed',
-            bottom: 'calc(20px + env(safe-area-inset-bottom, 0px))', // Tawk.to ke upar rakhne ke liye space
-            right: '20px',
+            bottom: 'calc(20px + env(safe-area-inset-bottom, 0px))',
+            left: '20px',
             backgroundColor: '#25d366',
             color: '#fff',
             borderRadius: '50px',
@@ -137,8 +137,8 @@ export default function RootLayout({
             var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
             Tawk_API.customStyle = {
               visibility: {
-                desktop: { position: 'br', xOffset: 20, yOffset: 110 },
-                mobile: { position: 'br', xOffset: 20, yOffset: 130 }
+                desktop: { position: 'br', xOffset: 20, yOffset: 20 },
+                mobile: { position: 'br', xOffset: 20, yOffset: 20 }
               }
             };
             (function () {

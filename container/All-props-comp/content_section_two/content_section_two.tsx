@@ -35,7 +35,7 @@ const ContentTwo = ({
               <Link href="/contact-us" className={styles.primaryBtn}>
                 Contact Us
               </Link>
-              <Link href="https://wa.me/12292028857"  className={styles.secondaryBtn}>          
+              <Link href="https://wa.me/14843315917"  className={styles.secondaryBtn}>          
                 Chat With Us
               </Link>
             </div>

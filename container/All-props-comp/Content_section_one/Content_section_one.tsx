@@ -37,7 +37,7 @@ const ContentOne: React.FC<ContentSectionProps> = ({ mainHeading, description })
                 Contact Us
               </Link>
             <Link 
-              href="https://wa.me/12292028857" 
+              href="https://wa.me/14843315917" 
               target="_blank" 
               rel="noopener noreferrer" 
               className={styles.secondaryBtn}

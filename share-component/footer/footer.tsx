@@ -68,7 +68,7 @@ const Footer = () => {
             <div className={styles.socialBox}>
               <Link prefetch={false} href="https://www.facebook.com/people/Hire-Class-Buddy/61571676454739/" className={styles.fb} target="_blank" rel="nofollow noopener noreferrer" aria-label="Facebook"><Facebook /></Link>
               <Link prefetch={false} href="https://www.instagram.com/hireclassbuddy" className={styles.insta} target="_blank" rel="nofollow noopener noreferrer" aria-label="Instagram"><Instagram /></Link>
-              <Link prefetch={false} href="https://wa.me/12292028857" className={styles.wa} target="_blank" rel="nofollow noopener noreferrer" aria-label="WhatsApp"><WhatsApp /></Link>
+              <Link prefetch={false} href="https://wa.me/14843315917" className={styles.wa} target="_blank" rel="nofollow noopener noreferrer" aria-label="WhatsApp"><WhatsApp /></Link>
             </div>
           </div>
 

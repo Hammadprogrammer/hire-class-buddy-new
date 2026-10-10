@@ -30,7 +30,7 @@ const StatsSection: React.FC<StatsSectionProps> = ({ heading, description }) => 
               <Link href="/contact-us" className={styles.contactBtn}>
                 Contact Us
               </Link>
-              <Link href="https://wa.me/12292028857"  className={styles.secondaryBtn}>        
+              <Link href="https://wa.me/14843315917"  className={styles.secondaryBtn}>        
                 <button className={styles.chatBtn}>
                   Chat With Us
                 </button>
