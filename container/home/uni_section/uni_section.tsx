@@ -3,7 +3,13 @@ import Image from 'next/image';
 import { Container } from '@mui/material';
 import styles from './uni_section.module.scss';
 
-const UniSection = () => {
+interface UniSectionProps {
+  heading?: string;
+}
+
+const UniSection: React.FC<UniSectionProps> = ({ 
+  heading = "One-Stop Online Exam Solution for All Major Exam Portals" 
+}) => {
   const portals = [
     { name: "Pearson", src: "/uni1.webp" },
     { name: "Instructure", src: "/uni2.svg" },
@@ -22,7 +28,7 @@ const UniSection = () => {
       <Container maxWidth="lg">
         {/* Requirement: Heading changed to h4 */}
         <h4 className={styles.mainHeading}>
-          One-Stop Online Exam Solution for All Major Exam Portals
+          {heading}
         </h4>
       </Container>
       

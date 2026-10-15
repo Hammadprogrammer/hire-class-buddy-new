@@ -12,20 +12,20 @@ const WorkProcess = () => {
     {
       id: 1,
       icon: <DescriptionOutlined />,
-      title: "Submit Your Requirements",
-      desc: "You can reach us through live chat, WhatsApp, email, or phone call. Simply share your class or exam requirements, including the format, deadline, and any guidelines for the exam. The more information you provide, the better we can tailor our strategy to meet your needs."
+      title: "Share Your Requirement",
+      desc: "You can easily reach out to us through live chat, WhatsApp, or phone and tell us what kind of academic support you are looking for. The more you share your requirements, the better it will be a chance to get a right tutor."
     },
     {
       id: 2,
       icon: <ShoppingCartCheckoutOutlined />,
       title: "Confirm Your Order",
-      desc: "Our tutors will draw up an individual plan and price depending on how complex and urgent the task is. Fill out the form, confirm your order with a secure payment, and we can assign your class to an expert to complete it."
+      desc: "After understanding your requirements, the next step is to send the plan and quote based on your subject, deadline, and complexity of subjects. Review your order thoroughly before the payment process and get a chance to connect with a subject expert."
     },
     {
       id: 3,
       icon: <TaskAltOutlined />,
-      title: "Work Completion & Delivery",
-      desc: "After confirmation, we start working on your task and take note of all the requirements and deadlines. You will get timely progression updates about the process. In case of any convenience, our team is there to help."
+      title: "Update & Delivery",
+      desc: "The work will start according to your agreed requirements and deadlines that will always keep you updated on the things that are progressing. If you have a question, need clarification, or want to share additional instructions, our support team will be available to assist you."
     }
   ];
 
@@ -34,9 +34,9 @@ const WorkProcess = () => {
       <Container maxWidth="lg">
         {/* Requirement: Main Heading H3 */}
         <div className={styles.header}>
-          <h3 className={styles.mainTitle}>Take My Online Class Success Just 3 Steps Away! </h3>
+          <h3 className={styles.mainTitle}>3 Quick Steps To Hire Someone to Complete an Online Class</h3>
           <p className={styles.subTitle}>
-            This is a very easy, fast, and smooth process to get our top-notch class-taking service. To achieve success without major stress, do these 3 simple things: 
+            Experience a heart-pounding class-taking journey with an easy, fast, and smooth process that doesn&apos;t take much time. So follow these three steps to get started with your online class support.
           </p>
         </div>
 

@@ -5,9 +5,9 @@ const Stats_section = () => {
   return (
     <div>
       <StatsSection 
-      heading={<>Are You Looking to Pay Someone to Take Online Class? Our <span>Tutors</span> are at Your Service</>}
-      description="Sign up with us and send your class details. We will assign a subject specialist to handle your class and all pending work. Discuss your subject with us via live chat and get a plan for you with the best quotation."
-    />
+        heading={<>Trying to Hire Someone To Take My Class? Our <span>Expert Tutors</span> Are Just a Message Away</>}
+        description="Now you might be worried about how to begin! Here, you just have to sign up and tell us your syllabus, stats, or homework you are stuck on. We'll match you with the best online class tutor who can help you understand pending coursework and the tests that are expected to come. Let's start a chat, and we'll provide a quote before committing to anything."
+      />
     </div>
   )
 }

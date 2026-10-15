@@ -3,33 +3,48 @@ import Testimonial from "@/container/All-props-comp/testimonial/testimonial";
 export default function TestimonialSection() {
   const testimonialsData = [
     {
-      text: "I was trying to balance a job and classes, but this take my online class service made it all so much easier. The tutors were clear in their explanations and quickly helped me catch up. Highly recommended for busy students!",
-      author: "Order # 55604"
-
+      text: "I was always behind in my online class. My tutor made a simple weekly plan, and now I'm finally on top.",
+      author: "Jane L"
     },
     {
-      text: "I was working as a student, so I barely had time to study. Their flexible pay someone to take my online class solutions helped bring my grades up without adding more stress to my schedule. Amazing experience!",
-      author: "Order # 16545"
+      text: "It was a pleasure to hire such a tutor that help mme in understanding the stats that never made sense to me. But they explained me slowly, and I passed my final on my own.",
+      author: "Tom H."
     },
     {
-      text: "I was struggling with my assignments and exam preparation, and I got exactly what I needed. The tutors are very knowledgeable, professional and patient. My results improved a lot!",
-      author: "Order # 82263"
+      text: "I work full-time, so I only had evenings. They found me a tutor who worked around my schedule. Really helpful.",
+      author: "Sarah L."
     },
     {
-      text: "This service is great for busy students. The tutors are always on point, and the signup procedures are very easy to follow. I finally feel good about my grades again.",
-      author: "Order # 20756"
-    }, {
-      text: "I recommend this tutoring platform to anyone! They assisted me with coursework as I worked a part-time job. The one-on-one take my online class support was incredibly helpful.",
-      author: "Order # 66857"
+      text: "I literally had a panic attack when I read the case briefs in business law. After a few sessions, they actually made sense.",
+      author: "Michael B."
+    },
+    {
+      text: "Getting help with my online class here was the best decision I made this semester. My grade went from a D to a B.",
+      author: "Emily R"
     }
   ];
 
   const faqsData = [
-    { q: "Is it possible to pay someone to take online class, at low cost?", a: "Ans. There are a number of excellent platforms on the market; however, we take pride in offering very competitive rates. We know that students are on a tight budget. We are budget-friendly as a platform, ensuring you won't break the bank!" },
-    { q: "How I can pay someone take my online class for me?", a: "Ans. Purchasing on our site is super easy and fast. We have created an easy-to-understand platform where you can get suggestions from an education expert for your online lesson and transparent steps." },
-    { q: "Can I choose the expert who assists me in my class?", a: "Ans. Absolutely. When you ask us to hire someone to take online class, your data and privacy are secured. Our systems are encrypted, and we work under high levels of confidentiality. No resale; you get ownership and academic security per project since each one is different." },
-    { q: "Can I speak directly with the tutor?", a: "Ans. Your instructor can guide you and reach out to the instructor to help clarify all your doubts about your subject and web-based assignments. You are allowed to get in touch with the tutor." },
-    { q: "Who will take my online class for me?", a: "Ans. These are very learned teachers all round. They will also help you with your online exams, tests, and quizzes according to what you authorize." }
+    { 
+      q: "Do you have tutors for online business law classes?", 
+      a: "We have, and honestly it's one of the subjects we get asked about most. Case briefs and contracts get a lot easier once someone walks you through them." 
+    },
+    { 
+      q: "How much does online class tutoring cost?", 
+      a: "Depends on the subject and how much help you want. Either way, your first session is half off." 
+    },
+    { 
+      q: "Can my online class tutor work around my job?", 
+      a: "Sure. Just tell us when you're free- early morning, late night, weekends, whatever works- and we'll find someone who matches you." 
+    },
+    { 
+      q: "Can I pay someone to take a class for me?", 
+      a: "You could find people who'd say yes, but it's risky. You could fail or get kicked out. A tutor is the safer bet." 
+    },
+    { 
+      q: "Can I hire someone to take my online business law class?", 
+      a: "Not here, sorry. What we can do is help you understand it, so the exam doesn't catch you off guard." 
+    }
   ];
 
   return (
@@ -37,8 +52,8 @@ export default function TestimonialSection() {
       <Testimonial
         testimonials={testimonialsData}
         faqs={faqsData}
-        title="Hear from our happy clients"
-        subtitle="Read what our students have to say about their journey."
+        title="Listen to the Testimonials and Feedback from Our Valued Customers"
+        subtitle="Read custom feedback and learn how effective their positive interactions were."
       />
     </main>
   );

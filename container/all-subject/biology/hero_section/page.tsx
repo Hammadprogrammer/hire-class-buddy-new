@@ -4,27 +4,22 @@ export default function OnlineClassHero() {
   
   // New content: Biology Class Bullets array
   const points = [
-    "With us A+ Grades are guaranteed",
-    "Professional PhDs in biology",
-    "All progress track record"
+    "Expert tutors with real teaching experience",
+    "Homework help, lab report feedback, and exam prep",
+    "Sessions that fit around your work and life"
   ];
 
   return (
     <main>
-      <Hero 
-        // New Heading
+      <Hero
         heading={
-          <>Pay Someone to Take My Online Biology Class - <span>Trusted Online Biology Tutors</span></>
+          <>Hire Someone to Take My Online Biology Class For <span>Better Grades</span></>
         }
-        // New Subtext
         subText={
           <p>
-            Let our expert tutors take over your online biology class and enjoy stress-free 
-            learning. Hire trusted biology tutors from our platform and leave your biology 
-            class worries behind. We handle everything for you!
+            Stuck on respiration, genetics, or the Krebs cycle? Well, biology has many moving parts, and it's easy to fall behind. Our expert tutor explains difficult concepts in simple words, helping you through the chapters and topics of your exam. We support you throughout the whole process.
           </p>
         }
-        // Updated Bullets array
         bullets={points}
       />
     </main>

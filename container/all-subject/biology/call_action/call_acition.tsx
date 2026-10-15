@@ -5,9 +5,10 @@ import CallAction from "@/container/All-props-comp/call_action/call_acition";
 const CallActionSection = () => {
   return (
     <div>
-          <CallAction 
-      heading={<>Pay Someone to Do My Online Biology Class at Affordable Rates. Book Your Slot Now and Enjoy 50% Off Today! </>}
-      description="Register with us and unlock expert guidance that ensures top-quality support in your biology class. Join today and enjoy a guaranteed high score, making your online biology class stress-free and successful."
+          <CallAction
+      heading={<>Get 50% Off Your First Biology <span>Tutoring Session</span></>}
+      description="Tell us where you're studying, what's due, and where you are stuck. If you are searching for 'hire someone to take my online biology class,' Message us today, either on WhatsApp or through a live chat, and stop worrying about low grades. Our students are often happy and satisfied after getting the biology class service from us."
+      btnText="Contact Us"
       btnLink="/contact-us"
     />
     </div>

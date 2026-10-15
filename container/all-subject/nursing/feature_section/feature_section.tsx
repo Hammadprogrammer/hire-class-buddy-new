@@ -2,63 +2,48 @@ import React from 'react';
 import FeaturesSection from '@/container/All-props-comp/feature_section/feature_sectio';
 
 // Icons Import
-import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined'; 
-import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined'; 
-import EventNoteOutlinedIcon from '@mui/icons-material/EventNoteOutlined'; 
-import PriceCheckOutlinedIcon from '@mui/icons-material/PriceCheckOutlined'; 
-import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined'; 
-import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined'; 
-import TimerOutlinedIcon from '@mui/icons-material/TimerOutlined';
+import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
+import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
+import AssignmentOutlinedIcon from '@mui/icons-material/AssignmentOutlined';
+import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined';
+import SavingsOutlinedIcon from '@mui/icons-material/SavingsOutlined';
 
 const Features = () => {
   // Updated Features Data Array for Online Nursing Class Help
   const myFeatures = [
     {
-      title: "Safety and Security",
-      desc: "Your personal information and education details are completely secure. Every communication and transaction is secured through systems that do not leave room for any breach of privacy.",
-      icon: <ShieldOutlinedIcon />,
-    },
-    {
-      title: "24/7 Availability",
-      desc: "We have an available team at any time. You can get assistance with any assignment, quiz, or classwork at any time of day.",
+      title: "24/7 Assistance",
+      desc: "We understand how important it is for you to get rapid assistance. Choose Hire Class Buddy, where you can contact us at any time, even after 12 hours. If you need any last-minute changes, our online test experts are here to help you.",
       icon: <SupportAgentOutlinedIcon />,
     },
     {
-      title: "On-Time Response",
-      desc: "Our queries and assignments are on top of your list. So, you never miss a deadline or get behind on your studies, and expect fast and reliable responses.",
-      icon: <TimerOutlinedIcon />,
+      title: "Custom Guidance",
+      desc: "We go above and beyond to help nursing students, whether they want flashcards or need case examples. Your tutor figures out what works for you and plans every session around it.",
+      icon: <PersonOutlinedIcon />,
     },
     {
-      title: "Affordable Charges",
-      desc: "We offer a cost-effective and upfront listing of our services. We give you the best academic help, but not with stretching your bank account — you get value for every single penny.",
-      icon: <PriceCheckOutlinedIcon />,
+      title: "Online Nursing Class Help",
+      desc: "Every nursing help, care plan, discussion post, and case study is properly researched and formatted. This helps you easily understand each one so you can finish it yourself and submit it on time.",
+      icon: <AssignmentOutlinedIcon />,
     },
     {
-      title: "Flexible Scheduling",
-      desc: "We work with your schedule, so you can get help whenever it suits you. Whether it’s a one-off task or continuing classwork, we work around your student life.",
-      icon: <EventNoteOutlinedIcon />,
+      title: "Focus on Concepts",
+      desc: "We take complete responsibility. That's why we plan the coursework that helps you understand how and why things work, so it sticks for exams and for real patients.",
+      icon: <PsychologyOutlinedIcon />,
     },
     {
-      title: "Expert Academic Support",
-      desc: "Collaborate with experts who provide precise solutions and explanations. The tutors assist you in understanding the complex topics and doing your assignments correctly.",
-      icon: <SchoolOutlinedIcon />,
-    },
-    {
-      title: "Guaranteed Quality Work",
-      desc: "All assignments undergo editing and proofreading as per academic standards. They produce organized content without typos and always on time.",
-      icon: <VerifiedOutlinedIcon />,
+      title: "Cost Efficient",
+      desc: "We never set high prices. We understand the student budget, which is why our prices are affordable and you only pay for the sessions you need.",
+      icon: <SavingsOutlinedIcon />,
     },
   ];
 
   return (
     <>
-      <FeaturesSection 
-        mainHeading={<>Top Grades Made Easy: <span>Take Online Nursing Class Help Today</span></>}
+      <FeaturesSection
+        mainHeading={<>Nursing Precision: Conquering High Stakes Across <span>All Exam Portals</span></>}
         subText={
           <p>
-            Do you have any idea of tight deadlines and intricate topics? You’re in the 
-            right place! Our take my online nursing class service is designed to assist you 
-            from privacy to top grades.
           </p>
         }
         features={myFeatures}

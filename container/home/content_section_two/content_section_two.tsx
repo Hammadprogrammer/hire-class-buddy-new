@@ -5,8 +5,8 @@ const Content_section_two = () => {
   return (
     <>
       <ContentTwo 
-        heading="Do My Class for Me is a 100% Confidential Service: Your Privacy is Our Priority"
-        description="When you hire our online tutors, your privacy is always guaranteed. We do not share your login credentials, invoice information and personal identifiers with anyone. Data security for every request is 100% secure. With us, you can focus solely on your other goals while we take care of you, maintaining your grades while protecting all required personal data. We provide you with expert guidance in a trusted, secure environment so that all you have to think about is reaching your goals without fear."
+        heading="100 % Confidential Service Is Just A Click Away"
+        description="When you browse different online platforms to hire someone to take an online class, you will notice that almost every company claims to have a strong privacy policy. But confidentiality should be more than just a claim. We believe privacy is your right, which is why everything stays between you and us. We never share school login, name, invoice, or any personal identifiers with third parties. Your information and sessions are handled securely that ultimately brings you confidence and peace of mind."
       />
     </>
   )

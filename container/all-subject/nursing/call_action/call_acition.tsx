@@ -5,11 +5,10 @@ import CallAction from "@/container/All-props-comp/call_action/call_acition";
 const CallActionSection = () => {
   return (
     <div>
-          <CallAction 
-      heading={<>Join Thousands of Successful Students Across the USA who Trust Our Professional History Class Takers for Hire – Book Your Slot Now!
-</>}
-      description="Get help in your online class now and increase your grades! Join now to receive 50% Off your first order. Don’t wait — This limited-time offer ensures top-quality, plagiarism-free work delivered on time, helping you achieve the grades you deserve!"
-      btnText="Request a FREE quote today!"
+          <CallAction
+      heading={<>Looking For Fast Answers? Get a Chance to Take <span>50% off</span> on Your First Session</>}
+      description="When it comes to hiring someone to take my online nursing class, we often think about how we can trust someone blindly. That's why checking the tutor's credentials, reviews, and experience matters. We have dedicated professionals who help students with online nursing classes and exam preparation services. And believe us, students feel less worried when they use our service. So, for an instant solution, tell us your course, what's coming up, and where you're stuck. We'll match you with a nursing tutor this week, at half price for your first session."
+      btnText="Request a Free Quote Today!"
       btnLink="/contact-us"
     />
     </div>

@@ -3,54 +3,54 @@ import FeaturesSection from '@/container/All-props-comp/feature_section/feature_
 
 // Icons Import
 import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
-import LocalOfferOutlinedIcon from '@mui/icons-material/LocalOfferOutlined';
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
+import AssignmentTurnedInOutlinedIcon from '@mui/icons-material/AssignmentTurnedInOutlined';
 import HeadsetMicOutlinedIcon from '@mui/icons-material/HeadsetMicOutlined';
 import PaymentsOutlinedIcon from '@mui/icons-material/PaymentsOutlined';
-import AssignmentTurnedInOutlinedIcon from '@mui/icons-material/AssignmentTurnedInOutlined';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
 const Features = () => {
   // Features Data Array updated with your text
   const myFeatures = [
     {
-      title: "200+ Qualified Experts",
-      desc: "Over 200 academic professionals across the main fields are a part of our service team and support them in achieving top grades in online classes.",
+      title: "Pool of Vetted Experts, Not Freelancers",
+      desc: "When you hire class help from us, you get 4598+ tutors who are not just experienced tutors but part of our trusted academic support team. We conduct background checks to make sure they are trustworthy professionals who value academic integrity.",
       icon: <GroupsOutlinedIcon />,
     },
     {
-      title: "Low-Cost Rates",
-      desc: "We offer high-level class assistance at student-friendly rates, which means getting professional academic assistance without breaking the bank.",
-      icon: <LocalOfferOutlinedIcon />,
-    },
-    {
-      title: "Connect with Experts Directly",
-      desc: "Instead of waiting for guidance or updates, students can communicate with their assigned experts directly and receive quick help or class-related support.",
+      title: "Well Researched Practise Question",
+      desc: "Our tutor creates comprehensive practice questions that align with your coursework. Not random material from the internet, but a real kind of question your professor asks.",
       icon: <ChatOutlinedIcon />,
     },
     {
-      title: "All Day, Every Day Support",
-      desc: "We have a trained team available 24/7 to answer all your queries and give you timely updates on the task given for online classes.",
+      title: "Preps that Get A or B Grades",
+      desc: "We are here to take some of the academic pressure off your shoulders. When taking online classes from us, our tutor helps you from beginning to end, making every session about your class and nobody else.",
+      icon: <AssignmentTurnedInOutlinedIcon />,
+    },
+    {
+      title: "100% Confidential",
+      desc: "We always take your privacy first. That's why we only ask for information needed to arrange your support, such as information about your course. Your personal information stays private and is not shared with your school or third parties.",
+      icon: <LockOutlinedIcon />,
+    },
+    {
+      title: "24/7 Availability",
+      desc: "Most of the students think, what happens if they need any help at night? Don't worry! We have a proper crew to answer at any time. You just have to message us, and our support team will take your rest.",
       icon: <HeadsetMicOutlinedIcon />,
     },
     {
-      title: "Quick Payment Options",
-      desc: "A speedy and simple payment experience that is safe and secure. All of your payment details and transactions are encrypted with us.",
+      title: "Safe & Reliable",
+      desc: "Our system is designed with the students in mind. That means no hidden fees, no fake tutors, just honest help.",
       icon: <PaymentsOutlinedIcon />,
-    },
-    {
-      title: "Proven Academic Results",
-      desc: "An average of A and A+ for the work we do, our service is focused on quality work provided well before time.",
-      icon: <AssignmentTurnedInOutlinedIcon />,
     },
   ];
 
   return (
     <>
-      <FeaturesSection 
-        mainHeading={<>Hire Our Trusted Do My Online Class - Your One-Stop Solutions</>}
+      <FeaturesSection
+        mainHeading={<>Why Students Order Last-Minute Online Class Assistance <span>From Us</span></>}
         subText={
           <p>
-            Take the burden of your class off your shoulders with secure assistance from our class takers! From project and quizzes to class management, we have everything you need in one place to keep you afloat. 
+            The reason is simple: you have the flexibility to choose an assignment expert that suits your requirements. We have more than 4598+ experts ready to assist you, whether you need support with a full course or just a specific task. Let's see how we can help.
           </p>
         }
         features={myFeatures}

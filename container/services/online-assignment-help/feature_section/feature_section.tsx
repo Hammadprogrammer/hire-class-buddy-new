@@ -13,33 +13,33 @@ const Features = () => {
   // Updated Features Data Array
   const myFeatures = [
     {
-      title: "Free Revisions",
-      desc: "We offer a free multiple revision policy as a commitment to our service. We are always here if you need any tweaks.",
+      title: "Free Follow-Ups",
+      desc: "Made changes or want a second look? We offer a multiple revision policy, where you can share your feedback and get your work reviewed without any additional charges for reasonable revisions.",
       icon: <ReplayOutlinedIcon />,
     },
     {
-      title: "24/7 Service",
-      desc: "At our service, our crew is available round the clock. No matter if you need help in the 11th hour, you can contact us any time.",
+      title: "24/7 Academic Support",
+      desc: "We offer 24/7 service as our commitment to the students. So you can message us anytime; our support team is always available to assist you.",
       icon: <SupportAgentOutlinedIcon />,
     },
     {
-      title: "Free Plagiarism Report",
-      desc: ": Get a free plagiarism report with every order to ensure complete originality in your assignments. ",
+      title: "Plagirasim Free Report",
+      desc: "Our expert tutors work carefully to deliver personalized and original academic support. With this professional help, you can submit your task with peace of mind.",
       icon: <FactCheckOutlinedIcon />,
     },
     {
-      title: "Pocket-Friendly Cost",
-      desc: "We provide budget pricing on our assignment help without compromising the quality of writing to suit students’ tight budgets.",
+      title: "Affordable Pricing",
+      desc: "We know students often have a tight budget; that's why our assignment writing service helps you pay for what you need without compromising quality.",
       icon: <AccountBalanceWalletOutlinedIcon />,
     },
     {
-      title: "100% Confidentiality",
-      desc: "We take care in keeping your personal data, payment information and order details completely safe and confidential.",
+      title: "100 % Confidential",
+      desc: "With our focus on privacy, you can share your details with confidence, as we take responsibility for securing your personal details from third parties.",
       icon: <SecurityOutlinedIcon />,
     },
     {
-      title: "On-Time Delivery",
-      desc: "When orders are on time, you receive your assignment much earlier than the deadline. So we can make amendments if needed!",
+      title: "Guaranteed Deadlines",
+      desc: "Deadlines can be stressful, especially when several assignments are due at the same time. That's why, when you take assignment help from us, you will always receive the assignment at your desired time. For any revisions or additional changes, we recommend that you share the information before the deadline.",
       icon: <AccessTimeOutlinedIcon />,
     },
   ];
@@ -47,10 +47,10 @@ const Features = () => {
   return (
     <>
       <FeaturesSection 
-        mainHeading={<>Key Features of Premium Assignment Writing Service in the USA</>}
+        mainHeading={<>Want To Pay Someone To Do My Coursework? <span>Checkout How We Work</span></>}
         subText={
           <p>
-Looking for an assignment writing service? You can trust Hire Class Buddy! We provide a competent service to enable students to finish their assignments professionally. We focus on quality, originality, and timely delivery to make your assignment experience stress-free and convenient.
+            Not sure how to hire someone to do my assignment? You are not alone. Thousands of students feel stressed or overwhelmed when they start searching for the right academic support. That&apos;s where Hire Class Buddy helps you connect with the right tutor who helps you plan, research, and improve your work, so you can manage your coursework without any stress.
           </p>
         }
         features={myFeatures}

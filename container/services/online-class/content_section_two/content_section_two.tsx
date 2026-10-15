@@ -4,9 +4,9 @@ import ContentTwo from '@/container/All-props-comp/content_section_two/content_s
 const Content_section_two = () => {
   return (
     <>
-      <ContentTwo 
-        heading="Choose Online Class Help at Affordable Rates in USA for more than 5000+ Subjects"
-        description="Want to make your online classes easier without the stress? Choose to pay for online class help at affordable rates in the USA with professional assistance for 5,000+ subjects. Business, IT, Nursing, Math and more. Our professional online tutors are PhD-qualified. We always do each work round the clock to submit on time and produce high-quality material. Students across the country turn to us to make learning easier, faster, and more effective with personalized guidance and 24/7 support tailored towards helping you succeed academically."
+      <ContentTwo
+        heading="Choose Affordable Rates To Take My Online Class"
+        description="At Hire Class Buddy, we believe the cost of academics shouldn't be too high that students can't afford. That's why we offer affordable rates in the USA, along the professional assistance on 5000+ subjects. Our academic experts have full mastery over the major learning platforms which help students to plan their semester finances confidently. For all of these reasons, students from across the country come to us to make learning simple and affordable."
       />
     </>
   )

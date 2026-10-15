@@ -5,23 +5,26 @@ import Hero from '@/container/All-props-comp/hero-setion/hero_section';
 const HeroSection = () => {
   // Bullets Data
   const heroBullets = [
-    "On-Time Submission: Every class, Every Time",
-    "Plagiarism-Free class work: Fully Custom & Written from Scratch",
-    "24/7 Expert Support: Assistance Whenever You Need It"
+    "Timely support that never misses tasks and deadlines",
+    "Qualified subject expert with 100% original and tailored work",
+    "Round-the-clock support that helps you every time."
   ];
 
   return (
     <>
       <Hero 
         heading={
-          <>Take My Online Class for Me by <span>Trusted Experts</span></>
+          <>Hire Someone To Take My Online Class With <span>Expert Support</span></>
         }
         subText={
-          <p>
-            Struggling alone with your poor class grades? Fret not, <strong>Hire Class Buddy </strong>
-            is your one-stop shop for all your online class struggles. All you 
-            have to do is request <strong>“do my online class for me”</strong>.
-          </p>
+          <>
+            <p>
+              Are you ready to pay someone to take a class for you? If work, family, deadlines, and other unfinished coursework are making it difficult to keep up, find the right academic support that helps you manage overdue tasks instantly. Then visit <strong>Hire Class Buddy</strong>; you are in the right place!
+            </p>
+            <p>
+              With a strong academic background and course knowledge, our tutor helps you figure out difficult courses, stay organised, and keep up with your coursework. Then why let everything pile up? When you need support, <strong>“Hire someone to take your online class”</strong>. Here&apos;s what you can expect from our support:
+            </p>
+          </>
         }
         bullets={heroBullets}
       />

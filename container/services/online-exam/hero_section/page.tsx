@@ -5,24 +5,22 @@ export default function OnlineHero() {
   
   // Bullets array
   const points = [
-    "With us A+ Grades are guaranteed",
-    "Subject matter specialist",
-    "Also offer proctored exam solutions."
+    "Study smarter and go for the A grade",
+    "Matched with a specialist for your course",
+    "Proctored exam prep that builds confidence"
   ];
 
   return (
     <main>
       <Hero 
-        // Heading pass ho rahi hai
         heading={
-          <>Hire someone to take my online exam for me and skyrocket your grades</>
+          <>Professional Online Support for Taking My Online Exam: <span>Get Ready, Not Stressed!</span></>
         }
-        // Subtext pass ho raha hai
         subText={
           <p>
-            Tired of preparing for a daunting online exam? Don’t panic and hire our top-tier online exam help. Our take my online exam solutions take all the pressure and stress off your shoulders. Hire us and enjoy better grades today!          </p>
+            What do you think? Can a high grade really be achieved easily? Not always; you need the right preparation, guidance, expert execution, and a clear exam strategy. That&apos;s what Hire Class Buddy does. Here, we provide professional academic support that helps you achieve better results, understand difficult concepts, and improve your overall performance. So, don&apos;t worry; our professional experts will help you.
+          </p>
         }
-        // Bullets array pass ho raha hai
         bullets={points}
       />
     </main>

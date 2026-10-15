@@ -7,31 +7,45 @@ import {
 } from '@mui/icons-material';
 import styles from './service_section.module.scss';
 
-const ServicesSection = () => {
-  const services = [
-    {
-      icon: <TimerOutlined />,
-      title: "Online Exam ",
-      desc: "Our professionals offer reliable take my online exam assistance and ensure your privacy, and you get the highest grades possible. We follow your exam guidelines carefully and ensure accurate solutions are delivered within the exam time frame."
-    },
-    {
-      icon: <SchoolOutlined />,
-      title: "Online Class ",
-      desc: "Unable to cope with your online classes? Our skilled tutors can take care of complete online class activities such as classwork, discussions, and weekly tasks to ensure you stay on track throughout the semester."
-    },
-    {
-      icon: <HistoryEduOutlined />,
-      title: "Online Assignment ",
-      desc: "We offer customized, well-researched assignments tailored to your requirements and timelines, prepared by subject specialists. We provide plagiarism-free, formatting and timely delivery to get you better grades."
-    }
-  ];
+export interface ServiceItem {
+  icon?: React.ReactNode;
+  title: string;
+  desc: string;
+}
 
+interface ServicesSectionProps {
+  title?: string;
+  services?: ServiceItem[];
+}
+
+const defaultServices: ServiceItem[] = [
+  {
+    icon: <TimerOutlined />,
+    title: "Online Exam Prep",
+    desc: "Your exam is coming up soon, and you are worried about how to start? Our tutors go through the topics that usually show up, explain the \"why\" behind each answer, and give you timed practice. So when exam day comes, it feels like something you've already done. That's online exam prep done right."
+  },
+  {
+    icon: <SchoolOutlined />,
+    title: "Online Class Tutoring",
+    desc: "Need help keeping up with your online class? Your online class tutor checks in weekly, walks you through classwork and discussion topics, and clears up anything confusing. Little by little, you catch up and stay there."
+  },
+  {
+    icon: <HistoryEduOutlined />,
+    title: "Online Assignment Help",
+    desc: "If you're unsure about your assignment, then hold on! Send it over. A subject expert reads it and tells you what's working, what's missing, and how to fix the structure, sources, and formatting."
+  }
+];
+
+const ServicesSection: React.FC<ServicesSectionProps> = ({
+  title = "What We Can Do For You",
+  services = defaultServices
+}) => {
   return (
     <section className={styles.servicesSection}>
       <Container maxWidth="lg">
         {/* Requirement: Main Heading H2 */}
         <div className={styles.header}>
-          <h2 className={styles.mainTitle}>Services We Offer </h2>
+          <h2 className={styles.mainTitle}>{title}</h2>
         </div>
 
         <div className={styles.flexWrapper}>

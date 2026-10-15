@@ -4,8 +4,8 @@ const ContentSectionOne = () => {
   return (
     <>
       <ContentOne 
-        mainHeading="Why USA Students Need to Hire a Cheap Assignment Writing Service"
-        description="Intensive coursework, part-time jobs, and personal obligations make it difficult for many USA students to continue studying effectively. This is where our professional help from a cheap assignment writing service comes into play. The benefit of hiring our assignment writers is that students can get high-quality, plagiarism-free work at reasonable prices, and they save time by outsourcing their assignments, thus reducing academic pressure. Our top assignment writers help the students with experience, timely submissions and work done as per university guidelines, making them an advantage as they drive better grades. You can concentrate on the other, more important parts of your academic or personal life."
+        mainHeading="Why Students Need to Pay Someone to Write My Assignment"
+        description="In a time when universities are paying closer attention to AI-generated assignments and automated submissions, managing coursework alongside class, part-time jobs, and other family stuff can become challenging. That's where professional tutor support comes in. Our tutor sits down with you, pays attention to every detail, and makes every possible effort to provide personalized guidance that helps you understand the difficult coursework and prepare high-quality, plagiarism-free work at highly reasonable rates. This approach makes every assignment stay accurate, confidential, and plagiarism-free from beginning to end."
       />
     </>
   );

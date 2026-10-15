@@ -5,12 +5,12 @@ import CallAction from "@/container/All-props-comp/call_action/call_acition";
 const CallActionSection = () => {
   return (
     <div>
-          <CallAction 
-      heading={<>Hire Someone to Take My Class Now and Grab a Flat <span>50% Off</span>on Your First Order</>}
-      description="Register now and book your online consultation for your online class, exam, quiz and assignments with our real-time experts today! Your online class success awaits."
-      btnText="Request a FREE quote now!"
-      btnLink="/contact-us"
-    />
+      <CallAction 
+        heading={<>Pay Someone To Take My Class for Me With <span>Half Off the Price</span> on Your First Session</>}
+        description="There is no doubt! Not everyone is sure about tutoring. That's completely understandable! But here you can start with a free consultation, where you can tell us about the class, exams, or assignments. If you decide to continue with a tutoring session, you'll get 50% off on your first session."
+        btnText="Get A FREE Quote Now"
+        btnLink="/contact-us"
+      />
     </div>
   )
 }

@@ -5,25 +5,22 @@ export default function OnlineClassHero() {
   
   // Bullets array
   const points = [
-    "On-Time Submissions: All work completed and submitted on time",
-    "Confidential & Reliable: 100% privacy and reliable support.",
-    "All Subjects Covered: Help available for many subjects."
+    "4598+ tutors across 70+ subjects",
+    "Weekly follow-ups, so nothing sneaks up on you",
+    "Help 24/7 or whenever you need it"
   ];
 
   return (
     <main>
-      <Hero 
-        // Heading pass ho rahi hai
+      <Hero
         heading={
-          <>Top-Tier Online Class Help Secure Your A+ Grade | <span>100% Success Guaranteed</span></>
+          <>Take Online Class Assistance From an Expert Who <span>Actually Gets It</span></>
         }
-        // Subtext pass ho raha hai
         subText={
           <p>
-           Struggling with do my class? Our top-notch online class help services are designed for students in the USA—secure your A+ grade with our tutors. Get reliable assistance, timely submissions, and the confidence to succeed with 100% dedication to your academic success.
+            Stop letting your energy drain your brain! Our online class help service is designed to support you throughout the course. If you have missed a lecture, a quiz you forgot, or a discussion post due at midnight? Hire a professional class expert who can help you work through online class assignments and class-related questions on your mind!
           </p>
         }
-        // Bullets array pass ho raha hai
         bullets={points}
       />
     </main>

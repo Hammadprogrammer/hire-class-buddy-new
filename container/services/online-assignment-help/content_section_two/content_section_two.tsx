@@ -5,8 +5,8 @@ const Content_section_two = () => {
   return (
     <>
       <ContentTwo 
-        heading="Get 24/7 Pay Someone to Do My Assignment Service!"
-        description="Hire Class Buddy is one of the most trustworthy assignment assistance providers in the USA, with a rating of 4.8/5. So far, we have guided the future of 100,000+ students with our assignment writing services. We are widely reputed among students; around 98.9% students every year request us to “pay someone to do my assignment?”. And we guarantee them to earn an A+ in their paper. 3 Easy Steps to go from ZERO to HERO: Register on our site, fill in the order form and make the payment. Transform your dream into reality!"
+        heading="No More Nighter! Get 24/7 Assignment Help For A+ Grades"
+        description="Hire Class Buddy has worked with 100,000+ and is rated 4.8/5 by the people who've used us. Students from Houston and all over the US come to us when an assignment feels too big to handle alone. Getting started is easy. Sign up, tell us about your assignment, and book a session with an expert tutor. From there, we don't just help you with your coursework but also provide the guidance you need to work toward an A+ that actually makes you proud of."
       />
     </>
   )

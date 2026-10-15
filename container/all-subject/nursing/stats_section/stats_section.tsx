@@ -4,9 +4,9 @@ import StatsSection from '@/container/All-props-comp/stats_section/stats_section
 const Stats_section = () => {
   return (
     <div>
-      <StatsSection 
-      heading={<>Take Control of Your Studies with Expert Help. Request A Free 30-Minute Consultation Session!</>}
-      description="Plan your academic journey with our expert tutors who assess your strengths and challenges. This free 30-minute session helps you understand where to focus and how to improve efficiently. Start building a smarter learning strategy today."
+      <StatsSection
+      heading={<>Why Do Nursing Students Run Out Of Time? Book a Free 30 Minute <span>Consultation Now!</span></>}
+      description="For all nursing students, it's hard to decide what to study first. Hop on a quick call with one of our nursing tutors, and they'll look at your course, your deadlines, and the topics you're struggling with. You'll leave with a clear plan for the next few weeks, at no cost. If you like how it goes, we can continue from there with online nursing class help that fits your schedule."
     />
     </div>
   )

@@ -4,28 +4,22 @@ export default function OnlineClassHero() {
   
   // New content: Chemistry Class Bullets array
   const points = [
-    "PhD Chemistry Tutors: Highly qualified professionals for all chemistry topics.",
-    "24/7 Support: Get help and updates anytime, day or night.",
-    "Confidential Service: Your information and classwork stay fully secure."
+    "PhD tutors who've taught general and organic chemistry",
+    "Problem sets, lab reports, and test prep in one place",
+    "Book a session whenever your schedule allows"
   ];
 
   return (
     <main>
-      <Hero 
-        // New Heading
+      <Hero
         heading={
-          <>Struggling with Chemistry? <span>Get Top-Notch Online Chemistry Class Help Today!</span></>
+          <>Make Chemistry Easier With Take My Chemistry Class For Me <span>Service</span></>
         }
-        // New Subtext
         subText={
           <p>
-            Struggling with chemistry? Get top-notch online chemistry class help today and tackle your 
-            assignments, projects, and classwork with ease. Our experts provide reliable, 
-            high-quality support without any hassle—so you can stay on track and succeed 
-            confidently.
+            Don't let the difficult equations ruin your CGPA. We agree with this fact: complex chemical formulas and equations require help, and luckily our expert tutors are here to help. Here, we are pleased to offer secure and reliable online class help to students. So, our experienced tutor takes every single step with you, which gradually boosts your trust.
           </p>
         }
-        // Updated Bullets array
         bullets={points}
       />
     </main>

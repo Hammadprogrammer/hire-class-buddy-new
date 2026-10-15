@@ -2,58 +2,55 @@ import React from 'react';
 import FeaturesSection from '@/container/All-props-comp/feature_section/feature_sectio';
 
 // Icons Import
-import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined'; 
-import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined'; 
-import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined'; 
-import ComputerOutlinedIcon from '@mui/icons-material/ComputerOutlined'; 
-import BiotechOutlinedIcon from '@mui/icons-material/BiotechOutlined'; 
-import SavingsOutlinedIcon from '@mui/icons-material/SavingsOutlined'; 
+import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
+import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
+import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined';
+import ComputerOutlinedIcon from '@mui/icons-material/ComputerOutlined';
+import BiotechOutlinedIcon from '@mui/icons-material/BiotechOutlined';
+import SavingsOutlinedIcon from '@mui/icons-material/SavingsOutlined';
 
 const Features = () => {
   // Updated Features Data Array for Biology Class Help Services
   const myFeatures = [
     {
-      title: "Credentialed Tutors",
-      desc: "Biology tutors are experts with years of teaching and knowledge, so there is no chance for inaccuracy to occur in your biology class.",
+      title: "Certified Tutor",
+      desc: "Our biology tutors are subject specialists who have studied it, taught it, and explained it a hundred times. They know where students usually get stuck, and they'll make sure you get it right.",
       icon: <SchoolOutlinedIcon />,
     },
     {
-      title: "24/7 Help",
-      desc: "Get assistance with biology class outside of the classroom, including late at night and weekends, so you never miss out on a deadline or have to struggle alone.",
+      title: "24/7 Assistance",
+      desc: "There is no fixed time when biology questions stop coming. Whether it is a late night, early morning, or Sunday afternoon, just message us; our customer support will help you out.",
       icon: <SupportAgentOutlinedIcon />,
     },
     {
       title: "Custom Guidance",
-      desc: "Enjoy personalized, one-on-one support that can be customized to match your learning style, course demands, and pain points so you can maximize growth.",
+      desc: "Every student has a different learning style, and our tutor understands this, whether it is by drawing or talking it through. They figure out what works for you and build every session around your course and your weak spots.",
       icon: <PsychologyOutlinedIcon />,
     },
     {
       title: "Online Class Help",
-      desc: "Get professional assistance with homework, lab reports, projects and other online class tasks delivered on time with precision and quality.",
+      desc: "Need help with homework, lab reports, projects, and weekly tasks. Your tutor helps you understand and plan each task so you can finish it yourself and hand it in on time.",
       icon: <ComputerOutlinedIcon />,
     },
     {
-      title: "Focus on Concepts",
-      desc: "Study difficult biology topics, whether it is in cellular processes or genetics, so you can gain confidence in developing long-term knowledge.",
+      title: "Focus on Concept",
+      desc: "It's hard to memorise terms without understanding them, so that's why our tutor helps you understand how things like cell processes and genetics actually work, so it sticks past the next test.",
       icon: <BiotechOutlinedIcon />,
     },
     {
-      title: "Cost-Efficient",
-      desc: "High-quality support at student-friendly prices, with guaranteed consistency in helping you boost grades without breaking the bank.",
+      title: "Cost Efficient",
+      desc: "Good help shouldn't cost a fortune. Our prices are made for students, and you only pay for the sessions you need.",
       icon: <SavingsOutlinedIcon />,
     },
   ];
 
   return (
     <>
-      <FeaturesSection 
-        mainHeading={<>Biology Class Takers for Hire <span>– Get Expert Support Anytime</span></>}
+      <FeaturesSection
+        mainHeading={<>Affordable Biology Class Help That Actually <span>Makes a Difference</span></>}
         subText={
           <p>
-            Hire our most reliable biology class takers for hire to do your classwork as needed. 
-            Our subject matter experts who have experience and knowledge guarantee timely delivery 
-            while also helping you grasp complex concepts so that you don’t fall behind in your 
-            studies and improve your grades in no time.
+            Let's be honest, a lot of biology help online feels a bit sketchy. We're different. At Hire Class Buddy, our tutor sits down with you and goes through whatever's giving you trouble. Maybe it's photosynthesis, maybe it's a lab report that's due Friday, or do you need any online biology homework help at 11 p.m.? Message us. Someone will get back to you. Our prices are made for students, not companies, and we don't leave you hanging when a deadline's close. You still do the work. We just make sure you're not stuck on your own.
           </p>
         }
         features={myFeatures}

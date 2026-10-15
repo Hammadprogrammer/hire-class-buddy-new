@@ -4,9 +4,9 @@ import ContentTwo from '@/container/All-props-comp/content_section_two/content_s
 const Content_section_two = () => {
   return (
     <>
-      <ContentTwo 
-        heading="Pay Someone to Take My Online Exam Secure and Fast Way"
-        description="If you are searching about take my exam for me you are at right place. No need to worry about the stress connected with taking an online exam. Now you can hire our tutors to do it on your behalf. Our online exam takers are very proficient in all aspects and are also very professional. The success of our service is quick and dependable. We count on deadlines and therefore your exams will be submitted in time and of the best quality. It can be a multiple-choice exam, a question-type examination or a short exam, we have you covered. Our process is secure and confidential and you can trust it to maintain your privacy. When you are with us, you will be able to concentrate on other things as we work on your academic performance."
+      <ContentTwo
+        heading="Pay Someone To Do My Online Exam And Ace Your Academic Safely and Securely"
+        description="At Take My Exam For Me, we aim to offer a much-needed solution that brings you complete support when preparing for an online exam. Moreover, approximately 10,000+ students have taken exams with Hire Class Buddy and rate us 4.5/5. You must be thinking, how? Because we have certified experts who help you prepare for your exam at an acurate timing, making it easier in getting high score while supporting your academic journey. So, tell us your sign-up, exam date, and topic, and book your first session instantly."
       />
     </>
   )

@@ -4,13 +4,12 @@ import StatsSection from '@/container/All-props-comp/stats_section/stats_section
 const Stats_section = () => {
   return (
     <div>
-      <StatsSection 
-      heading={<>Hire Someone to Do My Online Chemistry Class and Ace Your Grades with Confidence!</>}
-      description="Drowning in complicated assignments or impending deadlines? Get high-quality, plagiarism-free chemistry class takes on time when you hire a chemistry class taker today. Our experts break complex concepts into manageable bits so you can tackle the material and know what’s going on in class with confidence."
+      <StatsSection
+      heading={<>Not Sure What You Need? Talk to a Chemistry Tutor for <span>Free</span></>}
+      description="Chemistry creates a unique kind of panic when you are juggling class, quizzes, and assignments. If you are stuck here and thinking about hiring someone who do my chemistry assignment today. Just thirty minutes, no strings attached! Show a tutor your syllabus and upcoming deadlines, and they'll tell you honestly where to focus first and give you the assignment after bypassing the plagiarism checker with proper references."
     />
     </div>
   )
 }
 
 export default Stats_section
-

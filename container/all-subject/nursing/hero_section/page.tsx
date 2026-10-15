@@ -4,28 +4,22 @@ export default function OnlineClassHero() {
   
   // New content: Nursing Class Bullets array
   const points = [
-    "24/7 Online Support: Get help anytime with assignments, quizzes, day or night.",
-    "Confidentiality Guarantee: Your personal information is fully protected and private.",
-    "Money-Back Guarantee: Not satisfied with your assignment? Get a full refund, risk-free."
+    "Nursing tutors with real clinical and teaching experience",
+    "Help with care plans, case studies, and exam prep",
+    "Sessions that fit around shifts and clinical"
   ];
 
   return (
     <main>
-      <Hero 
-        // New Heading
+      <Hero
         heading={
-          <>Hire Professional Help <span>for Nursing Class Online and Skyrocket Your Grades</span></>
+          <>Hire Someone To Take My Online Nursing Class and Pass the Exam <span>Without Risk</span></>
         }
-        // New Subtext
         subText={
           <p>
-            Just get our best nursing class help and we will provide you with the 
-            professional tutors who guide you through each assignment, discussion and 
-            presentation. From timely submissions to accurate solutions and personalized 
-            assistance.
+            No doubt, Nursing School is tough! Especially pharmacology, patho, care plans, and clinicals are at the top of it all. Nursing school is not easy, and an online class makes it difficult for students to manage everything at once. Our nursing experts help you prepare for your exams, and they'll explain difficult tasks in simple words so you can keep up and feel ready for every exam without having kind of feeling risk or stress for exams.
           </p>
         }
-        // Updated Bullets array
         bullets={points}
       />
     </main>
