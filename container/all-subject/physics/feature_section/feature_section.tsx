@@ -14,52 +14,44 @@ const Features = () => {
   // Updated Features Data Array for Physics Class Help Services
   const myFeatures = [
     {
-      title: "Guaranteed Success",
-      desc: "Guaranteed success is what we can give you when we attend online classes for you and help you understand everything in a very detailed way.",
+      title: "Clear Explanations",
+      desc: "Our tutor sketches each problem first, so you can see what's going on before touching the math.",
       icon: <StarsOutlinedIcon />,
     },
     {
-      title: "IP Address",
-      desc: "We use a special IP address just for you, so nobody can find out that you asked someone to take your online class for you.",
+      title: "Weekly Progress",
+      desc: "Regular follow-up that helps keep lectures and problem sets from stacking up.",
       icon: <ShieldOutlinedIcon />,
     },
     {
-      title: "Secure Payment Method",
-      desc: "When you pay us, we use safe ways to do it with strong security and protection for you.",
+      title: "Lab Report Feedback",
+      desc: "Send your draft and get notes on your data, graphs, and conclusions before you submit.",
       icon: <PaymentOutlinedIcon />,
     },
     {
-      title: "24 Hours Availability",
-      desc: "You can ask us to take your class for you at any time, morning or night and we will be there to help you with your school work.",
+      title: "Exam Practice",
+      desc: "Timed practice built from your past quizzes, so the real test feels familiar.",
       icon: <AccessTimeOutlinedIcon />,
     },
     {
-      title: "Quality Work",
-      desc: "We do all the work from the beginning. Give it to you, making sure to include all the important points from the class.",
+      title: "24/7 Support",
+      desc: "Message us after midnight. Someone is usually awake to help.",
       icon: <TaskAltOutlinedIcon />,
     },
     {
-      title: "Subject-Help",
-      desc: "We have over 650 experts in different subjects who can give you the right help and guidance for your specific class.",
+      title: "Quality Work",
+      desc: "You solve and write everything from the beginning. Give it to your tutor; they will help you understand it, so it's original and yours.",
       icon: <GroupOutlinedIcon />,
-    },
-    {
-      title: "Reasonable Price Plan",
-      desc: "Even though we give you service and expert help, our prices are very low and easy, within your budget.",
-      icon: <LocalOfferOutlinedIcon />,
     },
   ];
 
   return (
     <>
-      <FeaturesSection 
-        mainHeading={<>Take a Look at the Premium Features of Our <span>Top-Notch Physics Class Help Services</span></>}
+      <FeaturesSection
+        mainHeading={<>How We Can Help You With Your Online <span>Physics Class</span></>}
         subText={
           <p>
-            You can find a lot of websites where you can pay someone to take a physics class for 
-            you.. What makes Hire Class Buddy the best is our unique qualities. We are the 
-            number one choice because of these qualities. We are special. That is why 
-            people choose us over others to take their online physics classes.
+            We offer you the full flexibility to choose an assignment expert that suits your requirements and quality parameters. We have almost 100+ certified tutors available to support you in your physics coursework.
           </p>
         }
         features={myFeatures}

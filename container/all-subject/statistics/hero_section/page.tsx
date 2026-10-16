@@ -4,26 +4,22 @@ export default function OnlineClassHero() {
   
   // New content: Statistics Class Bullets array
   const points = [
-    "Secured IP: Dedicated IP ensures your class activities stay private.",
-    "Safe Payment: Encrypted transactions keep your payments secure.",
-    "24/7 Support: Get help anytime, day or night, for your class needs."
+    "Statistics Specialists: Tutors who've used and taught statistics for years",
+    "24/7 Availability: Help in the evenings, on weekends, and late at night",
+    "Complete Privacy: Your details and coursework stay with us"
   ];
 
   return (
     <main>
-      <Hero 
-        // New Heading
+      <Hero
         heading={
-          <>Pay Someone to Take My Online Statistics Class for Me - <span>100% Success Guaranteed</span></>
+          <>Get Online Statistics Class Assistance With <span>Expert Professionals</span></>
         }
-        // New Subtext
         subText={
           <p>
-            Looking for the best statistics class takers for hire? You are at right place. 
-            We offer affordable yet professional solutions to all your statistics class problems!
+            When it comes to taking an online statistics class, students frequently inquire, "Can I hire someone to take my online statistics class?" The response is straightforward: you need a helping hand, not someone to handle everything for you, but someone who makes it easier to understand while you manage your ongoing job, kids, and much more. We at Hire Class Buddy offer professional academic support that handles all the challenging assignments, quizzes, and test preparation. Our expert tutor will make sure you get the grades you need without unnecessary stress. That's exactly what our tutors do.
           </p>
         }
-        // Updated Bullets array
         bullets={points}
       />
     </main>

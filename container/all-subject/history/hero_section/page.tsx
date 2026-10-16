@@ -4,28 +4,22 @@ export default function OnlineClassHero() {
   
   // New content: History Class Bullets array
   const points = [
-    "PhD History Tutors: Expert help from highly qualified professionals.",
-    "Secure Access: Safe submissions with protected VPN.",
-    "100% Confidential: Your data and work remain fully private."
+    "PHD History Tutor: Tutors who have spent years studying and teaching history.",
+    "24/7 Support: Flexible times, including evenings and weekends",
+    "100% Confidentiality: Personal information and coursework remain private."
   ];
 
   return (
     <main>
-      <Hero 
-        // New Heading
+      <Hero
         heading={
-          <>Hire Someone to Take My Online History Class <span>for Me- A Grade Guaranteed</span></>
+          <>Take My Online History Class for Me: Aim For A Grades With <span>Expert Help</span></>
         }
-        // New Subtext
         subText={
           <p>
-            Ace your grades with expert online history class help – fast, reliable, and stress-free! 
-            Our professional tutors offer top-tier help with online history class solutions. 
-            With timely delivery and personalized support, staying on top of your course 
-            has never been easier.
+            Are you dreaming of achieving A grades, but history seems to make it impossible? No doubt! History is known for being dry, but honestly it's one of the most interesting subjects out there once someone shows you the people and decisions behind the events. That's what our tutors do. They take the reading you've been dreading and turn it into something you can actually follow, remember, and write about. With the right guidance and consistent practice, those A grades may no longer feel out of reach.
           </p>
         }
-        // Updated Bullets array
         bullets={points}
       />
     </main>

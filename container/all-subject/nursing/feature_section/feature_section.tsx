@@ -44,6 +44,7 @@ const Features = () => {
         mainHeading={<>Nursing Precision: Conquering High Stakes Across <span>All Exam Portals</span></>}
         subText={
           <p>
+            Your nursing licence is your future, so take it seriously! We have tutors who help students with a wide range of nursing subjects, including nursing and nurse education. They know the material, and they know what it's like to study it while working.
           </p>
         }
         features={myFeatures}

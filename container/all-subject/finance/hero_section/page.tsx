@@ -4,28 +4,22 @@ export default function OnlineClassHero() {
   
   // New content: Finance Class Bullets array
   const points = [
-    "Domestic Logins (No IP Bans): Access safely from anywhere.",
-    "Money-Back Grade Guarantee: Get A or B, or your money back.",
-    "24/7 Expert Assistance: Help anytime for assignments and classwork."
+    "Finance Specialists: Tutors with finance, accounting, and MBA backgrounds",
+    "Help Any Hour: Late nights, weekends, the night before a test",
+    "Private and Secure: Your details stay with us"
   ];
 
   return (
     <main>
-      <Hero 
-        // New Heading
+      <Hero
         heading={
-          <>Pay Someone to Take My Online Finance Class for Me | <span>A or B Grade Assured</span></>
+          <>Hire Someone to Take My Online Finance Class For Me and <span>Secure Your Future</span></>
         }
-        // New Subtext
         subText={
           <p>
-            Boost your grades effortlessly with our online finance class help, designed 
-            to guide you through your entire finance class with ease. Get expert support 
-            that guarantees an A or B grade, so you can achieve academic success 
-            stress-free.
+            You know, when you take finance class help from us, you meet with a professional assistant who ensures that your digital record stays private while you work on the other things. This approach is designed for finance as well, because finance isn't hard. You're bad with numbers. It's hard because nobody slowed down and showed you how to fix it. That's what our tutors do, one problem at a time.
           </p>
         }
-        // Updated Bullets array
         bullets={points}
       />
     </main>

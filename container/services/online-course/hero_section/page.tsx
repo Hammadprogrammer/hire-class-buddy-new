@@ -5,24 +5,22 @@ export default function OnlineClassHero() {
   
   // Bullets array
   const points = [
-    "Full Course Coverage: Assignment, quiz and exam help.",
-    "100% Human-Written: Plagiarism-free, high-quality work.",
-    "Stress-free success: No hassle with your course, we do it all for you."
+    "PHD Level Tutors: Specialists in 70+ subjects",
+    "24/7 Support: Mornings, nights, and weekends",
+    "Private and Secure: Your details stay with us"
   ];
 
   return (
     <main>
-      <Hero 
-        // Heading pass ho rahi hai
+      <Hero
         heading={
-          <>Pay Someone to Do Online Course - <span>100% Success Guaranteed</span></>
+          <>Say Do My Online Course For Me and Hire Professionals <span>From Us</span></>
         }
-        // Subtext pass ho raha hai
         subText={
           <p>
-Running an online course with other work can be daunting, but we’ve got your back. Our online course help services offer complete assistance for your respective assignments, quizzes, discussions, and exams to help you stay ahead and score high.          </p>
+            We have a course helper that can provide you with a secure, human-friendly solution. When you request our expert online course support, we connect you with expert professionals to ensure our specialists can access your portal while keeping your credentials secure.
+          </p>
         }
-        // Bullets array pass ho raha hai
         bullets={points}
       />
     </main>

@@ -13,47 +13,44 @@ const Features = () => {
   // Updated Features Data Array for Online Test Service
   const myFeatures = [
     {
-      title: "Expert Test Takers",
-      desc: "Our team of subject experts is capable of handling tests, even for tricky disciplines. An academic background means their solutions are correct, leading to top grades every time.",
+      title: "Expert Test Prep Tutors",
+      desc: "Our tutors know their subjects well, even the tricky ones like finance, stats, and organic chem. They'll help you get ready for any test before the deadline.",
       icon: <FactCheckOutlinedIcon />,
     },
     {
-      title: "Round-the-Clock Help",
-      desc: "We help you at any hour of the day or night. We are more than willing to take your quizzes. We provide updates and assist you every step of the way.",
+      title: "24/7 Help",
+      desc: "Studying at 2 a.m.? We're up too. Send a message any hour of the day or night, and someone will get back to you, usually within minutes.",
       icon: <SupportAgentOutlinedIcon />,
     },
     {
-      title: "On-Time Performance",
-      desc: "We abide by the exam schedules and deadlines and never miss any! It is always done with professionalism and on time, from A to Z.",
+      title: "On-Time Sessions",
+      desc: "Your test date is our deadline too. We plan your preparation around it and make sure every session happens before you need it, never after.",
       icon: <AccessTimeOutlinedIcon />,
     },
     {
       title: "Track Record of Success",
-      desc: "With a documented track record of successful tests and happy clients, we have a great reputation you can trust.",
+      desc: "Lots of students have prepped with us and come back the next semester. That says more than any promise we could make.",
       icon: <ReplayOutlinedIcon />,
     },
     {
-      title: "Your Identity is Secret",
-      desc: "Your name is protected. We are always strict on confidentiality, and your identity and other personal details will be fully secure at all times.",
+      title: "Your Details Stay Private",
+      desc: "Your name, course, and contact info are kept safe and never shared with anyone. Privacy isn't optional for us. It's how we work.",
       icon: <SecurityOutlinedIcon />,
     },
     {
       title: "Competitive Price",
-      desc: "You will get top services at a low cost. We understand how important test help is. We provide clear and flexible pricing that allows every student to get professional assistance.",
+      desc: "Good test preparation shouldn't cost a fortune. Our prices are clear, flexible, and made for students, and your first session is half off.",
       icon: <AccountBalanceWalletOutlinedIcon />,
     },
   ];
 
   return (
     <>
-      <FeaturesSection 
-        mainHeading={<>Some Standout Features of Our Top-Notch Do My Test for Me Service</>}
+      <FeaturesSection
+        mainHeading={<>What Do Our Take My Online Test Service <span>Features Cover</span></>}
         subText={
           <p>
-            Our trustworthy pay someone to take my online test service is known for excellent 
-            test takers, round-the-clock support, and a history of success. Every test 
-            promises to be timely, private and of high quality. Our reasonably priced 
-            academic solutions help you achieve your goals with accurate results.
+            We employ highly skilled experts who have the experience and knowledge to provide professional test help. This is why students rate us 4.5/5 in the USA. We guide in everystep and provide some useful tools on how to pass your test successfully and tell you how to deal with the required tasks, even when you have a strict scedule.
           </p>
         }
         features={myFeatures}

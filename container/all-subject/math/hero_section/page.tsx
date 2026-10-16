@@ -4,27 +4,22 @@ export default function OnlineClassHero() {
   
   // New content: Math Class Bullets array
   const points = [
-    "Algorithmic Pattern Matching: Real-time solving keeps your activity natural.",
-    "IP Masking for Portals: Location-matched IP prevents suspicious logins.",
-    "Working Process Security: Solutions match your working style consistently."
+    "Algorithmic Pattern Matching: We look at the question patterns in your course and create practice problems that match them, so questions on your quiz or exam feel more familiar.",
+    "Secure & Private Sessions: All sessions take place on encrypted platforms, and we never ask for your school login details.",
+    "Safety and Security: Your tutor learns how you approach problems and builds on that, so you get faster and more confident in your own way of working."
   ];
 
   return (
     <main>
-      <Hero 
-        // New Heading
+      <Hero
         heading={
-          <>Say “Take My Online Math Class for Me” <span>and Hire Professional Tutors in the USA</span></>
+          <>Want An Easy Solution? Pay Someone To Take My Online <span>Class</span></>
         }
-        // New Subtext
         subText={
           <p>
-            Stop struggling with tough numbers. Get online math help at affordable rates for 
-            calculus, algebra, and complex problems with ease. Leave your math burden to us 
-            and enjoy seeing a lift in your poor grades without lifting a finger.
+            There is no subject that can be both easier and more overwhelming than math. So, if you are struggling with tricky formulas, algebra, or calculus, you might need some extra help. And I don't think you can find better help than Hire Class Buddy. We offer affordable rates and PhD-level tutors who help make the lesson easier to understand than you might imagine.
           </p>
         }
-        // Updated Bullets array
         bullets={points}
       />
     </main>

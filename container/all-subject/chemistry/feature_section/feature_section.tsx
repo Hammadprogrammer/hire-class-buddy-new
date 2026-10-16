@@ -13,28 +13,44 @@ const Features = () => {
   // Updated Features Data Array for Chemistry Class Help Services
   const myFeatures = [
     {
-      title: "Online Exam",
-      desc: "Our expert professionals look at your past quizzes and syllabus to figure out which problems keep coming up. Then you practice those, timed, until they feel easy. That's how our chemistry exam prep works.",
+      title: "Customized Assignment Guidance",
+      desc: "Your tutor reads your actual brief first. What level you're at, what your professor wants, where you're stuck. Then you work on it together, your way.",
       icon: <AssignmentOutlinedIcon />,
     },
     {
-      title: "Online Class",
-      desc: "Every week, our tutor goes over what's coming in your course and explains anything the lecture didn't make clear. Kind of like a lab partner who actually knows the answers.",
+      title: "All Chemistry Branches Covered",
+      desc: "Orgo? Yep. P-chem? That too. Gen chem, inorganic, biochem- we've got someone for each one.",
       icon: <ScienceOutlinedIcon />,
     },
     {
-      title: "Online Assignment",
-      desc: "Well, assignments are difficult to handle, especially when it comes to chemistry. Our tutor makes it simple for you, then lets you try the next few. You finish it yourself, and you learn the method along the way.",
+      title: "Plagiarism-Free Work",
+      desc: "You do the writing, so it's yours. We'll help with citations, and if you want, we'll run it through a plagiarism checker before it goes in.",
       icon: <FactCheckOutlinedIcon />,
+    },
+    {
+      title: "Original Work, On-Time Help",
+      desc: "Send us your draft a few days early, and you'll get notes back with time to spare. Way better than fixing things at 11:58 p.m.",
+      icon: <AccessTimeOutlinedIcon />,
+    },
+    {
+      title: "Fair & Affordable Pricing",
+      desc: "Prices set according to the student. No weird fees at checkout. What you see is what you pay.",
+      icon: <PaymentsOutlinedIcon />,
+    },
+    {
+      title: "Free Follow-Up Reviews",
+      desc: "Fixed it up and want another look? Send it again. And again, if you need to. We'll keep checking it against your professor's instructions until you're happy with it.",
+      icon: <ReplayOutlinedIcon />,
     },
   ];
 
   return (
     <>
       <FeaturesSection
-        mainHeading={<>Have a Look At Our <span>Service Features</span></>}
+        mainHeading={<>Get Expert Chemistry Class Help Services – Handle Assignments <span>Without the Hassle</span></>}
         subText={
           <p>
+            A single chemistry assignment can somehow take up your entire weekend. It doesn't have to. Bring us the project, the problem set, or the classwork you've been avoiding. A tutor will sit down with you, sort out the hard parts, and make sure you get why the answer is the answer. Here's what else comes with it.
           </p>
         }
         features={myFeatures}

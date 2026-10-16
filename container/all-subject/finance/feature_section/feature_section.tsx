@@ -13,47 +13,44 @@ const Features = () => {
   // Updated Features Data Array for Finance Class Help Services
   const myFeatures = [
     {
-      title: "Timely Delivery",
-      desc: "As we also understand the value of time, each assignment, quiz, and exam submission is delivered on time, so you never have to worry about late submissions affecting your grades.",
+      title: "On-Time Delivery",
+      desc: "We know how much your time matters. That's why our tutors plan sessions and feedback around your deadlines, whether it's a quiz, an assignment, or an exam. You get what you need early, with enough time left to make changes and not panic the night before.",
       icon: <AccessTimeOutlinedIcon />,
     },
     {
-      title: "Affordable Pricing for Students",
-      desc: "Blended learning programs are on the rise, but so is accessibility; switching to online or face-to-face formats is one of the ways students and working professionals have different budgets at their disposal.",
+      title: "Affordable Price",
+      desc: "Online learning is growing fast, and its cost is also making students suffer a lot. That's why we keep our prices fair and simple. Pay for one session or pick a package, with no hidden charges on your first session.",
       icon: <LocalOfferOutlinedIcon />,
     },
     {
       title: "Confidentiality",
-      desc: "Your details remain safe and secure with us. You only need to focus on your work, we take care of everything else. There is end-to-end encryption for data, and we never share or sell any data with 3rd party ever.",
+      desc: "Your details stay safe with us. We only ask for what we need to set up your sessions, and nothing gets shared with anyone, your school included. You can focus on learning without worrying about your privacy.",
       icon: <ShieldOutlinedIcon />,
     },
     {
       title: "Original Work",
-      desc: "All essays and projects are original research, guaranteed 100% plagiarism-free content, along with a report.",
+      desc: "Every essay and project you get is wriiten by well reserched way. Our tutor helps you research, plan, and improve your draft, and runs a plagiarism check before you submit, just for peace of mind.",
       icon: <HistoryEduOutlinedIcon />,
     },
     {
       title: "Superb Guides",
-      desc: "Our entire expert team is experienced in diverse subjects and exam formats, so you get subject-specific guidance for your course needs.",
+      desc: "Our expert tutors are specialists in lots of subjects and exam formats. Whatever your course needs, you'll get guidance from someone who knows that subject well.",
       icon: <SchoolOutlinedIcon />,
     },
     {
       title: "Always Open",
-      desc: "Any hour, any day, every week and month throughout the year, you can still get help and support to raise questions or tend urgent tasks since we are available always.",
+      desc: "Any hour, any day, all year round. If you've got a question or something urgent comes up, just message us. Someone's always around to help.",
       icon: <EventAvailableOutlinedIcon />,
     },
   ];
 
   return (
     <>
-      <FeaturesSection 
-        mainHeading={<>Pay Someone to Take My Online Finance Class <span>Trusted by USA Students</span></>}
+      <FeaturesSection
+        mainHeading={<>Prominent Features of Take My Finance Class <span>For Me</span></>}
         subText={
           <p>
-            Take online finance class trusted by students across the USA. Achieve top 
-            grades with reliable, hassle-free support from professionals who know what it 
-            takes to succeed. You can stay ahead in your course and boost your academic 
-            performance confidently.
+            Get online finance class help from tutors across the USA. Meet a top-tier finance tutor who has spent years studying and teaching the subjects and understands what students need to stay on track.
           </p>
         }
         features={myFeatures}

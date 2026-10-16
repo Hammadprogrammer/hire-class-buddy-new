@@ -4,29 +4,22 @@ export default function OnlineClassHero() {
   
   // Naya content: Bullets array
   const points = [
-    "200+ Subjects: Expert help across a wide range of subjects.",
-    "100% High Grades: Focused support to boost your scores.",
-    "Zero-Risk Privacy: Complete confidentiality, always secure."
+    "Expert Test Prep Tutors: Specialists in 70+ subjects, including MBA and business",
+    "24/7 Support: Help in the evenings, on weekends, and the night before a test",
+    "100% Confidentiality: Your personal details and coursework stay private"
   ];
 
   return (
     <main>
-      <Hero 
-        // Naya Heading
+      <Hero
         heading={
-          <>Pay Someone to Take My Online Test at <span>Affordable Rates-100% Success Guaranteed</span></>
+          <>Take My Online Test For Me, Hire an Expert to Help With <span>A Grades</span></>
         }
-        // Naya Subtext
         subText={
           <p>
-            We offer reliable do my test for me services across the USA at highly affordable rates, 
-            ensuring you get the support you need without breaking the bank. Our expert 
-            team is committed to delivering accurate, timely, and confidential assistance 
-            tailored to your requirements. With a 100% success guarantee, you can trust us 
-            to help you achieve the results you deserve.
+            Are your grades at stake because your test deadline is just around the corner, and you are not prepared for the test? For this reason, many students search "Can I pay someone to take a test?" Some online classes are manageable, while others are demanding and difficult to keep up with. Over time, endless online tests, assignments, and classes can become overwhelming, especially when everything needs to be completed on time. So, is it worth getting test help? If you are not sure where to begin. Let a verified professional from our team help you prepare with confidence.
           </p>
         }
-        // Updated Bullets array pass ho raha hai
         bullets={points}
       />
     </main>
