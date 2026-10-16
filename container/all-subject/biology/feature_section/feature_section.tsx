@@ -1,16 +1,14 @@
 import React from 'react';
 import FeaturesSection from '@/container/All-props-comp/feature_section/feature_sectio';
 
-// Icons Import
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
 import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined';
-import ComputerOutlinedIcon from '@mui/icons-material/ComputerOutlined';
-import BiotechOutlinedIcon from '@mui/icons-material/BiotechOutlined';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import LightbulbOutlinedIcon from '@mui/icons-material/LightbulbOutlined';
 import SavingsOutlinedIcon from '@mui/icons-material/SavingsOutlined';
 
 const Features = () => {
-  // Updated Features Data Array for Biology Class Help Services
   const myFeatures = [
     {
       title: "Certified Tutor",
@@ -30,32 +28,30 @@ const Features = () => {
     {
       title: "Online Class Help",
       desc: "Need help with homework, lab reports, projects, and weekly tasks. Your tutor helps you understand and plan each task so you can finish it yourself and hand it in on time.",
-      icon: <ComputerOutlinedIcon />,
+      icon: <CheckCircleOutlineIcon />,
     },
     {
       title: "Focus on Concept",
       desc: "It's hard to memorise terms without understanding them, so that's why our tutor helps you understand how things like cell processes and genetics actually work, so it sticks past the next test.",
-      icon: <BiotechOutlinedIcon />,
+      icon: <LightbulbOutlinedIcon />,
     },
     {
       title: "Cost Efficient",
       desc: "Good help shouldn't cost a fortune. Our prices are made for students, and you only pay for the sessions you need.",
       icon: <SavingsOutlinedIcon />,
-    },
+    }
   ];
 
   return (
-    <>
-      <FeaturesSection
-        mainHeading={<>Affordable Biology Class Help That Actually <span>Makes a Difference</span></>}
-        subText={
-          <p>
-            Let's be honest, a lot of biology help online feels a bit sketchy. We're different. At Hire Class Buddy, our tutor sits down with you and goes through whatever's giving you trouble. Maybe it's photosynthesis, maybe it's a lab report that's due Friday, or do you need any online biology homework help at 11 p.m.? Message us. Someone will get back to you. Our prices are made for students, not companies, and we don't leave you hanging when a deadline's close. You still do the work. We just make sure you're not stuck on your own.
-          </p>
-        }
-        features={myFeatures}
-      />
-    </>
+    <FeaturesSection
+      mainHeading={<>{"Explore How Our Biology Class Assistance Supports You at "}<span>{"Every Step"}</span></>}
+      subText={
+        <p>
+          {"Biology can feel like a lot, especially when you're learning it online on your own. Here's how our tutors make it easier, from the first chapter to the final exam."}
+        </p>
+      }
+      features={myFeatures}
+    />
   );
 };
 

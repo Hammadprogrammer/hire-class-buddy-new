@@ -3,12 +3,10 @@ import ContentTwo from '@/container/All-props-comp/content_section_two/content_s
 
 const Content_section_two = () => {
   return (
-    <>
-      <ContentTwo 
-        heading="Hire Help with Online Physics Class. We Cover all the Major Branches "
-        description="Our online physics class help service is really useful. Physics is a subject that has many parts. You should know that physics is a subject in school and it teaches us a lot about the world, space and time. Some parts of physics can be very hard for students to learn. They get confused. Do not understand what the ideas mean. So, they ask for help. Say things like can you do my online physics class for me? The tutors who work with us to help with physics classes are very professional, covering all the main parts of physics. They can help students with anything they need. If you need help, just sign up with us and let us handle the rest."
-      />
-    </>
+    <ContentTwo
+      heading={"Pay Someone to Take My Online Physics Class: Get Support for Busy Students"}
+      description={"Learning physics online isn't easy, especially with the subject having so many parts. We all agree that physics is the subject in school that teaches us more about space and time, but many of its concepts are confusing. This is why expert support can make a real difference. And Hire Class Buddy has top-rated professionals, covering all the main parts of physics. They help you choose the right formula and work through the math with confidence."}
+    />
   )
 }
 

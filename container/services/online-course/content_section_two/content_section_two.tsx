@@ -3,12 +3,10 @@ import ContentTwo from '@/container/All-props-comp/content_section_two/content_s
 
 const Content_section_two = () => {
   return (
-    <>
-      <ContentTwo 
-        heading="Choose to Get Online Course Help for More than 5000 Online Courses"
-        description="Dealing with coursework requirements can be daunting as it gets tough to cope with deadlines, assignments and exams at times. In such cases, our do my courses service is a perfect solution. Our services are available all across USA We have covered more than 5000 subjects and programs. We are the masters in every aspect of learning, from coursework to quizzes, debates and examinations. By choosing our online course help service, you have total peace of mind with trustworthy support that works better on your path toward the highest grades."
-      />
-    </>
+    <ContentTwo
+      heading={"Choose Full Online Course Help Service for More Than 5000 Courses"}
+      description={"You can hire online class help from our website; we have tutors who can help you with any subject you want to study. Whereas there are a number of sites claiming to offer support for different subjects, they often specialize in a few courses, which can result in wasted time. At Hire Class Buddy, we have specialize tutor helping you learn the subjects at affordable rates that work better on your path towards the highest grades."}
+    />
   )
 }
 

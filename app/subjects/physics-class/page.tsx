@@ -11,7 +11,7 @@ import Stats_section from '@/container/all-subject/physics/stats_section/stats_s
 
 import Content_section_two from '@/container/all-subject/physics/content_section_two/content_section_two'
 import ProcessSection from '@/container/home/process_section/process_section'
-import ServicesSection from '@/container/home/service_section/service_section'
+import ServicesSection from '@/container/all-subject/physics/service_section/service_section'
 import ContentSectionThree from '@/container/all-subject/physics/content_section_three/content_section_three'
 
 // Meta Data Configuration
@@ -27,7 +27,7 @@ const page = () => {
   return (
     <>
       <OnlineClassHero />
-      <UniSection/>
+      <UniSection heading={"All-in-One Exam Solution for All Major Exam Portals"} />
       <Features />
       <ContentSectionOne />
       <CallActionSection/>
