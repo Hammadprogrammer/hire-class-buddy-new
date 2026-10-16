@@ -2,12 +2,10 @@ import ContentOne from "@/container/All-props-comp/Content_section_one/Content_s
 
 const ContentSectionOne = () => {
   return (
-    <>
-      <ContentOne 
-        mainHeading="Most Affordable Rates to Pay Someone to Do My Online History Class for Me"
-        description="At Hire Class Buddy we understand that budget should never be your barrier to having a degree. This is why we have a simple, student-friendly pricing model with no hidden fees at all. Smart minds at your service. You have come to buy our take my online history class services and what a smart choice you made! While you focus on your finances this semester, let our academic experts take the load off their schedule, and we can fully master Canvas, Blackboard, McGraw-Hill, and much more. Get the best quality at the best cost for you to get the top grades in your class. Furthermore, we have a well-defined refund policy in which you receive a full 100% refund if we are unable to deliver on what we promised. Ready to hire us? Click the chat to connect with our sales or fill out the inquiry form here."
-      />
-    </>
+    <ContentOne
+      mainHeading={"Why Most Students Find Us Affordable?"}
+      description={"Mostly, it's because we understand that students have a specific budget. This is why we have a simple pricing structure with no hidden fees. You can book just one session when you need it, or save a bit with a package if you want regular help. Your first session is half off, so you can try it before spending much. And you’ll always see the price before you book, so there are no surprises later."}
+    />
   );
 };
 

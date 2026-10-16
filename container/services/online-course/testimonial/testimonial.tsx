@@ -3,33 +3,33 @@ import Testimonial from "@/container/All-props-comp/testimonial/testimonial";
 export default function TestimonialSection() {
   const testimonialsData = [
     {
-      text: "Phenomenal! I barely had time to handle my full semester workload, so their team took over and submitted on time. For everything from assignments to quizzes, they handled it all. I came away with A’s I didn’t think were possible!” ",
-      author: "Order # 64017"
-
+      text: "Honestly, I had no hope of completing this course. But my tutor helped me make a plan and checked in every Sunday, and I finished it on time.",
+      author: "Sarah. k"
     },
     {
-      text: "Five stars aren’t enough! The specialist they assigned to me was knowledgeable, responsive and endlessly reliable. I submitted all tasks of my course as per deadlines and never failed in a single part. This is what made my semester nonchalant.”  ",
-      author: "Order # 55491"
+      text: "I definitely recommend them! As a working mom, I had maybe two hours a week for my class. My tutor made those two hours count. They organize, teach, and help me very patiently.",
+      author: "Emily R."
     },
     {
-      text: "Such a lifesaver! I had classes one after another, and I could not track the course, but their online course help not only helped me stay on track but also increased my amplitude. Fantastic work, real understanding and brilliant support all the way through — will hire them again without a doubt!” ",
-      author: "Order # 27018"
+      text: "Good service. Fast replies, fair price. My tutor explained the stats stuff way better than my professor did.",
+      author: "Jessica M."
     },
     {
-      text: "Highly recommend! All the tutors are professional and are always available whenever I ask for an update. They didn’t just do things — they explained parts I hadn’t understood, which, to be perfectly honest, boosted my performance like a breeze.”  ",
-      author: "Order # 61017"
-    }, {
-      text: "Incredible experience! I got help halfway through the semester and saw a huge difference in my performance. Instant responses, accurate solutions, personal attention and total confidentiality — just what every busy student needs!  ",
-      author: "Order # 47161"
+      text: "I was skeptical at first because I’ve tried other sites before. This felt different. They sit with you and make every assignment with proper details and citations. Truly love them!",
+      author: "Rachel T."
+    },
+    {
+      text: "10/10. Booked a session the night before my midterm and still got help.",
+      author: "Amanda P."
     }
   ];
 
   const faqsData = [
-    { q: "Can I pay someone to do my course? ", a: "Ans. Yes! Our expert can manage your complete online course, including assignments, quizzes and exams. So, leave the work to us so that you can just learn and follow your path and get an A." },
-    { q: "How do I know the work will be original and academic ", a: "Ans. All of the works are written from scratch by professional experts and plagiarism-checked. We can ensure you and provide you with the security about grades, as every submission our experts do is either following your course requirements & does not violate any law of academic dishonesty." },
-    { q: "What are the course and subject areas you cover?  ", a: "Ans. We have more than 5,000 courses and subjects, including business, IT, engineering, nursing, math and other sciences. You can find an expert who can help you in any of the online courses available in the USA." },
-    { q: "What’s the fastest timeline in which you can complete my online course?", a: "Ans. We also provide prompt solutions and 24/7 client support. Our experts do not compromise the quality, whether it is an assignment, A single quiz or even a complete semester of course." },
-    { q: "Will your service protect my info and ID? ", a: "Ans. Absolutely. We can guarantee 100% confidentiality of all the students. All of your personal data before and after you interact with the staff, as well as the course itself, is kept private while we maintain top-quality in a professional setting." }
+    { q: "What does online course help include?", a: "A lot, wherever you are stuck. Some students just want a weekly check-in to stay on track. Others need help planning a big project, feedback on a draft, or a few practice quizzes before an exam. Your tutor helps, and you do the actual work." },
+    { q: "Will someone complete my online course for me?", a: "Nope, we don’t do that. It’s against school rules, and people do get caught. We’d rather help you get through it yourself, so the grade is actually yours." },
+    { q: "Can I get help for just one part of my course?", a: "Sure. One essay, one tricky module, one test, whatever it is. Book a single session. You don’t have to sign up for a package." },
+    { q: "How fast can I get online course support?", a: "It depends a bit on the subject. For most courses, though, you’ll be talking to a tutor the same day you reach out." },
+    { q: "Does all my information stay private?", a: "Yes. Your name, your course, your messages- none of it goes anywhere. Not to your school, not to anyone." }
   ];
 
   return (
@@ -37,8 +37,8 @@ export default function TestimonialSection() {
       <Testimonial
         testimonials={testimonialsData}
         faqs={faqsData}
-        title="From Struggle to Success: Few Words from Our Clients"
-        subtitle="Read what our students have to say about their journey."
+        title={"Real Words From Our Successful Students"}
+        subtitle={"1000+ students secure A grades with us; see their feedback!"}
       />
     </main>
   );

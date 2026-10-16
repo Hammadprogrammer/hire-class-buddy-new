@@ -8,7 +8,7 @@ import CallActionSection from '@/container/services/online-assignment-help/call_
 import Stats_section from '@/container/services/online-assignment-help/stats_section/stats_section'
 import Content_section_two from '@/container/services/online-assignment-help/content_section_two/content_section_two'
 import ProcessSection from '@/container/home/process_section/process_section'
-import ServicesSection from '@/container/home/service_section/service_section'
+import ServicesSection from '@/container/services/online-assignment-help/service_section/service_section'
 import ContentSectionThree from '@/container/services/online-assignment-help/content_section_three/content_section_three'
 import TestimonialSection from '@/container/services/online-assignment-help/testimonial/testimonial'
 
@@ -25,7 +25,7 @@ const page = () => {
   return (
     <>
       <OnlineClassHero />
-      <UniSection/>
+      <UniSection heading={"A Complete Online Class Support Across All Major Exam Platforms"} />
       <Features />
       <ContentSectionOne />
       <CallActionSection/>

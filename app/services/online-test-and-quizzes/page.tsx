@@ -10,7 +10,7 @@ import CallActionSection from '@/container/services/online-quiz-test/call_action
 import Stats_section from '@/container/services/online-quiz-test/stats_section/stats_section'
 import Content_section_two from '@/container/services/online-quiz-test/content_section_two/content_section_two'
 import ProcessSection from '@/container/home/process_section/process_section'
-import ServicesSection from '@/container/home/service_section/service_section'
+import ServicesSection from '@/container/services/online-quiz-test/service_section/service_section'
 import ContentSectionThree from '@/container/services/online-quiz-test/content_section_three/content_section_three'
 import TestimonialSection from '@/container/services/online-quiz-test/testimonial/testimonial'
 
@@ -26,7 +26,7 @@ const page = () => {
   return (
     <>
       <OnlineClassHero />
-      <UniSection/>
+      <UniSection heading={"Looking for All-in-One Exam Support? Get Expert Test Help From Hire Class Buddy"} />
       <Features />
       <ContentSectionOne />
       <CallActionSection/>

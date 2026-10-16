@@ -3,12 +3,10 @@ import ContentTwo from '@/container/All-props-comp/content_section_two/content_s
 
 const Content_section_two = () => {
   return (
-    <>
-      <ContentTwo 
-        heading="Reliable Business Class Takers for Hire – Get 100% Confidential 24/7 Support  "
-        description="Looking for reliable business class takers for hire?  We ensure to deliver reliable online business class help. We are available 24/7 to help you when needed, with complete confidentiality. From step-by-step explanations to problems that are particularly difficult or rocky in nature, our professionals offer business-class homework help online. So, you know you will stay anchored to your scholarly objectives! We aim to make your worries a thing of the past while continuing to meet expectations on time and quality. Managing your online learning is now effortless and safe with expert assistance customized to your requirements."
-      />
-    </>
+    <ContentTwo
+      heading={"Get Reliable Business Class Help With 24/7 Confidential Support"}
+      description={"Could you please tell me if you are concerned about missing our online business class? We have the solution for you. Our tutors are available 24/7 to help you with everything. They’ll walk you through it step by step until it makes sense. That’s what our business homework help is all about: keeping you on track and moving toward your goals. We know how stressful online classes can get, so we keep things simple. On-time help, honest feedback, and support built around exactly what you need."}
+    />
   )
 }
 

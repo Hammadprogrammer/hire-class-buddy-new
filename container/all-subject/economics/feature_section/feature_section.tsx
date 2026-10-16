@@ -1,64 +1,57 @@
 import React from 'react';
 import FeaturesSection from '@/container/All-props-comp/feature_section/feature_sectio';
 
-// Icons Import
-import LocalOfferOutlinedIcon from '@mui/icons-material/LocalOfferOutlined'; 
-import RecordVoiceOverOutlinedIcon from '@mui/icons-material/RecordVoiceOverOutlined'; 
-import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined'; 
-import VerifiedUserOutlinedIcon from '@mui/icons-material/VerifiedUserOutlined'; 
-import WorkspacePremiumOutlinedIcon from '@mui/icons-material/WorkspacePremiumOutlined'; 
-import FactCheckOutlinedIcon from '@mui/icons-material/FactCheckOutlined'; 
+import SavingsOutlinedIcon from '@mui/icons-material/SavingsOutlined';
+import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined';
+import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
+import ChecklistOutlinedIcon from '@mui/icons-material/ChecklistOutlined';
+import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
+import HistoryEduOutlinedIcon from '@mui/icons-material/HistoryEduOutlined';
 
 const Features = () => {
-  // Updated Features Data Array for Economics Class Help
   const myFeatures = [
     {
       title: "Affordable Pricing",
-      desc: "This is to say that, rest assured, you got qualified help at discounted rates for your economics assignment help.",
-      icon: <LocalOfferOutlinedIcon />,
+      desc: "Easy! You won’t need to empty your wallet. Book one session or grab a package. Either way, the price is clear from the start, and your first session is half off.",
+      icon: <SavingsOutlinedIcon />,
     },
     {
       title: "One-on-One Interaction",
-      desc: "All these e-learning portals allow you to discuss your queries with experienced tutors and understand concepts more clearly, and help you with your academic needs.",
-      icon: <RecordVoiceOverOutlinedIcon />,
+      desc: "It’s just you and your tutor, no crowded class. Ask whatever you want, as many times as you want, and go at your own speed.",
+      icon: <PsychologyOutlinedIcon />,
     },
     {
       title: "24/7 Support",
-      desc: "You're never stranded at any stage, with 247 help for assignments, exams or last-minute doubts.",
+      desc: "Stuck on a graph at midnight? Send a message. Someone’s usually online, even on weekends.",
       icon: <SupportAgentOutlinedIcon />,
     },
     {
       title: "Hassle-Free Process",
-      desc: "Provide a system for submitting requirements and tracking your work from progress to completion without the headaches.",
-      icon: <VerifiedUserOutlinedIcon />,
+      desc: "Tell us your course and what’s due, and we’ll match you with a tutor. Booking and rescheduling take a couple of clicks. That’s it.",
+      icon: <ChecklistOutlinedIcon />,
     },
     {
       title: "Qualified Experts",
-      desc: "Highly-qualified economics experts with extensive subject knowledge and research experience in a wide range of branches of economics.",
-      icon: <WorkspacePremiumOutlinedIcon />,
+      desc: "Our tutors have studied economics for years, and many have taught it too. Micro, macro, econometrics- there’s someone who knows your topic well.",
+      icon: <SchoolOutlinedIcon />,
     },
     {
       title: "Plagiarism-Free Work",
-      desc: "Get your work done with 100% original content, as well as high-quality research with an advanced plagiarism checking tool as an assurance to meet quality standards.",
-      icon: <FactCheckOutlinedIcon />,
-    },
+      desc: "You write your own work, so it stays original. Your tutor helps with research and citations, and we’ll run a plagiarism check before you submit if you want.",
+      icon: <HistoryEduOutlinedIcon />,
+    }
   ];
 
   return (
-    <>
-      <FeaturesSection 
-        mainHeading={<>What Do We Offer if You Get Help with the <span>Economics Class from Hire Class Buddy</span></>}
-        subText={
-          <p>
-            Hire Class Buddy offers expert help, from personalized support to 
-            timely assistance tailored to meet the needs of your course. From assignments 
-            and classwork to taking exams, we provide quality work that is plagiarism-free 
-            while helping you get better grades without all of the academic stress.
-          </p>
-        }
-        features={myFeatures}
-      />
-    </>
+    <FeaturesSection
+      mainHeading={<>{"Why Is It So Great to Get Economic Class Help From the Hire "}<span>{"Class Buddy?"}</span></>}
+      subText={
+        <p>
+          {"We offer extensive online class support, from personalized support to timely assistance. We have some experienced tutors available to answer you anytime. And for assignments and exams, we provide customised service that is original and well-researched while ensuring all your information remains secure and private."}
+        </p>
+      }
+      features={myFeatures}
+    />
   );
 };
 

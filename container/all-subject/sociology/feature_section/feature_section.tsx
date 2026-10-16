@@ -1,64 +1,55 @@
 import React from 'react';
 import FeaturesSection from '@/container/All-props-comp/feature_section/feature_sectio';
 
-// Icons Import
-import TrackChangesOutlinedIcon from '@mui/icons-material/TrackChangesOutlined'; 
-import PaymentsOutlinedIcon from '@mui/icons-material/PaymentsOutlined'; 
-import AutoFixOffOutlinedIcon from '@mui/icons-material/AutoFixOffOutlined'; 
-import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined'; 
-import PublicOutlinedIcon from '@mui/icons-material/PublicOutlined'; 
-import CurrencyExchangeOutlinedIcon from '@mui/icons-material/CurrencyExchangeOutlined'; 
+import EventNoteOutlinedIcon from '@mui/icons-material/EventNoteOutlined';
+import SavingsOutlinedIcon from '@mui/icons-material/SavingsOutlined';
+import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
+import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 
 const Features = () => {
-  // Updated Features Data Array for Sociology Class Help Services
   const myFeatures = [
     {
-      title: "Auto-Track Progress",
-      desc: "We provide you with updates on your class's progress via SMS / WhatsApp, or email. There is no update that you miss when we have 247 support.",
-      icon: <TrackChangesOutlinedIcon />,
+      title: "Weekly Follow-Ups",
+      desc: "If you think we are limited to sociology class help, you're mistaken. We have designed our system in a way that allows tutors to sit down with the students every week, discuss their problems, giving them the right solution.",
+      icon: <EventNoteOutlinedIcon />,
     },
     {
       title: "Payment Plans & Flexibility",
-      desc: "We customize our payment plan as per your needs, and you can ask us to divide your payment into multiple instalments payable over the span of your online class. No hidden fee.",
-      icon: <PaymentsOutlinedIcon />,
+      desc: "All our services are designed to fit the students' budget, so you can get affordable service without paying more in upfront charges.",
+      icon: <SavingsOutlinedIcon />,
     },
     {
-      title: "None Plagiarism/ No ChatGPT",
-      desc: "We deliver plagiarism-free assignments that can help you achieve the best grades. Our policy on the content created using ChatGPT or other artificial intelligence systems is very strict, so you should not worry and get the highest grades in your online class.",
-      icon: <AutoFixOffOutlinedIcon />,
-    },
-    {
-      title: "World-Class 24/7 Support",
-      desc: "You can always get in touch with us by sending us a text, and we will respond to you in 10 minutes to assist you with your questions. We have a belief in providing the best client service.",
+      title: "On-Time Support",
+      desc: "We have a highly qualified team who support you 24/7. So just send a message; someone is usually available to answer your questions.",
       icon: <SupportAgentOutlinedIcon />,
     },
     {
-      title: "Only American Experts",
-      desc: "We are a US Inc company and we believe in the provision of world-class service. Our scholars are from the high-end US institutes and undergo our stringent recruitment procedure before their employment.",
-      icon: <PublicOutlinedIcon />,
+      title: "American Expert",
+      desc: "We have onbarded the PHD tutors to offer you exceptional service with your online classes. They help you understand the subject, assignments, tests, or the discussion clearly and accurately.",
+      icon: <SchoolOutlinedIcon />,
     },
     {
-      title: "Money Back Guarantee",
-      desc: "If you fail to achieve the desired grade in your online class, we will not make you lose the money. Our 100% money back guarantee is the assurance that your money is safe.",
-      icon: <CurrencyExchangeOutlinedIcon />,
+      title: "Moneyback guarantee",
+      desc: "When considering someone to take your sociology class, it's crucial to choose a reliable service. With us yu dont have worry, we offer the money back guarrntee while offeirng the full peace of mind.",
+      icon: <SavingsOutlinedIcon />,
     },
+    {
+      title: "Customized Support",
+      desc: "Get personalized support from us. We have real people who take your sociology classes and guide you through the assignment while keeping it original, with full citation and required guidelines.",
+      icon: <SupportAgentOutlinedIcon />,
+    }
   ];
 
   return (
-    <>
-      <FeaturesSection 
-        mainHeading={<>We Offer Top-Tier Sociology <span>Class Help Services to Students in the USA</span></>}
-        subText={
-          <p>
-            Our services are of the highest quality in terms of sociology class services to 
-            students all over the USA. Our professional tutors help with assignments, 
-            classwork, and get better grades. Get quality and punctual assistance according 
-            to your studies.
-          </p>
-        }
-        features={myFeatures}
-      />
-    </>
+    <FeaturesSection
+      mainHeading={<>{"Why Should You Choose Hire Class Buddy For Your Online "}<span>{"Sociology Class"}</span></>}
+      subText={
+        <p>
+          {"We have always been the first choice for students struggling to complete their online sociology course. Our professional coursework support and timely assistance make us rated 4.5/5 among the thousands of students in the USA. So if you are looking to pay someone to take your online sociology class, you should know we are always at your service."}
+        </p>
+      }
+      features={myFeatures}
+    />
   );
 };
 

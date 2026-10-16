@@ -3,12 +3,10 @@ import ContentTwo from '@/container/All-props-comp/content_section_two/content_s
 
 const Content_section_two = () => {
   return (
-    <>
-      <ContentTwo 
-        heading="From Assignments to Discussion posts – Your Trusted Online Sociology Class Partner  "
-        description="An online sociology class may be a challenge. You are not the only student who asks himself, Can someone take my sociology online class? The number of sociology majors who seek to receive professional assistance is high. We have developed a special service for students who are in this search. Our service is designed to meet the online requirements of students.  We provide qualified academicians in the field of sociology who will handle your online sociology class tasks. Your quizzes, assignments and homework in sociology will be well attended to. We have developed a fast solution for your online classes. With us, you will have someone, a professional academic, to do the work on your behalf. Everything is confidential and securely handled by professionals."
-      />
-    </>
+    <ContentTwo
+      heading={"Learning Management Systems We Cover, From Assignments to Discussion Posts"}
+      description={"Let’s face it, an online sociology class is not as easy as it looks. Between Canvas, Blackboard, and Moodle, there are readings, discussion posts, and papers to manage every single week. Worry not, you’re not the only one dealing with it. No doubt, many students feel the same, and that’s exactly why Hire Class Buddy has introduced this service. We have onboarded qualified sociology tutors who understand both the subject and the learning platforms. They help you make sense of the theories, understand what each assignment needs, and prepare for your quizzes."}
+    />
   )
 }
 

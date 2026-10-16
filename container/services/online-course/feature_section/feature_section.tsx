@@ -1,60 +1,55 @@
 import React from 'react';
 import FeaturesSection from '@/container/All-props-comp/feature_section/feature_sectio';
 
-// Icons Import
-import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
-import LocalOfferOutlinedIcon from '@mui/icons-material/LocalOfferOutlined';
-import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
-import HeadsetMicOutlinedIcon from '@mui/icons-material/HeadsetMicOutlined';
-import PaymentsOutlinedIcon from '@mui/icons-material/PaymentsOutlined';
-import AssignmentTurnedInOutlinedIcon from '@mui/icons-material/AssignmentTurnedInOutlined';
+import EventNoteOutlinedIcon from '@mui/icons-material/EventNoteOutlined';
+import HistoryEduOutlinedIcon from '@mui/icons-material/HistoryEduOutlined';
+import QuizOutlinedIcon from '@mui/icons-material/QuizOutlined';
+import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
 
 const Features = () => {
-  // Features Data Array updated with your text
   const myFeatures = [
     {
-      title: "Qualified Professionals",
-      desc: "Our team includes top-notch expert writers with deep knowledge in various subjects, so you will always get your coursework handled by the right professionals.",
-      icon: <GroupsOutlinedIcon />,
+      title: "Weekly Follow-Ups",
+      desc: "Our tutor conducts a short session every week, helping you stay on track and preventing your coursework from piling up.",
+      icon: <EventNoteOutlinedIcon />,
     },
     {
-      title: "Good Grades",
-      desc: "All tasks are well written, ensuring that you get a smooth experience and a higher GPA, along with being highly confident in having completed your coursework.",
-      icon: <LocalOfferOutlinedIcon />,
+      title: "Coursework Feedback",
+      desc: "Our online coursework help means honest notes on your drafts, so you can fix them before you submit.",
+      icon: <HistoryEduOutlinedIcon />,
     },
     {
-      title: "Refund Policy",
-      desc: "Your trust is important to us. In the event that our service is unable to completely fulfil your needs, we would issue a refund in accordance with our trusted refund policy.",
-      icon: <ChatOutlinedIcon />,
+      title: "Study Planning",
+      desc: "Our tutor maps out the rest of your semester with you, deadline by deadline. So you can never miss anything.",
+      icon: <EventNoteOutlinedIcon />,
     },
     {
-      title: "Meet Deadlines",
-      desc: "Assignments, quizzes, and course tasks are delivered automatically on time so that you never miss a deadline or stress.",
-      icon: <HeadsetMicOutlinedIcon />,
+      title: "Quiz & Exam Prep",
+      desc: "Timed practice built from your course material, so tests feel familiar.",
+      icon: <QuizOutlinedIcon />,
     },
     {
-      title: "Unlimited Revisions",
-      desc: "You need to be happy. You can avail unlimited revisions to ensure each submission meets your requirements.",
-      icon: <PaymentsOutlinedIcon />,
+      title: "Quick Replies",
+      desc: "Message us anytime. Someone usually answers in minutes.",
+      icon: <SupportAgentOutlinedIcon />,
     },
     {
-      title: "Plagiarism Report",
-      desc: "100% authentic plagiarism-free writing, provided with a validated plagiarism report for credibility.",
-      icon: <AssignmentTurnedInOutlinedIcon />,
-    },
+      title: "Customized Coursework",
+      desc: "You do the assignments yourself, so everything you submit is original and yours.",
+      icon: <HistoryEduOutlinedIcon />,
+    }
   ];
 
   return (
-    <>
-      <FeaturesSection 
-        mainHeading={<>Key Features of Our Top-Tier Online Course Help Services</>}
-        subText={
-          <p>
-We offer pay someone to do online course to take the burden off your shoulders. Ensuring students' academic success, we provide expert guidance, 100% human-written work, as well as full assignment, quiz, and exam support.          </p>
-        }
-        features={myFeatures}
-      />
-    </>
+    <FeaturesSection
+      mainHeading={<>{"What You Get With Our Online "}<span>{"Course Support"}</span></>}
+      subText={
+        <p>
+          {"Are you struggling with your coursework and midterms are just around the corner? It happens. Here’s how our online course support helps you get it back together."}
+        </p>
+      }
+      features={myFeatures}
+    />
   );
 };
 

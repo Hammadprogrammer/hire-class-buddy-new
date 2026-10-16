@@ -8,7 +8,7 @@ import CallActionSection from '@/container/all-subject/math/call_action/call_aci
 import Stats_section from '@/container/all-subject/math/stats_section/stats_section'
 import Content_section_two from '@/container/all-subject/math/content_section_two/content_section_two'
 import ProcessSection from '@/container/home/process_section/process_section'
-import ServicesSection from '@/container/home/service_section/service_section'
+import ServicesSection from '@/container/all-subject/math/service_section/service_section'
 import ContentSectionThree from '@/container/all-subject/math/content_section_three/content_section_three'
 
 // Meta Data Configuration
@@ -24,7 +24,7 @@ const page = () => {
   return (
     <>
       <OnlineClassHero />
-      <UniSection/>
+      <UniSection heading={"Complete Online Exam Solution Across Major Exam Portals"} />
       <Features />
       <ContentSectionOne />
       <CallActionSection/>

@@ -1,65 +1,57 @@
 import React from 'react';
 import FeaturesSection from '@/container/All-props-comp/feature_section/feature_sectio';
 
-// Icons Import
-import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined'; 
-import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined'; 
-import AutoStoriesOutlinedIcon from '@mui/icons-material/AutoStoriesOutlined'; 
-import VerifiedUserOutlinedIcon from '@mui/icons-material/VerifiedUserOutlined'; 
-import GroupAddOutlinedIcon from '@mui/icons-material/GroupAddOutlined'; 
-import CreateOutlinedIcon from '@mui/icons-material/CreateOutlined'; 
+import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
+import EventNoteOutlinedIcon from '@mui/icons-material/EventNoteOutlined';
+import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined';
+import LightbulbOutlinedIcon from '@mui/icons-material/LightbulbOutlined';
+import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
+import HistoryEduOutlinedIcon from '@mui/icons-material/HistoryEduOutlined';
 
 const Features = () => {
-  // Updated Features Data Array for Top-Rated Online History Class Help
   const myFeatures = [
     {
-      title: "No Missing Deadlines",
-      desc: "All assignments, classwork or projects are completed no later than a full day before the actual deadline. So, you have peace of mind and time to review your work.",
+      title: "On-Time Feedback",
+      desc: "Send your draft a few days early. You’ll get notes back with plenty of time to fix things, and you won’t be up at midnight scrambling.",
       icon: <AccessTimeOutlinedIcon />,
     },
     {
-      title: "Control over Class",
-      desc: "We are well-versed with every learning platform online, ensuring that we make you one step ahead of your peers while managing work, tracking class completion, and the content.",
-      icon: <AutoStoriesOutlinedIcon />,
+      title: "Weekly Check-Ins",
+      desc: "Once a week, you and your tutor go over what’s due. It sounds small, but it keeps the readings from piling up.",
+      icon: <EventNoteOutlinedIcon />,
     },
     {
-      title: "Guaranteed B or Higher Grades",
-      desc: "Our online history class help services guarantee a B-grade at least, which means that you will do better than before, and it will help in lowering your stress level.",
-      icon: <VerifiedUserOutlinedIcon />,
+      title: "Higher Scores",
+      desc: "We can’t promise you an A+. Nobody honestly can. What we’ve seen, though, is that grades usually go up once the material starts making sense.",
+      icon: <EmojiEventsOutlinedIcon />,
     },
     {
-      title: "Group Projects Handled",
-      desc: "Working in coordination with your batchmates, we make sure all group submissions are made correctly on time so that everyone benefits from hassle-free coordination.",
-      icon: <GroupAddOutlinedIcon />,
+      title: "Teamwork Guidance",
+      desc: "Group project with people who never answer the group chat? Your tutor helps you sort out your part and make it good, whatever the rest of the group does.",
+      icon: <LightbulbOutlinedIcon />,
     },
     {
-      title: "Around-the-Clock Support",
-      desc: "Our tutors are on call 24/7 to address questions, offer advice, and take care of important or urgent requests when you require our help.",
+      title: "Round-the-Clock Replies",
+      desc: "Whether morning, evening, or any time of the night, our professional tutors are ready to teach on Sunday, holiday weekends. Don't worry! Just message us.",
       icon: <SupportAgentOutlinedIcon />,
     },
     {
-      title: "AI-Free Writing",
-      desc: "Everything you receive is original, thoroughly researched, and bound to pass any AI detection tools — write without fear of reusing content or otherwise dealing with authenticity issues.",
-      icon: <CreateOutlinedIcon />,
-    },
+      title: "Original Writing",
+      desc: "You write it. Our tutor helps you shape the argument, track down decent sources, and get the citations right. So it’s original, and it actually sounds like you.",
+      icon: <HistoryEduOutlinedIcon />,
+    }
   ];
 
   return (
-    <>
-      <FeaturesSection 
-        mainHeading={<>Some Key Features of Our <span>Top-Rated Online History Class Help</span></>}
-        subText={
-          <p>
-            Hire PhD-level tutors help even at the 11th hour. We have built a 
-            great online class help platform and invested in it well. We deliver support 
-            that is quick and action-oriented, creating outcomes you can trust. It is one 
-            of the reasons we are the best choice for students and professionals to take 
-            classes online. always on time and of high quality.
-          </p>
-        }
-        features={myFeatures}
-      />
-    </>
+    <FeaturesSection
+      mainHeading={<>{"Our Online Class Service "}<span>{"Prime Features"}</span></>}
+      subText={
+        <p>
+          {"Every history class is different even the students. That's why our tutors help you anytime, even when it’s late. They reply fast, tell you honestly what’s working and what isn’t, and help you actually get somewhere."}
+        </p>
+      }
+      features={myFeatures}
+    />
   );
 };
 

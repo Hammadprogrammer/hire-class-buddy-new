@@ -2,12 +2,10 @@ import ContentOne from "@/container/All-props-comp/Content_section_one/Content_s
 
 const ContentSectionOne = () => {
   return (
-    <>
-      <ContentOne
-        mainHeading="Explore How Our Biology Class Assistance Supports You at Every Step"
-        description="Biology can feel like a lot, especially when you're learning it online on your own. Here's how our tutors make it easier, from the first chapter to the final exam. Certified Tutor - Our biology tutors are subject specialists who have studied it, taught it, and explained it a hundred times. They know where students usually get stuck, and they'll make sure you get it right. 24/7 Assistance - There is no fixed time when biology questions stop coming. Whether it is a late night, early morning, or Sunday afternoon, just message us; our customer support will help you out. Custom Guidance - Every student has a different learning style, and our tutor understands this, whether it is by drawing or talking it through. They figure out what works for you and build every session around your course and your weak spots. Online Class Help - Need help with homework, lab reports, projects, and weekly tasks. Your tutor helps you understand and plan each task so you can finish it yourself and hand it in on time. Focus on Concept - It's hard to memorise terms without understanding them, so that's why our tutor helps you understand how things like cell processes and genetics actually work, so it sticks past the next test. Cost Efficient - Good help shouldn't cost a fortune. Our prices are made for students, and you only pay for the sessions you need."
-      />
-    </>
+    <ContentOne
+      mainHeading={"Affordable Biology Class Help That Actually Makes a Difference"}
+      description={"Let's be honest, a lot of biology help online feels a bit sketchy. We're different. At Hire Class Buddy, our tutor sits down with you and goes through whatever's giving you trouble. Maybe it's photosynthesis, maybe it's a lab report that's due Friday, or do you need any online biology homework help at 11 p.m.? Message us. Someone will get back to you. Our prices are made for students, not companies, and we don't leave you hanging when a deadline's close. You still do the work. We just make sure you're not stuck on your own."}
+    />
   );
 };
 
