@@ -1,31 +1,28 @@
 import Hero from "@/container/All-props-comp/hero-setion/hero_section";
 
 export default function OnlineClassHero() {
-  
-  // New content: Computer Class Bullets array
   const points = [
-    "Expert PhD Tutors: Guidance from highly qualified professionals.",
-    "Timely Delivery: Fast, reliable submissions to meet all deadlines.",
-    "Affordable Services: Top-quality help at student-friendly prices."
+    "CS Experts: Tutors with computer science degrees and real coding experience",
+    "Always Available: Evenings, weekends, or late nights",
+    "Kept Private: Your details and coursework stay with us"
   ];
 
   return (
     <main>
-      <Hero 
-        // New Heading
+      <Hero
         heading={
-          <>Affordable Online Computer Class Help in the USA- <span>Top-Rated Computer Class Takers for Hire</span></>
+          <>{"Do My Computer Class for Me and Say Goodbye to "}<span>{"Coding Stress"}</span></>
         }
-        // New Subtext
         subText={
+          <>
           <p>
-            Get affordable online computer class help in the USA from professional PhD tutors 
-            who deliver top-quality support for assignments, projects, and coursework. Our 
-            expert guidance ensures accurate, timely, and stress-free solutions that help 
-            you stay ahead and achieve better results effortlessly.
+            {"Is it getting tough for you to manage your online computer class and other responsibilities together? If you are planning to hire someone to take my computer class online, you are literally making a smart move. Computer science is one of those subjects that looks exciting at first, but then come loops, recursion, data structures, and assignments that seem to take forever."}
           </p>
+          <p>
+            {"That's why choose Hire Class Buddy for online Computer Science class help. Our tutors help you understand the concepts, debug your code, plan your projects, and get ready for exams, so you can keep moving forward without the stress."}
+          </p>
+          </>
         }
-        // Updated Bullets array
         bullets={points}
       />
     </main>

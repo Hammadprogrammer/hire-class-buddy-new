@@ -1,64 +1,51 @@
 import React from 'react';
 import FeaturesSection from '@/container/All-props-comp/feature_section/feature_sectio';
 
-// Icons Import
-import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined'; 
-import DoneAllOutlinedIcon from '@mui/icons-material/DoneAllOutlined'; 
-import AutoStoriesOutlinedIcon from '@mui/icons-material/AutoStoriesOutlined'; 
-import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined'; 
-import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined'; 
-import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined'; 
+import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
+import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
+import SavingsOutlinedIcon from '@mui/icons-material/SavingsOutlined';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import EventNoteOutlinedIcon from '@mui/icons-material/EventNoteOutlined';
 
 const Features = () => {
-  // Updated Features Data Array for Philosophy Class Help
   const myFeatures = [
     {
-      title: "On-Time Delivery",
-      desc: "We complete even urgent tasks on time. Quality never suffers and you will always meet your deadlines.",
-      icon: <AccessTimeOutlinedIcon />,
-    },
-    {
-      title: "100% Plagiarism-Free Work",
-      desc: "Each paper is original and written from scratch. We guarantee 100% original, authentic and credible philosophy assignment work.",
-      icon: <DoneAllOutlinedIcon />,
-    },
-    {
-      title: "4.5k+ Courses Completed",
-      desc: "Millions of philosophy courses taken — Metaphysics, Epistemology: actual students, actual work, actual grades.",
-      icon: <AutoStoriesOutlinedIcon />,
-    },
-    {
-      title: "90 k+ Trusted by Students",
-      desc: "With us, students around the globe can get their philosophy class help in an easy way, be it ethics or political philosophy.",
-      icon: <PeopleAltOutlinedIcon />,
-    },
-    {
-      title: "80 Expert Philosophy Tutors",
-      desc: "With graduates, postgraduates and PhDs on our team, we handle everything from logic to existentialism to philosophy of science.",
+      title: "Professional Tutor",
+      desc: "We have professional tutors who are dedicated philosophy experts and fully understand the subject. So, if you have any questions about metaphysics, ontology, or ethics and moral philosophy, they will help you manage your online class.",
       icon: <SchoolOutlinedIcon />,
     },
     {
-      title: "3.4 k+ A Grades Delivered",
-      desc: "Since we don’t just help you pass, our focus is on excelling. We have a trusted record of thousands of students.",
-      icon: <EmojiEventsOutlinedIcon />,
+      title: "24/7 Help",
+      desc: "Are you looking for anytime support? Yes, we do. Our round-the-clock online philosophy class assistance is always available whenever you need it.",
+      icon: <SupportAgentOutlinedIcon />,
     },
+    {
+      title: "Student-Friendly Prices",
+      desc: "Here, our prices don't push your budget. We design our philosophy tutoring programs at reasonable prices without sacrificing outcomes.",
+      icon: <SavingsOutlinedIcon />,
+    },
+    {
+      title: "100% Confidential",
+      desc: "We are committed to handling every philosophy class with complete discretion while ensuring your personal information and course details are kept secure and confidential.",
+      icon: <LockOutlinedIcon />,
+    },
+    {
+      title: "Weekly sessions",
+      desc: "Our services are built for students who need regular assistance. Our tutors can meet with you every week to go over readings and course materials, so nothing becomes heavy for you.",
+      icon: <EventNoteOutlinedIcon />,
+    }
   ];
 
   return (
-    <>
-      <FeaturesSection 
-        mainHeading={<>Top-Notch Features of Our <span>Reliable Online Philosophy Class Help for USA Students</span></>}
-        subText={
-          <p>
-            We provide highly qualified assistance for your assignments, essays and 
-            daunting philosophical ideas. Reputable assistance, crystal-clear breakdowns, 
-            and quick service to all students mastering complex concepts with ease to 
-            skyrocket their confidence and grades!
-          </p>
-        }
-        features={myFeatures}
-      />
-    </>
+    <FeaturesSection
+      mainHeading={<>{"Choose Us as Your Academic Partner and See What Else We Do "}<span>{"For You"}</span></>}
+      subText={
+        <p>
+          {"We have specialized tutors with years of experience teaching students across multiple subjects. We do our best to make philosophy class stress-free, while ensuring your academic target is accomplished with confidence, precision, and reliable support."}
+        </p>
+      }
+      features={myFeatures}
+    />
   );
 };
 

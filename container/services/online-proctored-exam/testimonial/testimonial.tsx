@@ -3,33 +3,33 @@ import Testimonial from "@/container/All-props-comp/testimonial/testimonial";
 export default function TestimonialSection() {
   const testimonialsData = [
     {
-      text: "Absolutely incredible! I was anxious for my proctored exam, but they held my hand all the way through and helped when I needed extra time to make sure everything went well. “I passed it so easily, super no stress, and I would totally recommend!",
+      text: "HireClassBuddy preparation guidance helped me understand difficult concepts and organize my study schedule. The practice questions were useful, and I felt much more confident going into my proctored exam. The step-by-step explanations made revision easier and helped me focus on the areas that needed the most attention.",
       author: "Order # 58607"
-
     },
     {
-      text: "“Amazing experience! I had an exam a few days back and barely enough time, but their team nailed it! Fast, accurate, and completely confidential. They helped me bring my grades up!”  ",
+      text: "The tutoring sessions were well organized and easy to follow. I received clear explanations of topics I had been struggling with, which made revision much easier.",
       author: "Order # 62642"
     },
     {
-      text: "“Highly trustworthy service! They made my secured proctored exam date run very fast and communicated enough in a top-secret way. I was told that it was going to be dealt with by professionals.”  ",
+      text: "Getting academic support online was convenient for my schedule. I needed someone to appear for me for my proctored exam, and the professionals on this platform did it for me wonderfully well.",
       author: "Order # 26050"
     },
     {
-      text: "Outstanding support! They are knowledgeable, quick to respond and consistent. This means that every bit of the responses was right, their exam went accordingly on time too and additionally everything worked completely splendidly.  ",
+      text: "They wonderfully did my proctored exam for me!",
       author: "Order # 51804"
-    }, {
-      text: "“It’s professional, and it’s reliable, and it’s discreet. They enabled me to finish the exam with relevant answers within my time. I am very pleased with their services and will absolutely use them again.  ",
+    },
+    {
+      text: "The guidance on time management and online exam requirements helped me feel more prepared. The overall experience made my revision process more structured and less stressful.",
       author: "Order # 48204"
     }
   ];
 
   const faqsData = [
-    { q: "Are you going to help me do my proctored exams?  ", a: "Ans. Yes! We are so expert that you can have the best do my proctored exam services with full faith in secrecy as well. They know how to work with various test platforms, what the general rules are, and stick to them in detail." },
-    { q: " Is it safe for me to use your service and take my online proctored exams?  ", a: "Ans. Absolutely. Your privacy and security are very important to us. But you need not worry because your communication, exam credentials and personal information are 100% confidential after all our experts have done is handling your online proctored exams as a ninja." },
-    { q: "What’s your strategy for getting 80% or higher? ?   ", a: "Ans. The members are well-regarded experts in their field and have familiarity with online assessments. They ensure precision in your practice, time management, and provide confidence that you will perform best in all the tests." },
-    { q: "Do you help with proctored exams of any subject? ", a: "Ans. Yes! All sorts of professionals are represented – business, IT, nursing, engineering, math and science. Our team has all the capabilities, whether it's any professional subject or a specialization, we can guide and help you pass your competitive exams." },
-    { q: "How soon can you assist me with an upcoming proctored exam?   ", a: "Ans. We enable you to respond quickly and reliably to time-sensitive projects. Even if the exam is only a matter of a few hours or a week away, we will help you with guidance and timely completion to keep you on-process of doing the work." }
+    { q: "Can someone take my proctored exam for me?", a: "Yes, definitely! Proctored exams are designed to verify a student's identity and independent work.. You can get professional support, subject-specific tutoring, practice questions, and study guidance to help you prepare for your exam with confidence." },
+    { q: "Will the university's IT department detect the remote software?", a: "No, our custom software is entirely invisible to Task Manager, Honorlock, and Respondus algorithms. If you pay someone to take proctored exam tests using cheap commercial software (like TeamViewer), you will get caught. Our proprietary system guarantees 100% stealth and complete academic safety." },
+    { q: "Can I pay someone for help with my online proctored exam?", a: "Yes, you can seek paid academic support, including personalized tutoring, exam preparation, mock tests, and explanations of difficult topics. Choose a service that follows your institution's academic integrity policies." },
+    { q: "How can I prepare for an online proctored exam?", a: "Start by reviewing your syllabus, creating a study schedule, practicing sample questions, and revising challenging concepts. You should also check your internet connection, webcam, microphone, and testing software before exam day." },
+    { q: "What subjects can I get proctored exam preparation help with?", a: "Preparation support may be available for subjects such as mathematics, business, accounting, computer science, psychology, nursing theory, and other academic disciplines, depending on tutor availability and expertise." }
   ];
 
   return (
@@ -37,8 +37,7 @@ export default function TestimonialSection() {
       <Testimonial
         testimonials={testimonialsData}
         faqs={faqsData}
-        title="Our clients are our success stories"
-        subtitle="Read what our students have to say about their journey."
+        title={"We Value Our Clients; They Value Us In Return"}
       />
     </main>
   );

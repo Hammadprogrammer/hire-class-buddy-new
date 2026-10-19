@@ -2,12 +2,10 @@ import ContentOne from "@/container/All-props-comp/Content_section_one/Content_s
 
 const ContentSectionOne = () => {
   return (
-    <>
-      <ContentOne 
-        mainHeading="Reliable Pay Someone to Do My Online Psychology Class– Get A or B Grades Guaranteed"
-        description="Need good online Psychology classes assistance? Our team of professionals will provide you with professional advice and encouragement to reach grades A or B without any doubts. We can offer customized solutions to assignments, quizzes and classwork and you not only get the full picture, but you also meet every deadline. Having seasoned psychology class takers for hire, you can obtain correct and quality help whenever you need it and your Psychology course online will be much more manageable and without any stress. We have confidence in our ability to assist you in raising your grades and performing well in your class without violating academic integrity."
-      />
-    </>
+    <ContentOne
+      mainHeading={"Pay Someone to Take My Psychology Class For Me and Get Guaranteed A and B Grades"}
+      description={"We are glad to present to you Hire Class Buddy, your reliable ally in handling your online psychology class. As one of the most reliable online psychology class assistance services in the USA, we focus on helping you get the best grades. With our wide range of course help, such as qualitative ones, research methods, statistics, and psychometrics, we ensure you receive professional support without any upfront payment. So you can evaluate the work before committing to the rest of the course."}
+    />
   );
 };
 

@@ -1,30 +1,28 @@
 import Hero from "@/container/All-props-comp/hero-setion/hero_section";
 
 export default function OnlineClassHero() {
-  
-  // New content: Psychology Class Bullets array
   const points = [
-    "6500+ Satisfied Students: Helping hundreds achieve better grades.",
-    "150+ PhD experts: Expert guidance from seasoned educators.",
-    "Trusted & Reliable: Proven support for every student."
+    "Psychology Experts: Years of experience in studying and teaching the subject",
+    "Always Available: Available at any time, whether evenings, weekends, or late nights",
+    "Kept Private: Your details and coursework stay with us"
   ];
 
   return (
     <main>
-      <Hero 
-        // New Heading
+      <Hero
         heading={
-          <>Top Grades Made Easy: <span>Hire Online Psychology Class Takers Now</span></>
+          <>{"Find Expert Help With Taking My Psychology Class and "}<span>{"Score Better"}</span></>
         }
-        // New Subtext
         subText={
+          <>
           <p>
-            From class attendance to maintaining originality, our team of professionals 
-            excels in every aspect. Thanks to the proficiency of our team, we brilliantly 
-            meet your plea to take my online psychology class for me.
+            {"Can someone take my psychology class for me? Yes! Hire Class Buddy has professional tutors who explain each concept with simple, real-life examples, so they can help you understand demanding psychology coursework more effectively."}
           </p>
+          <p>
+            {"So, whether you are looking for introductory psychology, developmental psychology, social psychology, or another specialized course, we have expert professional assistance for either one subject or the entire course. Well, it's not too late to get help. Contact us today, and we will be there for you."}
+          </p>
+          </>
         }
-        // Updated Bullets array
         bullets={points}
       />
     </main>

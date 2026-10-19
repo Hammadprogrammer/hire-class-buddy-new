@@ -2,12 +2,10 @@ import ContentOne from "@/container/All-props-comp/Content_section_one/Content_s
 
 const ContentSectionOne = () => {
   return (
-    <>
-      <ContentOne 
-        mainHeading="Why Students Hire Computer Class Taker Services| 24/7 Online Computer Class Help "
-        description="Our professional computer class help is available 24/7 online so that students never miss out on seeking help for complex computer class projects. It allows learners to concentrate on comprehension, skills and deliver results without the pressure of deadlines. All work is processed with absolute degrees of confidentiality and security, so students can rest assured they are receiving expert guidance. When it comes to having a computer class taker, students know that they have a reliable option in their hands with flexibility and no stress."
-      />
-    </>
+    <ContentOne
+      mainHeading={"Why Choose Our Computer Class Service For 24/7 Help?"}
+      description={"Whenever you think, you have any doubts about computer classes. You must know one thing: our service is available round the clock. This means you can avail our computer class help across the USA at the most affordable rates. Not just this, we can help you with assignments and exams while maintaining confidentiality and security, so students can rest assured that they are receiving expert guidance. So no matter if you are just starting out in university or if you are working toward a higher degree, we are always here to help you."}
+    />
   );
 };
 
