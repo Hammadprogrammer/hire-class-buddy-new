@@ -4,11 +4,11 @@ import OnlineClassHero from '@/container/all-subject/nursing/hero_section/page'
 import UniSection from '@/container/home/uni_section/uni_section'
 import Features from '@/container/all-subject/nursing/feature_section/feature_section'
 import ContentSectionOne from '@/container/all-subject/nursing/Content_section_one/Content_section_one'
-import CallActionSection from '@/container/all-subject/history/call_action/call_acition'
+import CallActionSection from '@/container/all-subject/nursing/call_action/call_acition'
 import Stats_section from '@/container/all-subject/nursing/stats_section/stats_section'
 import Content_section_two from '@/container/all-subject/nursing/content_section_two/content_section_two'
 import ProcessSection from '@/container/home/process_section/process_section'
-import ServicesSection from '@/container/home/service_section/service_section'
+import ServicesSection from '@/container/all-subject/nursing/service_section/service_section'
 import ContentSectionThree from '@/container/all-subject/nursing/content_section_three/content_section_three'
 
 // Meta Data Configuration
@@ -24,7 +24,7 @@ const page = () => {
   return (
     <>
       <OnlineClassHero />
-      <UniSection/>
+      <UniSection heading={"Nursing Precision: Conquering High Stakes Across All Exam Portals"} />
       <Features />
       <ContentSectionOne />
       <CallActionSection/>

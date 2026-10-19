@@ -2,12 +2,10 @@ import ContentOne from "@/container/All-props-comp/Content_section_one/Content_s
 
 const ContentSectionOne = () => {
   return (
-    <>
-      <ContentOne 
-        mainHeading="Hire Business Class Taker and Boost Your Academic Success with Confidence "
-        description="Our reliable business class help services will allow you to hire a business class taker and enable you to achieve academic success with confidence. With data science assignment experts who back you up with complete support for guidance on individual assignments, projects, case studies and other classwork, we put together each submission accurately, incorporating research relevant to your specific requirement. Our services are centered around quality, originality, and timely delivery, which allows you to be stress-free about what’s happening with your academic workload. This enables you to enjoy successful outcomes while also ensuring academic integrity, with the added peace of mind."
-      />
-    </>
+    <ContentOne
+      mainHeading={"Ace Your Business Course With Expert Online Business Class Help"}
+      description={"You know, when you get help from a reliable source, they handle the complicated parts while making sure to keep you connected throughout the process. This is what we do: we offer extensive business class support that ultimately helps you achieve academic success with great confidence. We have so much trust in our abilities as a team, as our experts help you manage complicated tasks and stressful managerial business studies that result in a guaranteed A or B grade."}
+    />
   );
 };
 

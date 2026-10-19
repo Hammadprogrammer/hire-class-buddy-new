@@ -1,16 +1,15 @@
 import React from 'react'
 import CallAction from "@/container/All-props-comp/call_action/call_acition";
 
-
 const CallActionSection = () => {
   return (
     <div>
-          <CallAction 
-      heading={<>Register now for take my online proctored exam for me! Book now and Grab 25% Off at your first purchase!</>}
-      description="If a proctored exam is pushing you off your work, fret not, just sign up with us and improve your grades with a hassle-free experience. Talk to our experts now, book your order and enjoy your day out!"
-      btnText="Request a FREE quote today!"
-      btnLink="/contact-us"
-    />
+      <CallAction
+        heading={<>{"Want to Avail 25% OFF? This Is the Right Time to Register for Your Proctored Exam Help. Do Not Miss "}<span>{"This Opportunity."}</span></>}
+        description={"Are you worried about how you are going to tackle your proctored exam? Just give us a shot at it. We offer exclusive discounts for students purchasing for the first time with us."}
+        btnText={"Contact Us"}
+        btnLink="/contact-us"
+      />
     </div>
   )
 }

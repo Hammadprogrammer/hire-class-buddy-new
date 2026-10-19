@@ -2,12 +2,10 @@ import ContentOne from "@/container/All-props-comp/Content_section_one/Content_s
 
 const ContentSectionOne = () => {
   return (
-    <>
-      <ContentOne 
-        mainHeading="Looking to Take My Online Proctored Exam? We have got your back!"
-        description="Here at Hire Class Buddy, we will be your trusted exam-taking partner, and our experts will take your online proctored exam for you with a guaranteed high score. We struggle to improve your grades while maintaining privacy. Hire someone to take online proctored exam to score top grades without going through the tough exam-taking process. Can someone take my proctored exam for me? This is a question that every student has in their mind, and hence, we provide you with the answer along with a solution. Sure, we offer top-notch proctored exam-taking services where a high score is guaranteed when you have a daunting subject at hand."
-      />
-    </>
+    <ContentOne
+      mainHeading={"Looking for Someone to Take Your Proctored Exam for You?"}
+      description={"Students searching for someone to help with their proctored exams may be feeling overwhelmed by deadlines and complicated coursework. Apart from that, the pressure to achieve a particular score is another thing on the task list. If you are in this situation, don’t worry anymore, as you have arrived at the right platform. Our professional support can help you address the underlying challenges without risking your academic standing. Our approach focuses on helping you understand the material and prepare efficiently. We also assist students complete your assessment in accordance with their institution's rules."}
+    />
   );
 };
 

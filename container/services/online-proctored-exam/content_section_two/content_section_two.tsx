@@ -3,12 +3,10 @@ import ContentTwo from '@/container/All-props-comp/content_section_two/content_s
 
 const Content_section_two = () => {
   return (
-    <>
-      <ContentTwo 
-        heading="What Happens if I Hire Someone to Take Online Proctored Exam? Is it Safe or Not for Me"
-        description="When you select our trusted service to do my proctored exam for me, you receive professional help in addition to accurate answers and on-time submission all done discreetly! We assign your proctored exam to a subject specialist PhD expert, which means less stress for you and success is guaranteed. We have security system privacy protectors that keep your identity and academic record private. Subject experts provide live solutions with correct answers and secured exam processing across various subject domains. We ensure timely delivery along with good grades for level exams and maintain total secrecy."
-      />
-    </>
+    <ContentTwo
+      heading={"Can You Take My Online Proctored Exam For Me Ensuring 100% Security?"}
+      description={"The simple and only answer is yes. We have custom software that makes sure to keep your identity verified throughout the exam. We also take care of device monitoring and exam supervision. Be it login identity, webcam monitoring, microphone activity, or other computer applications, our software keeps it all secure and ready for you. We use high technology, and it ensures a 100% success rate when it comes to taking your proctored exam. So there is nothing to worry about. If you have any questions or queries regarding your security, just send us a message, and we will walk you through our highly secure process. This way, you can build trust before you make a purchase with us."}
+    />
   )
 }
 

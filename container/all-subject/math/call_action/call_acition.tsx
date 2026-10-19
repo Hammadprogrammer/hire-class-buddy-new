@@ -1,15 +1,15 @@
 import React from 'react'
 import CallAction from "@/container/All-props-comp/call_action/call_acition";
 
-
 const CallActionSection = () => {
   return (
     <div>
-          <CallAction 
-      heading={<>Ready to Excel in Your Math Classes? Book Your Session Today and Grab an Exclusive 50% Off for All Newbies! </>}
-      description="Take your learning to the next level with our dedicated tutors who ensure every topic is mastered. New signups get 10% off to start their academic journey with confidence. Don’t wait — boost your grades now!"
-      btnLink="/contact-us"
-    />
+      <CallAction
+        heading={<>{"Confused By Exam Platform? Get 50% Off and Excel in Your "}<span>{"Class Today"}</span></>}
+        description={"Many students struggle with online math platforms, making it difficult to decide whether to handle everything on their own or hire a tutor for help. Why not try out a tutoring service at half the price? Tell us which course you’re taking, what’s coming up, and which topics are giving you trouble. We’ll match you with a math tutor this week, and your first session is 50% off. If it helps, great. If not, you’ve only spent half the money."}
+        btnText={"Contact Us"}
+        btnLink="/contact-us"
+      />
     </div>
   )
 }

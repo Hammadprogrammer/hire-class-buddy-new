@@ -1,16 +1,15 @@
 import React from 'react'
 import CallAction from "@/container/All-props-comp/call_action/call_acition";
 
-
 const CallActionSection = () => {
   return (
     <div>
-          <CallAction 
-      heading={<>Law Class Assistance Made Simple – Your Legal Success Starts Here</>}
-      description="
-Struggling with law concepts? Such services provide law class help that makes learning a piece of cake. Choose online law class help services from qualified, professional tutors at low prices with 247 live chat customer support. When you seek someone to take my law class or do my law class for me, let us make success simple."
-      btnLink="/contact-us"
-    />
+      <CallAction
+        heading={<>{"Get 50% Off Your First Law "}<span>{"Class Help!"}</span></>}
+        description={"Overwhelmed by handling a detailed case brief? We recognise the massive pressure that your online class places on your schedule. Our dedicated tutor will expertly help you manage a single course or an entire semester.  So sign up today and get 50% off your first session. Hurry, book now as this is a limited-time offer."}
+        btnText={"Request a Free Quote"}
+        btnLink="/contact-us"
+      />
     </div>
   )
 }

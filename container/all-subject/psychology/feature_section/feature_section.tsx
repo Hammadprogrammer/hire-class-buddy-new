@@ -1,64 +1,55 @@
 import React from 'react';
 import FeaturesSection from '@/container/All-props-comp/feature_section/feature_sectio';
 
-// Icons Import
-import MoneyOffOutlinedIcon from '@mui/icons-material/MoneyOffOutlined'; 
-import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined'; 
-import CardGiftcardOutlinedIcon from '@mui/icons-material/CardGiftcardOutlined'; 
-import SecurityOutlinedIcon from '@mui/icons-material/SecurityOutlined'; 
-import FactCheckOutlinedIcon from '@mui/icons-material/FactCheckOutlined'; 
-import LocalOfferOutlinedIcon from '@mui/icons-material/LocalOfferOutlined'; 
+import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined';
 
 const Features = () => {
-  // Updated Features Data Array for Psychology Class Help Services
   const myFeatures = [
     {
-      title: "No Cost",
-      desc: "We are open and honest about our services. You will never get charges or fees that you did not expect.",
-      icon: <MoneyOffOutlinedIcon />,
+      title: "Expert Assistance",
+      desc: "Professional assistance makes a difference in your academic performance. Hire Class Buddy to connect with an experienced professional willing to help you excel in your online course.",
+      icon: <SupportAgentOutlinedIcon />,
     },
     {
-      title: "Trained Professionals",
-      desc: "You get help and guidance from writers who are very well-trained. They give you solutions that are just right for you and are accurate and excellent.",
-      icon: <SchoolOutlinedIcon />,
+      title: "Safe & Secure",
+      desc: "We always consider the student's privacy. Your online class credentials and course details are kept confidential and are never informed to the thrid party, including your school.",
+      icon: <LockOutlinedIcon />,
     },
     {
-      title: "Exciting Freebies",
-      desc: "You get benefits with every assignment. These help you get grades and add value to your work.",
-      icon: <CardGiftcardOutlinedIcon />,
+      title: "Flexible Experience",
+      desc: "We offer flexible and dependable assistance, where you and your tutor meet every week and discuss the course details to make things more transparent and understandable for both of you.",
+      icon: <CheckCircleOutlineIcon />,
     },
     {
-      title: "Secure Payment Method",
-      desc: "You can pay us safely. Our payment system is secure. Makes it easy and safe to pay us.",
-      icon: <SecurityOutlinedIcon />,
+      title: "Guaranteed Result",
+      desc: "We work hard to deliver guaranteed results that you expect. At Take My Psychology Class, we serve our students diligently and work hard to help them achieve their desired results.",
+      icon: <EmojiEventsOutlinedIcon />,
     },
     {
-      title: "Plagiarism-Free Work",
-      desc: "All the work we do is original. We also give you a report that shows your work is not copied. This way, you can be sure your work is authentic and honest.",
-      icon: <FactCheckOutlinedIcon />,
+      title: "Satisfaction Promise",
+      desc: "We have onbarded experinced pschology tutor who handle your every class with precision and security while keeping your requiremnts in top of our consideration.",
+      icon: <CheckCircleOutlineIcon />,
     },
     {
-      title: "Affordable Rates",
-      desc: "We charge low prices for our services. We want to help you with your assignments for the money you spend.",
-      icon: <LocalOfferOutlinedIcon />,
-    },
+      title: "Customised Support",
+      desc: "Your tutor guides you through each assignment, so the work stays original, properly cited, and in line with your professor’s guidelines.",
+      icon: <SupportAgentOutlinedIcon />,
+    }
   ];
 
   return (
-    <>
-      <FeaturesSection 
-        mainHeading={<>Professional Online Psychology Class Help <span>Services Trusted by the USA Students</span></>}
-        subText={
-          <p>
-            Get help with psychology class from people you can trust. Our team helps you with 
-            your work. Explains things to you so you can do better in Psychology class and 
-            feel more confident. You can study Psychology in a way that keeps up with your schoolwork 
-            easily with our psychology class help.
-          </p>
-        }
-        features={myFeatures}
-      />
-    </>
+    <FeaturesSection
+      mainHeading={<>{"Professional Online Psychology Class Help, Across Assignments, Discussions, "}<span>{"and Beyond"}</span></>}
+      subText={
+        <p>
+          {"Most students register for psychology expecting an interesting discussion course filled with discussion about human behavior. But later they find it is more about memorizing definitions. For this reason, they need a reliable source of support that can help them understand how theories apply to human behavior, interpret research findings, compare psychological perspectives, and more. So if you’re looking for help with your online psychology class, we’re always here for you."}
+        </p>
+      }
+      features={myFeatures}
+    />
   );
 };
 

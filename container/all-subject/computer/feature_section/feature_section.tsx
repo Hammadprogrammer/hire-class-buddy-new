@@ -1,69 +1,63 @@
 import React from 'react';
 import FeaturesSection from '@/container/All-props-comp/feature_section/feature_sectio';
 
-// Icons Import
-import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined'; 
-import SecurityOutlinedIcon from '@mui/icons-material/SecurityOutlined'; 
-import SettingsSuggestOutlinedIcon from '@mui/icons-material/SettingsSuggestOutlined'; 
-import PlayCircleOutlineOutlinedIcon from '@mui/icons-material/PlayCircleOutlineOutlined'; 
-import SentimentSatisfiedAltOutlinedIcon from '@mui/icons-material/SentimentSatisfiedAltOutlined'; 
-import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalanceWalletOutlined'; 
-import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined'; 
+import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
+import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
+import SavingsOutlinedIcon from '@mui/icons-material/SavingsOutlined';
+import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined';
+import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
 
 const Features = () => {
-  // Updated Features Data Array for Professional Computer Class Help
   const myFeatures = [
     {
-      title: "Tailor-Made Solutions",
-      desc: "Get a custom solution designed to reach your course-related and individual tasks, where every assignment fits you.",
-      icon: <SettingsSuggestOutlinedIcon />,
+      title: "Expert Tutor",
+      desc: "Our tutors have computer science degrees and real coding experience. They’ve been where you are and know exactly which topics trip students up.",
+      icon: <SchoolOutlinedIcon />,
     },
     {
-      title: "Privacy and Security",
-      desc: "Your studies and personal information never escape our lips, so you can get the help you need without worrying about your social reputation.",
-      icon: <SecurityOutlinedIcon />,
+      title: "Personalized Service",
+      desc: "No two students learn the same way. Your tutor adjusts every session to your level, your course, and the parts you find hardest.",
+      icon: <PsychologyOutlinedIcon />,
     },
     {
-      title: "Detailed Explanations",
-      desc: "We explain every idea in detail with easy-to-follow videos so you’ll never feel lost.",
-      icon: <PlayCircleOutlineOutlinedIcon />,
+      title: "Confidential and Secure",
+      desc: "Your details stay with us. We never share your information with anyone, including your school.",
+      icon: <LockOutlinedIcon />,
     },
     {
-      title: "No Stress Education",
-      desc: "Less academic pressure and deadlines anxiety because you keep control of your one-on-one coursework with expert support!",
-      icon: <SentimentSatisfiedAltOutlinedIcon />,
+      title: "Timely Delivery",
+      desc: "Your tutor delivers feedback, notes, and practice material well before your deadlines, so you have plenty of time to make changes.",
+      icon: <AccessTimeOutlinedIcon />,
     },
     {
-      title: "Affordable Help",
-      desc: "Assistance is provided for all forms of online computer courses, including projects and assignments, to meet your demanding schedule and needs.",
-      icon: <AccountBalanceWalletOutlinedIcon />,
+      title: "Affordable Rates",
+      desc: "Prices made for students, with no hidden fees. Book one session or a package, and your first session is half off.",
+      icon: <SavingsOutlinedIcon />,
     },
     {
-      title: "Around-the-Clock Service",
-      desc: "Get professional help day or night and take care of all those time-critical tasks without missing a beat.",
+      title: "Guaranteed Result",
+      desc: "We guarantee one thing: you’ll get real, focused help every single session. Most students see their understanding and their grades improve once the concepts click.",
+      icon: <EmojiEventsOutlinedIcon />,
+    },
+    {
+      title: "Customized Assistance",
+      desc: "Python project, Java lab, or SQL assignment- your tutor guides you through it step by step while you write the code yourself.",
       icon: <SupportAgentOutlinedIcon />,
-    },
-    {
-      title: "Solutions that Work",
-      desc: "We deliver more than answers, creating real-world solutions that are accurate and practical.",
-      icon: <CheckCircleOutlineOutlinedIcon />,
-    },
+    }
   ];
 
   return (
-    <>
-      <FeaturesSection 
-        mainHeading={<>Professional Computer Class Help <span>Services You Can Trust</span></>}
-        subText={
-          <p>
-            Get professional computer class help services you can trust from expert PhD tutors. 
-            Our team assists students with their coursework while ensuring a smooth, 
-            stress-free learning experience.
-          </p>
-        }
-        features={myFeatures}
-      />
-    </>
+    <FeaturesSection
+      mainHeading={<>{"What Makes Our Computer Class Help Different From "}<span>{"the Rest?"}</span></>}
+      subText={
+        <p>
+          {"There are multiple websites that offer the same service as ours. So, what makes us different? Well, it’s our dedication to helping students enjoy stress-free online learning while achieving their desired grades."}
+        </p>
+      }
+      features={myFeatures}
+    />
   );
 };
 
