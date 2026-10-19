@@ -1,28 +1,25 @@
 import Hero from "@/container/All-props-comp/hero-setion/hero_section";
 
 export default function OnlineClassHero() {
-  
+
   // Updated Bullets array for Proctored Exams
   const points = [
-    "Qualified experts: We have PhD-qualified tutors for your proctored exams.",
-    "Personalized & Confidential: One-on-one support with complete privacy.",
-    "24/7 Quick Help: Reliable assistance anytime you need it."
+    "Affordable tutoring plans designed for every student",
+    "PhD-qualified experts offering specialized subject guidance",
+    "24/7 professional customer support whenever you need assistance"
   ];
 
   return (
     <main>
-      <Hero 
+      <Hero
         // Updated Heading
         heading={
-          <>Do My Proctored Exam Help – <span>By Proctored Experts</span></>
+          <>Take My Proctored Exam For Me & <span>Make Sure It Is Secure</span></>
         }
         // Updated Subtext
         subText={
           <p>
-            We have 350+ highly qualified proctored exam takers to help you, 
-            and with whom a ‘do my proctored exam’ request will be solved 
-            instantly. Trust us for your proctored exam help and ace your 
-            grades like a breeze!
+            Dear students, getting reliable proctored exam preparation support with personalized tutoring is often a dream of many students. This is where Hire Class Buddy comes in and offers proctored exams with expert guidance and customized study material. This is the right time to benefit from flexible support and guidance, especially tailored to you based on your subject.
           </p>
         }
         // Passing the updated array

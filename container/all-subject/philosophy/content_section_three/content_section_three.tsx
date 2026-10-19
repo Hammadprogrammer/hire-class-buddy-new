@@ -3,34 +3,30 @@ import ContentThree from '@/container/All-props-comp/content_section_three/conte
 
 const ContentSectionThree = () => {
   const pageData = {
-    topHeading: "Pay Someone to Take My Online Philosophy Class and Get Exceptional Grades!",
-    topDescription: "Confused with endless lectures, tricky deadlines and baffling assignments? You are not failing if this is you; you are just layered. So, join “Hire Class Buddy.” We do not promise hope; we offer results. It has 350-plus online class takers who are not only experienced but also have become experts in bringing your academic disarray into guaranteed top-grade quality performance. Sounds exactly right, and we give you exactly that — a complete academic takeover service where your take my online class for me call is answered with confidentiality and perfection in this domain. 10+ years of experience means never feeling guilty again or having that horrible feeling if you fall behind on your studies.",
+    topHeading: "Key Services We Offer",
+    topDescription: "We provide comprehensive philosophy class help services to ensure your academic success.",
     features: [
       {
-        title: "Professional Tutors for Online Philosophy",
-        text: "We have hired professional PhD philosophers to serve you. Whether it is metaphysics & ontology or ethics & moral philosophy, they will take care of your online philosophy class with confidence and practical expertise."
+        title: "Online Exam",
+        text: "Your exam is coming up, and you are not ready? You can take our physiology class service, where we have verified tutors who have studied and taught physiology to a number of students. Contact us, share your requirements, and get the support you need to achieve your grades."
       },
       {
-        title: "24/7 Support For Your Class",
-        text: "Are you confused with epistemology & theories of knowledge or facing trouble in logic & critical thinking at weird hours? No issue. Get 24/7 hours of philosophy class help online whenever you want."
+        title: "Online Class",
+        text: "With a hectic schedule, these online classes can be difficult to handle. That's why we are committed to connecting you with a reliable and professional tutor in the USA who can help you manage your online class and explain the concepts to you easily."
       },
       {
-        title: "Student-Friendly Prices, Guaranteed Results",
-        text: "Great support does not have to be expensive. This is exactly the reason our philosophy tutoring program is reasonable without neglecting results at any point. We can help with everything from political philosophy & social justice to philosophy of science."
-      },
-      {
-        title: "Guaranteed Class Assistance",
-        text: "We will handle all your online philosophy class, assignments, quizzes and exams. We help you deliver quality work on time and guarantee top grades in your coursework with our seasoned experts."
+        title: "Online Assignment",
+        text: "Nowadays, universities have set strict rules for assignments and use different AI checkers to evaluate them. For this reason, students face pressure to prepare original and well-researched assignments. Our expert professionals sit with you and make the assignment according to your requirements."
       }
     ]
   };
 
   return (
     <>
-      <ContentThree 
+      <ContentThree
         topHeading={pageData.topHeading}
         topDescription={pageData.topDescription}
-        features={pageData.features} 
+        features={pageData.features}
       />
     </>
   )

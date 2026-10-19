@@ -4,9 +4,9 @@ import ContentTwo from '@/container/All-props-comp/content_section_two/content_s
 const Content_section_two = () => {
   return (
     <>
-      <ContentTwo 
-        heading="Hire Us to Take Psychology Class Help and We will Handle the Rest "
-        description="Academic problems are never conclusive but with each problem there is a solution. Hire Class Buddy is the ultimate fix to most of your academic concerns. The degree and the character of academic concerns differ among different students. Essentially; it is not so simple to juggle between your job, classes and other chores, but we are there to help you in practice in all your academic dilemmas. Diverse students have diverse duties, various levels of intelligence quotient, and varying norms of perceiving life. So, if you are struggling with your online psychology class never feel alone our online psychology class takers for hire are there to serve you."
+      <ContentTwo
+        heading="Need a Hand With Your Psychology Class? We've Got the Rest Covered"
+        description="School problems don't really stop, do they? One assignment's done, and the next one's already waiting. But here's the good part: they can all be sorted out, and that's what we're here for. Every student we talk to has a different story. One works double shifts. Another has three kids and a mortgage. Someone else just thought psychology would be easier than it is. Honestly, all of that is a lot. So our tutors don't use one fixed method. They figure out how you learn, then explain the hard stuff in a way that works for you. Papers, quizzes, exams, they'll help you with all of it. If your psychology class is feeling like too much, reach out. You don't have to figure it out alone."
       />
     </>
   )

@@ -3,9 +3,9 @@ import ContentOne from "@/container/All-props-comp/Content_section_one/Content_s
 const ContentSectionOne = () => {
   return (
     <>
-      <ContentOne 
-        mainHeading="Will You Take My Online Philosophy Class for Me at Cheap in USA?"
-        description="I just want to hire tutors to take my philosophy class for me. This is what our students are looking for these days. Perhaps you are someone who is tired of struggling with the heavily loaded obligations of philosophy, or you are someone who needs a small break for a better brain. Hire Class Buddy has been in the industry for a considerable time now, helping thousands of students excel. Therefore, in case you are the one who is to offer help with an online philosophy class, that's it; you can rest now. We will complete your class on your behalf. We have philosophy experts who possess relevant experience in that industry and have helped numerous students to their satisfaction. Can I get online philosophy class help? Get our philosophy expert on board and relax; let our experts do the work for you."
+      <ContentOne
+        mainHeading="Choose Us as Your Academic Partner and See What Else We Do For You"
+        description="We have specialized tutors with years of experience teaching students across multiple subjects. We do our best to make philosophy class stress-free, while ensuring your academic target is accomplished with confidence, precision, and reliable support."
       />
     </>
   );

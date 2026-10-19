@@ -3,34 +3,30 @@ import ContentThree from '@/container/All-props-comp/content_section_three/conte
 
 const ContentSectionThree = () => {
   const pageData = {
-    topHeading: "Proctored Exam Help - Over 5000+ Subjects Covered!",
-    topDescription: "Get cheap proctored exam help in the USA with over 5000(+) subjects covered. Designed to make your academic journey smoother and more manageable. Our professional team is here 24/7 to provide you with the necessary, reliable, private and confidential assistance as per your needs. You will never be stranded or burdened. We offer quick response times and quality assurance. Join thousands of other students who also use our help to ease their academic workload.",
+    topHeading: "Students Prefer To Work With Us",
+    topDescription: "We provide comprehensive proctored exam help services to ensure your academic success.",
     features: [
       {
-        title: "7K+ Satisfied Clients",
-        text: "We have assisted over 5000 students from the USA and anywhere in the world with reliable help with proctored exam. Students return to us because we offer secure, effective, cheap and top-quality service that helps them reach their learning goals with confidence."
+        title: "Online Exam Guide",
+        text: "HireClassBuddy offers online exam help to students across the globe. We make sure students feel secure, and hence we have developed our very own software, which ensures 100% security while we offer exam assistance. Apart from that, our expert tutors associated with different institutes and subjects ensure top-grade material."
       },
       {
-        title: "15K+ Exams Supported",
-        text: "We have aided more than 10,000 exams on different subjects, levels and formats. We assist students with comprehensive question completion, carefully planned exam-pacing to align timelines and deadlines while upholding integrity and self-belief."
+        title: "Online Tutoring Service",
+        text: "What students love about our tutoring service is the preparation material we offer. Students who have worked with us are a testament to the quality of our services. Connect with us for the best tutoring service supervised by subject experts. We have PhDs guiding you through all the challenges you have related to any specific subject."
       },
       {
-        title: "1.5K+ Subject Experts",
-        text: "We have a diverse network of over 1,000 highly skilled tutors specializing in all subjects from STEM to Humanities and Business/Technology. Every professional is equipped with specialized knowledge, proven performance, and experience in online learning to provide timely, precise, and accurate support for each of your academic challenges."
-      },
-      {
-        title: "15+ Years Combined Experience",
-        text: "Our online exam takers have more than 10 years of experience in supporting students academically. We can help them manage increasing workload, learning difficulties, and achieve top results. We make sure their help will be provided as securely, professionally, and professionally & confidentially in the long run."
+        title: "Online Assignment Help",
+        text: "Be it a dissertation, essay, proposal, or just an assignment, our experts make sure to adhere to your university rules and citation guide, which matters most to your score. We ensure you get the best grade when it comes to submitting the assignment. With just a single click, you can get completely original work, ready for submission."
       }
     ]
   };
 
   return (
     <>
-      <ContentThree 
+      <ContentThree
         topHeading={pageData.topHeading}
         topDescription={pageData.topDescription}
-        features={pageData.features} 
+        features={pageData.features}
       />
     </>
   )

@@ -4,25 +4,22 @@ export default function OnlineClassHero() {
   
   // New content: Philosophy Class Bullets array
   const points = [
-    "Metaphysics Expertise: PhD Metaphysics & Ontology experts.",
-    "Expert Assistance: Clear solutions for Epistemology, Logic, and Critical Thinking.",
-    "24/7 Support: If you are having trouble, we are available around the clock."
+    "Philosophy Experts: Tutors with law degrees and years of teaching experience",
+    "Always Available: Evenings, weekends, or late nights",
+    "Kept Private: Your details and coursework stay with us"
   ];
 
   return (
     <main>
-      <Hero 
+      <Hero
         // New Heading
         heading={
-          <>Pay Someone to Take My Online Philosophy Class| <span>Get A+ Grades Fast</span></>
+          <>Hire Someone to Take My Online Philosophy and <span>Bye-Bye Stress and Deadlines</span></>
         }
         // New Subtext
         subText={
           <p>
-            Get reliable online philosophy class help with expert guidance on essays, 
-            assignments, and complex concepts. Boost your confidence, improve performance, 
-            and achieve A-grade results with personalized academic support tailored to your 
-            needs.
+            When handling a hectic timeline, it's smart to hire someone who can help with my philosophy class and relieve pressure. Philosophy focuses on ideas like morality and existence and builds thinking skills through responsiveness, reflection, and reasoning. And many students choose this subject to score high, but find it more challenging than expected. As a result, students often search: Can I pay someone to take my online philosophy class? Hire Class Buddy is one of the platform is USA that provides professional assistance with your online philosophy class, offering secure and confident support. Here, we help you with assignments, discussions, essays, and coursework so you can stay focused without stress.
           </p>
         }
         // Updated Bullets array

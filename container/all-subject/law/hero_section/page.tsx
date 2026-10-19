@@ -4,25 +4,22 @@ export default function OnlineClassHero() {
   
   // New content: Law Class Bullets array
   const points = [
-    "Cheap Deals – Affordable law class help without compromising quality.",
-    "Certified Experts – Qualified professionals for classwork.",
-    "24/7 Support – Assistance anytime with live customer support."
+    "Expert Professionals: Tutors with law degrees and years of teaching experience",
+    "24/7 Available: Evenings, weekends, or late nights",
+    "100% Confidential: Your details and coursework stay with us"
   ];
 
   return (
     <main>
-      <Hero 
+      <Hero
         // New Heading
         heading={
-          <>Do My Law Class for Me – <span>Skip the Stress, Keep the Success!</span></>
+          <>Take My Law Class Online With <span>Top-Notch Experts</span></>
         }
         // New Subtext
         subText={
           <p>
-            Struggling with law class assignments? We will do the law class for you and 
-            save your valuable time and energy. We have well-trained professionals who will 
-            take your law class and ensure that you get the grades that you deserve. Focus 
-            on your stuff, take a reliable online law class help.
+            Most law students find it challenging to keep up with missed online classes while managing job, kids, and family responsibilities. So, we are here to provide you with online law class help; our platform connects you with verified PhD legal scholars who manage your full course case, including briefs, essays, and final exams. Don't hesitate to reach out to Hire Class Buddy for take my law class help and take your grades to a whole new level.
           </p>
         }
         // Updated Bullets array
