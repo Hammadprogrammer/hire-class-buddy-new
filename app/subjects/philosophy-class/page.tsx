@@ -13,8 +13,8 @@ import ContentSectionThree from '@/container/all-subject/philosophy/content_sect
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Philosophy Class Help, Do My Online Philosophy Class for Me",
-  description: "Looking for reliable support in philosophy? Our philosophy class help services cover assignments, projects, and discussions to boost your grades effortlessly. Get 50% Discount Today.",
+  title: "Take My Philosophy Class With Expert Professionals",
+  description: "Find the right philosophy class help from the No. 1 online class taker at affordable rates. Get professional support from Hire Class Buddy.",
   alternates: {
     canonical: "/subjects/philosophy-class",
   }

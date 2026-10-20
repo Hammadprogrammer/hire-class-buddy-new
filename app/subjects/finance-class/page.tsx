@@ -13,8 +13,8 @@ import ContentSectionThree from '@/container/all-subject/finance/content_section
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Finance Class Help, Hire Someone to Take My Finance Class",
-  description: "Looking to hire someone to do my online Finance class at an affordable price? You are in the right place. We offer 24/7 help with the finance class. Just contact us today!",
+  title: "Get Expert Help By Taking My Finance Class For Me",
+  description: "We have expert tutors helping you get the right support as per your required needs. Limited time offer, get 50% off on your first session.",
   alternates: {
     canonical: "/subjects/finance-class",
   }

@@ -13,8 +13,8 @@ import ContentSectionThree from '@/container/all-subject/computer/content_sectio
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Online Computer Class Help, Take My Computer Class for Me",
-  description: "Struggling with your difficult online computer class? Hire our professional online computer class takers for hire at very affordable rates and enjoy your higher score.",
+  title: "Hire Someone to Take My Computer Class Online and Boost Grades",
+  description: "Whenever you need help with your online computer class, contact us. We help you find a professional tutor who makes computer classes easier for you.",
   alternates: {
     canonical: "/subjects/computer-class",
   }

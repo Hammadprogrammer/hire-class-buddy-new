@@ -266,34 +266,114 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
+const OTHER_OPTION = "Other (type your own)";
+
 const taskOptions = [
   "Proctored Exam Help",
   "Nursing Portal Assignment",
   "Full Class Management",
   "Dissertation / Essay",
-  "Technical Project / IT"
+  "Technical Project / IT",
+  "Online Class Help",
+  "Assignment Help",
+  "Quiz / Test Help",
+  OTHER_OPTION
 ];
+
+const countries: { code: string; name: string; dial: string }[] = [
+  { code: "US", name: "United States", dial: "1" },
+  { code: "CA", name: "Canada", dial: "1" },
+  { code: "GB", name: "United Kingdom", dial: "44" },
+  { code: "AU", name: "Australia", dial: "61" },
+  { code: "NZ", name: "New Zealand", dial: "64" },
+  { code: "IE", name: "Ireland", dial: "353" },
+  { code: "AE", name: "United Arab Emirates", dial: "971" },
+  { code: "SA", name: "Saudi Arabia", dial: "966" },
+  { code: "QA", name: "Qatar", dial: "974" },
+  { code: "KW", name: "Kuwait", dial: "965" },
+  { code: "BH", name: "Bahrain", dial: "973" },
+  { code: "OM", name: "Oman", dial: "968" },
+  { code: "IN", name: "India", dial: "91" },
+  { code: "PK", name: "Pakistan", dial: "92" },
+  { code: "BD", name: "Bangladesh", dial: "880" },
+  { code: "LK", name: "Sri Lanka", dial: "94" },
+  { code: "NP", name: "Nepal", dial: "977" },
+  { code: "PH", name: "Philippines", dial: "63" },
+  { code: "MY", name: "Malaysia", dial: "60" },
+  { code: "SG", name: "Singapore", dial: "65" },
+  { code: "ID", name: "Indonesia", dial: "62" },
+  { code: "TH", name: "Thailand", dial: "66" },
+  { code: "VN", name: "Vietnam", dial: "84" },
+  { code: "HK", name: "Hong Kong", dial: "852" },
+  { code: "JP", name: "Japan", dial: "81" },
+  { code: "KR", name: "South Korea", dial: "82" },
+  { code: "CN", name: "China", dial: "86" },
+  { code: "DE", name: "Germany", dial: "49" },
+  { code: "FR", name: "France", dial: "33" },
+  { code: "ES", name: "Spain", dial: "34" },
+  { code: "IT", name: "Italy", dial: "39" },
+  { code: "NL", name: "Netherlands", dial: "31" },
+  { code: "BE", name: "Belgium", dial: "32" },
+  { code: "CH", name: "Switzerland", dial: "41" },
+  { code: "AT", name: "Austria", dial: "43" },
+  { code: "SE", name: "Sweden", dial: "46" },
+  { code: "NO", name: "Norway", dial: "47" },
+  { code: "DK", name: "Denmark", dial: "45" },
+  { code: "FI", name: "Finland", dial: "358" },
+  { code: "PL", name: "Poland", dial: "48" },
+  { code: "PT", name: "Portugal", dial: "351" },
+  { code: "GR", name: "Greece", dial: "30" },
+  { code: "TR", name: "Turkey", dial: "90" },
+  { code: "RU", name: "Russia", dial: "7" },
+  { code: "UA", name: "Ukraine", dial: "380" },
+  { code: "EG", name: "Egypt", dial: "20" },
+  { code: "NG", name: "Nigeria", dial: "234" },
+  { code: "KE", name: "Kenya", dial: "254" },
+  { code: "GH", name: "Ghana", dial: "233" },
+  { code: "ZA", name: "South Africa", dial: "27" },
+  { code: "MA", name: "Morocco", dial: "212" },
+  { code: "MX", name: "Mexico", dial: "52" },
+  { code: "BR", name: "Brazil", dial: "55" },
+  { code: "AR", name: "Argentina", dial: "54" },
+  { code: "CO", name: "Colombia", dial: "57" },
+  { code: "CL", name: "Chile", dial: "56" },
+  { code: "JM", name: "Jamaica", dial: "1" },
+  { code: "TT", name: "Trinidad and Tobago", dial: "1" },
+  { code: "IL", name: "Israel", dial: "972" },
+  { code: "JO", name: "Jordan", dial: "962" },
+];
+
+const PHONE_MIN_DIGITS = 7;
+const PHONE_MAX_DIGITS = 15;
+
+const dialFor = (code: string) => countries.find(c => c.code === code)?.dial ?? "1";
+const fullNumber = (code: string, digits: string) => (digits ? `+${dialFor(code)} ${digits}` : "");
 
 const ContactForm = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [notRobot, setNotRobot] = useState(false);
   
   const initialState = {
     fullName: '',
     email: '',
+    whatsappCountry: 'US',
     whatsapp: '',
+    phoneCountry: 'US',
+    phone: '',
     taskType: 'Select Task Type',
+    customTask: '',
     message: ''
   };
 
   const [formData, setFormData] = useState(initialState);
   const [errors, setErrors] = useState<Record<string, string | null>>({});
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
-    if (name === 'whatsapp') {
-      const onlyNums = value.replace(/[^0-9]/g, '');
+    if (name === 'whatsapp' || name === 'phone') {
+      const onlyNums = value.replace(/[^0-9]/g, '').slice(0, PHONE_MAX_DIGITS);
       setFormData(prev => ({ ...prev, [name]: onlyNums }));
     } else {
       setFormData(prev => ({ ...prev, [name]: value }));
@@ -304,7 +384,7 @@ const ContactForm = () => {
   };
 
   const validate = () => {
-    let tempErrors: Record<string, string> = {};
+    const tempErrors: Record<string, string> = {};
     if (!formData.fullName.trim()) tempErrors.fullName = "Name is required";
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!formData.email.trim()) {
@@ -312,15 +392,21 @@ const ContactForm = () => {
     } else if (!emailRegex.test(formData.email)) {
         tempErrors.email = "Please enter a valid email";
     }
-    if (!formData.whatsapp) {
-      tempErrors.whatsapp = "WhatsApp number is required";
-    } else if (formData.whatsapp.length < 10) {
-      tempErrors.whatsapp = "Minimum 10 digits required";
+    if (!formData.whatsapp && !formData.phone) {
+      tempErrors.whatsapp = "Please enter a WhatsApp or phone number";
+    }
+    if (formData.whatsapp && formData.whatsapp.length < PHONE_MIN_DIGITS) {
+      tempErrors.whatsapp = `Minimum ${PHONE_MIN_DIGITS} digits required`;
+    }
+    if (formData.phone && formData.phone.length < PHONE_MIN_DIGITS) {
+      tempErrors.phone = `Minimum ${PHONE_MIN_DIGITS} digits required`;
     }
     if (formData.taskType === 'Select Task Type') {
         tempErrors.taskType = "Please select a task type";
+    } else if (formData.taskType === OTHER_OPTION && !formData.customTask.trim()) {
+        tempErrors.customTask = "Please describe your task";
     }
-    if (!formData.message.trim()) tempErrors.message = "Message cannot be empty";
+    if (!notRobot) tempErrors.notRobot = "Please confirm you are not a robot";
 
     setErrors(tempErrors);
     return Object.keys(tempErrors).length === 0;
@@ -330,16 +416,21 @@ const ContactForm = () => {
     e.preventDefault();
     if (validate()) {
       setIsLoading(true);
+      const whatsapp = fullNumber(formData.whatsappCountry, formData.whatsapp);
+      const phone = fullNumber(formData.phoneCountry, formData.phone);
+      const taskType = formData.taskType === OTHER_OPTION ? formData.customTask.trim() : formData.taskType;
+      const message = [formData.message.trim(), phone ? `Phone: ${phone}` : ""].filter(Boolean).join("\n");
       try {
         const response = await fetch('https://contact-a-pi-one.vercel.app/api/contact', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(formData),
+          body: JSON.stringify({ fullName: formData.fullName, email: formData.email, whatsapp, phone, taskType, message }),
         });
 
         if (response.ok) {
           setIsSubmitted(true);
           setFormData(initialState);
+          setNotRobot(false);
           setTimeout(() => setIsSubmitted(false), 5000);
         } else {
           alert("Submission failed. Please try again.");
@@ -408,16 +499,59 @@ const ContactForm = () => {
                     </div>
 
                     <div className={styles.inputGroup}>
-                      <input 
-                        type="tel" 
-                        name="whatsapp" 
-                        placeholder="WhatsApp Number" 
-                        value={formData.whatsapp} 
-                        onChange={handleChange}
-                        className={errors.whatsapp ? styles.errorInput : ''}
-                        autoComplete="off"
-                      />
+                      <div className={styles.phoneRow}>
+                        <select
+                          name="whatsappCountry"
+                          value={formData.whatsappCountry}
+                          onChange={handleChange}
+                          className={styles.countrySelect}
+                          aria-label="WhatsApp country code"
+                        >
+                          {countries.map(c => (
+                            <option key={c.code} value={c.code}>{c.code} +{c.dial}</option>
+                          ))}
+                        </select>
+                        <input 
+                          type="tel" 
+                          name="whatsapp" 
+                          placeholder="WhatsApp Number" 
+                          value={formData.whatsapp} 
+                          onChange={handleChange}
+                          maxLength={PHONE_MAX_DIGITS}
+                          inputMode="numeric"
+                          className={errors.whatsapp ? styles.errorInput : ''}
+                          autoComplete="off"
+                        />
+                      </div>
                       {errors.whatsapp && <span className={styles.errorText}>{errors.whatsapp}</span>}
+                    </div>
+
+                    <div className={styles.inputGroup}>
+                      <div className={styles.phoneRow}>
+                        <select
+                          name="phoneCountry"
+                          value={formData.phoneCountry}
+                          onChange={handleChange}
+                          className={styles.countrySelect}
+                          aria-label="Phone country code"
+                        >
+                          {countries.map(c => (
+                            <option key={c.code} value={c.code}>{c.code} +{c.dial}</option>
+                          ))}
+                        </select>
+                        <input 
+                          type="tel" 
+                          name="phone" 
+                          placeholder="Phone Number (for calls)" 
+                          value={formData.phone} 
+                          onChange={handleChange}
+                          maxLength={PHONE_MAX_DIGITS}
+                          inputMode="numeric"
+                          className={errors.phone ? styles.errorInput : ''}
+                          autoComplete="off"
+                        />
+                      </div>
+                      {errors.phone && <span className={styles.errorText}>{errors.phone}</span>}
                     </div>
 
                     <div className={styles.dropdownContainer}>
@@ -447,25 +581,55 @@ const ContactForm = () => {
                       </AnimatePresence>
                     </div>
 
+                    {formData.taskType === OTHER_OPTION && (
+                      <div className={styles.inputGroup}>
+                        <input 
+                          type="text" 
+                          name="customTask" 
+                          placeholder="Type your task (e.g. Lab Report, Capstone Project)" 
+                          value={formData.customTask} 
+                          onChange={handleChange}
+                          maxLength={100}
+                          className={errors.customTask ? styles.errorInput : ''}
+                          autoComplete="off"
+                        />
+                        {errors.customTask && <span className={styles.errorText}>{errors.customTask}</span>}
+                      </div>
+                    )}
+
                     <div className={styles.inputGroup}>
                       <textarea 
                         name="message" 
                         rows={4} 
-                        placeholder="Tell us about your task & deadline..."
+                        placeholder="Tell us about your task & deadline (optional)"
                         value={formData.message} 
                         onChange={handleChange}
-                        className={errors.message ? styles.errorInput : ''}
                         autoComplete="off"
                       ></textarea>
-                      {errors.message && <span className={styles.errorText}>{errors.message}</span>}
+                    </div>
+
+                    <div className={styles.inputGroup}>
+                      <label className={`${styles.robotCheck} ${errors.notRobot ? styles.errorInput : ''}`}>
+                        <input
+                          type="checkbox"
+                          name="notRobot"
+                          checked={notRobot}
+                          onChange={(e) => {
+                            setNotRobot(e.target.checked);
+                            if (errors.notRobot) setErrors(prev => ({ ...prev, notRobot: null }));
+                          }}
+                        />
+                        <span>I am not a robot</span>
+                      </label>
+                      {errors.notRobot && <span className={styles.errorText}>{errors.notRobot}</span>}
                     </div>
 
                     <motion.button 
-                        whileHover={!isLoading ? { scale: 1.02 } : {}} 
-                        whileTap={!isLoading ? { scale: 0.98 } : {}} 
+                        whileHover={!isLoading && notRobot ? { scale: 1.02 } : {}} 
+                        whileTap={!isLoading && notRobot ? { scale: 0.98 } : {}} 
                         type="submit" 
                         className={styles.submitBtn}
-                        disabled={isLoading}
+                        disabled={isLoading || !notRobot}
                     >
                       {isLoading ? "Processing..." : "Send Now"} 
                       {!isLoading && <RocketLaunchIcon style={{ marginLeft: '10px', fontSize: '20px' }} />}

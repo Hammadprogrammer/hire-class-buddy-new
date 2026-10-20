@@ -13,8 +13,8 @@ import ContentSectionThree from '@/container/home/content_section_three/content_
 import TestimonialSection from '@/container/home/testimonial/testimonial'
 
 export const metadata: Metadata = {
-  title: "Take My Online Class, Pay Someone to Take My Online Class",
-  description: "Stuck with Take My Online Class? Fret not, we have Got Your back. Just Request Us if You want to Pay Someone to Take My Online Class and Ace Your Online Class Grades.",
+  title: "Pay Someone to Take My Online Class With Expert Support",
+  description: "Get expert online class support from Hire Class Buddy and enjoy 50% off your first session. Connect with experienced tutors today!",
   alternates: {
     canonical: "/",
   }

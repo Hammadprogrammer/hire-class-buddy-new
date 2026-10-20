@@ -25,7 +25,7 @@ const organizationSchema = {
   logo: "https://hireclassbuddy.com/logo1.png",
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+1 229 202 8857",
+    telephone: "+1 (202) 703-5862",
     contactType: "customer service",
     areaServed: "US",
     availableLanguage: "en",
@@ -103,7 +103,7 @@ export default function RootLayout({
         {/* --- WhatsApp Floating Button --- */}
         <Link
           prefetch={false}
-          href="https://wa.me/14843315917"
+          href="https://wa.me/12027035862"
           target="_blank"
           rel="nofollow noopener noreferrer"
           aria-label="Chat on WhatsApp"

@@ -13,8 +13,8 @@ import ContentSectionThree from '@/container/all-subject/math/content_section_th
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Online Math Class, Pay Someone to Do My Math Class for Me",
-  description: "Struggling to keep up in math? Get expert online math class help and improve your grades quickly with professional guidance. Get 50% Discount Offer on Your first math class order today.",
+  title: "Affordable Online Algebra Class Help You Can Trust",
+  description: "Get affordable online algebra class help from Hire Class Buddy. Our expert tutors provide reliable support with assignments, quizzes, and exams.",
   alternates: {
     canonical: "/subjects/math-class",
   }

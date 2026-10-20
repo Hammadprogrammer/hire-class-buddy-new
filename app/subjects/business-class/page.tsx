@@ -13,8 +13,8 @@ import ContentSectionThree from '@/container/all-subject/Business/content_sectio
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Online Business Class Help Services, Business Class Experts",
-  description: "Don’t let tight deadlines stress you! Take online business class help service and stay ahead confidently! Get 50% Discount on Your Business Class by Business Class Subject Experts now.",
+  title: "Pay Someone to Take My Business Class With Reliable Expert Assistance",
+  description: "Looking for the perfect online business class tutor? Visit Hire Class Buddy, the ultimate site to help you with your entire coursework.",
   alternates: {
     canonical: "/subjects/business-class",
   }

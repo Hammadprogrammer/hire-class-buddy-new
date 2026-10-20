@@ -15,8 +15,8 @@ import ContentSectionThree from '@/container/services/online-quiz-test/content_s
 import TestimonialSection from '@/container/services/online-quiz-test/testimonial/testimonial'
 
 export const metadata: Metadata = {
-  title: "Pay Someone to Take My Online Test, Do My Test for Me",
-  description: "Looking for an affordable do my test for me service? Pay Someone to Take My Online Test now and skyrocket your grades. Get 50% Discount by signing up today for all your tests and quizzes.",
+  title: "Hire Someone to Take a Test for You With Expert Support",
+  description: "Looking for online test help? Get expert support from skilled tutors available when you need help with difficult topics, test preparation, and deadlines.",
   alternates: {
     canonical: "/services/online-test-and-quizzes",
   }

@@ -13,8 +13,8 @@ import ContentSectionThree from '@/container/all-subject/nursing/content_section
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Take My Nursing Class, Pay Someone to Do My Nursing Class",
-  description: "Falling behind in your online nursing class? Get expert help with online nursing class and complete assignments on time with ease. Get 50% discount on your Nursing Class Help Services Today.",
+  title: "Hire Someone to Take My Nursing Exam | Expert Help",
+  description: "Searching for someone to help with your nursing exam? Connect with experienced nursing tutors at Hire Class Buddy for reliable, affordable exam preparation.",
   alternates: {
     canonical: "/subjects/nursing-class",
   }

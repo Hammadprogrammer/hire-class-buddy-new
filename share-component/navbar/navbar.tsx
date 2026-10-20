@@ -73,8 +73,8 @@ const Navbar = () => {
       <Box className={styles.topBar}>
         <Container maxWidth="lg" className={styles.topContainer}>
           {/* Updated Phone Link */}
-          <a href="tel:+12292028857" className={styles.contactItem}>
-            <PhoneInTalk /> +1 229 202 8857
+          <a href="tel:+12027035862" className={styles.contactItem}>
+            <PhoneInTalk /> +1 (202) 703-5862
           </a>
           
           {/* Email Link */}

@@ -14,8 +14,8 @@ import TestimonialSection from '@/container/services/online-course/testimonial/t
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Online Course Help, Pay Someone to Do Online Course",
-  description: "Looking to pay someone to do online course? Contact our professional course takers for hire & skyrocket your academic success. Get Online Course Help today and get 50% Discount.",
+  title: "Pay Someone to Do Your Online Course and Improve Your Results",
+  description: "Find expert online course help with Hire Class Buddy, offering support across 5,000+ subjects with experienced tutors.",
   alternates: {
     canonical: "/services/online-course-help/",
   }

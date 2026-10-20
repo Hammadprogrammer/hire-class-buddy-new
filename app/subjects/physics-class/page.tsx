@@ -16,8 +16,8 @@ import ContentSectionThree from '@/container/all-subject/physics/content_section
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Physics Class Takers, Hire Someone to Take My Physics Class",
-  description: "Want someone to take your Physics class for you? Hire professional physics class takers and complete assignments, quizzes, and discussions stress-free. Sign up Now and get 50% Discount.",
+  title: "Hire Someone to Help With My Online Physics Class",
+  description: "Find expert physics class help at Hire Class Buddy and connect with a qualified tutor who fits your learning needs and course requirements.",
   alternates: {
     canonical: "/subjects/physics-class",
   }

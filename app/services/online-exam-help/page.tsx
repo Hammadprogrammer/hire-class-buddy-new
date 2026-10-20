@@ -14,8 +14,8 @@ import TestimonialSection from '@/container/services/online-exam/testimonial/tes
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Online Exam Help – Hire Someone to Take My Exam for Me",
-  description: "Looking for online exam help? Fret not our hire someone to take my exam got you covered. Just request us if you want to pay someone to take my online exam.",
+  title: "Hire Someone to Take My Online Exam With Expert Support",
+  description: "Looking to hire someone to help with your online exam? Visit Hire Class Buddy and connect with an expert tutor for professional exam preparation today.",
   alternates: {
     canonical: "/services/online-exam-help",
   }

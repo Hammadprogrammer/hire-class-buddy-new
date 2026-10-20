@@ -35,8 +35,8 @@ const RefundPolicy = () => {
                   <strong> info@hireclassbuddy.com </strong>
                 </Link> 
                 or phone 
-                <Link href="tel:+447400465932" className={styles.contactLinkInline}>
-                  <strong> +44 7400 465932</strong>
+                <Link href="tel:+12027035862" className={styles.contactLinkInline}>
+                  <strong>+1 (202) 703-5862</strong>
                 </Link>.
                 By posting a request, you should provide your complete name, booked service, date of the session, as well as an elaborate description of the problem. By providing this information, we are able to appraise your request in a fast and efficient way. Your request will be considered by our team within the time period of 1 business day, and will be answered or you will be asked to give more information within 3-5 business days.
               </p>
@@ -85,8 +85,8 @@ const RefundPolicy = () => {
                 
                 <p className={styles.text} style={{ marginTop: '10px' }}>
                   <strong>Phone: </strong> 
-                  <Link href="tel:+447400465932" className={styles.contactLink}>
-                    +44 7400 465932
+                  <Link href="tel:+12027035862" className={styles.contactLink}>
+                   +1 (202) 703-5862
                   </Link>
                 </p>
               </div>

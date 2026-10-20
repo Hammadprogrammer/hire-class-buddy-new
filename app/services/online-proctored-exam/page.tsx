@@ -14,8 +14,8 @@ import TestimonialSection from '@/container/services/online-proctored-exam/testi
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Do My Proctored Exam Help, Take My Online Proctored Exam",
-  description: "Looking for someone for do my proctored exam help service? We have got you covered. Hire our professional proctored exam takers at affordable prices and boost your score.",
+  title: "Take My Proctored Exam For Me With 100% Confidentiality",
+  description: "Are you looking to pay someone to take my proctored exam? Pay to HireClassBuddy and we will make sure your proctored exams are secure and smooth.",
   alternates: {
     canonical: "/services/online-proctored-exam",
   }

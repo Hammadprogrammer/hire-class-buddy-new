@@ -13,8 +13,8 @@ import ContentSectionThree from '@/container/all-subject/biology/content_section
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Biology Class Help, Online Biology Class Experts and Takers",
-  description: "Looking for help with Online Biology Class? We offer top-notch, affordable class assistance to boost your grades effortlessly. Get 50% discount on your Biology Class Help Services.",
+  title: "Pay Someone to Do My Online Biology Class | Expert Help",
+  description: "Looking for reliable online biology class help? Meet Hire Class Buddy, your affordable and secure platform for expert tutoring support. Get started today!",
   alternates: {
     canonical: "/subjects/biology-class",
   }

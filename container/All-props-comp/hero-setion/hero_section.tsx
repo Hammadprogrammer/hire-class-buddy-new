@@ -16,6 +16,7 @@ const Hero: React.FC<HeroProps> = ({ heading, subText, bullets = [] }) => {
   const [selected, setSelected] = useState("Select Need Help");
   const [isLoading, setIsLoading] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [notRobot, setNotRobot] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -48,7 +49,7 @@ const Hero: React.FC<HeroProps> = ({ heading, subText, bullets = [] }) => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     if (name === 'whatsapp') {
-      const onlyNums = value.replace(/[^0-9]/g, '');
+      const onlyNums = value.replace(/[^0-9]/g, '').slice(0, 15);
       setFormData(prev => ({ ...prev, [name]: onlyNums }));
     } else {
       setFormData(prev => ({ ...prev, [name]: value }));
@@ -78,6 +79,10 @@ const Hero: React.FC<HeroProps> = ({ heading, subText, bullets = [] }) => {
 
     if (selected === "Select Need Help") {
       tempErrors.taskType = "Please select a service";
+    }
+
+    if (!notRobot) {
+      tempErrors.notRobot = "Please confirm you are not a robot";
     }
 
     setErrors(tempErrors);
@@ -113,6 +118,7 @@ const Hero: React.FC<HeroProps> = ({ heading, subText, bullets = [] }) => {
           message: ''
         });
         setSelected("Select Need Help");
+        setNotRobot(false);
         setTimeout(() => setIsSubmitted(false), 5000);
       } else {
         setErrors({ submit: "Submission failed. Try again." });
@@ -144,7 +150,7 @@ const Hero: React.FC<HeroProps> = ({ heading, subText, bullets = [] }) => {
             <Link href="/contact-us" className={styles.btnPrimary}>
               Contact Us
             </Link>
-            <Link href="https://wa.me/14843315917"  className={styles.btnSecondary}>
+            <Link href="https://wa.me/12027035862"  className={styles.btnSecondary}>
               Chat With Us
             </Link>
           </div>
@@ -194,6 +200,8 @@ const Hero: React.FC<HeroProps> = ({ heading, subText, bullets = [] }) => {
                 name="whatsapp" 
                 value={formData.whatsapp}
                 onChange={handleChange}
+                maxLength={15}
+                inputMode="numeric"
                 required 
               />
               {errors.whatsapp && <span className={styles.error}>{errors.whatsapp}</span>}
@@ -229,6 +237,22 @@ const Hero: React.FC<HeroProps> = ({ heading, subText, bullets = [] }) => {
                 )}
               </div>
               {errors.taskType && <span className={styles.error}>{errors.taskType}</span>}
+            </div>
+
+            <div>
+              <label className={styles.robotCheck}>
+                <input
+                  type="checkbox"
+                  name="notRobot"
+                  checked={notRobot}
+                  onChange={(e) => {
+                    setNotRobot(e.target.checked);
+                    if (errors.notRobot) setErrors(prev => ({ ...prev, notRobot: '' }));
+                  }}
+                />
+                <span>I am not a robot</span>
+              </label>
+              {errors.notRobot && <span className={styles.error}>{errors.notRobot}</span>}
             </div>
 
             {errors.submit && <span className={styles.error}>{errors.submit}</span>}

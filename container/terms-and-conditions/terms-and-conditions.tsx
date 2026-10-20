@@ -133,8 +133,8 @@ const TermsAndConditions = () => {
                 
                 <p className={styles.text} style={{ marginTop: '10px' }}>
                   <strong>Phone: </strong> 
-                  <Link href="tel:+447400465932" className={styles.contactLink}>
-                    +44 7400 465932
+                  <Link href="tel:+12027035862" className={styles.contactLink}>
+                   +1 (202) 703-5862
                   </Link>
                 </p>
               </div>

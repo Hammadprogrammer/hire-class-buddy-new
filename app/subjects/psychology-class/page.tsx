@@ -13,8 +13,8 @@ import ContentSectionThree from '@/container/all-subject/psychology/content_sect
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Online Psychology Class Help, Hire Psychology Class Takers",
-  description: "Need a professional psychology class support? Boost your grades with our reliable psychology class help services offering guidance, solutions, and step-by-step support.",
+  title: "Hire Someone to Take My Psychology Class With Expert Tutors",
+  description: "Looking for the best psychology class tutor? Hire Class Buddy provides expert professional help to support you in achieving your dream grades.",
   alternates: {
     canonical: "/subjects/psychology-class",
   }

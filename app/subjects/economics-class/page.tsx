@@ -13,8 +13,8 @@ import ContentSectionThree from '@/container/all-subject/economics/content_secti
 
 // Meta Data Configuration
 export const metadata: Metadata = {
-  title: "Take My Economics Class, Pay Someone Do My Economics Class",
-  description: "Stuck with your difficult online economics class? Get help with online economics class and skyrocket your grades with ease. Get 50% discount on your economics class help by sign up today.",
+  title: "Hire Someone to Do Online Econimics Class For You",
+  description: "Find the right academic support for your online economics class with Hire Class Buddy and enjoy 50% off your first tutoring session. Get expert help today!",
   alternates: {
     canonical: "/subjects/economics-class",
   }

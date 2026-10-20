@@ -142,6 +142,13 @@
   margin-top: 30px;
   p { font-size: 14px; font-weight: 600; margin-bottom: 10px; color: #ffffff; }
   img { filter: grayscale(0.3) contrast(1.1); transition: 0.3s; &:hover { filter: grayscale(0); } }
+  .paymentImage {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
 }
 
 .divider {

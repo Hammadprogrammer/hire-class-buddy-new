@@ -68,7 +68,7 @@ const Footer = () => {
             <div className={styles.socialBox}>
               <Link prefetch={false} href="https://www.facebook.com/people/Hire-Class-Buddy/61571676454739/" className={styles.fb} target="_blank" rel="nofollow noopener noreferrer" aria-label="Facebook"><Facebook /></Link>
               <Link prefetch={false} href="https://www.instagram.com/hireclassbuddy" className={styles.insta} target="_blank" rel="nofollow noopener noreferrer" aria-label="Instagram"><Instagram /></Link>
-              <Link prefetch={false} href="https://wa.me/14843315917" className={styles.wa} target="_blank" rel="nofollow noopener noreferrer" aria-label="WhatsApp"><WhatsApp /></Link>
+              <Link prefetch={false} href="https://wa.me/12027035862" className={styles.wa} target="_blank" rel="nofollow noopener noreferrer" aria-label="WhatsApp"><WhatsApp /></Link>
             </div>
           </div>
 
@@ -107,8 +107,8 @@ const Footer = () => {
               <Link prefetch={false} href="mailto:info@hireclassbuddy.com" className={styles.contactItem}>
                 <Email className={styles.icon} /> <span>info@hireclassbuddy.com</span>
               </Link>
-              <Link prefetch={false} href="tel:+12292028857" className={styles.contactItem}>
-                <Phone className={styles.icon} /> <span>+1 229 202 8857</span>
+              <Link prefetch={false} href="tel:+12027035862" className={styles.contactItem}>
+                <Phone className={styles.icon} /> <span>+1 (202) 703-5862</span>
               </Link>
 
               <div className={styles.contactItem}>
@@ -117,7 +117,7 @@ const Footer = () => {
             </div>
             <div className={styles.paymentSection}>
               <p>We Accept Major Cards</p>
-              <Image src="/paymenticon.png" alt="Accepted Payments" width={200} height={35} />
+              <Image src="/paymenticon.png" alt="Accepted Payments" width={1024} height={356} sizes="(max-width: 600px) 90vw, 280px" className={styles.paymentImage} />
             </div>
           </div>
 
