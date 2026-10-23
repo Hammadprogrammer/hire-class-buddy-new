@@ -6,12 +6,9 @@ const CallActionSection = () => {
   return (
     <div>
           <CallAction 
-      heading={<>Hire Worlds No 1 Take My Online Philosophy Class Team of Experts Guaranteed A or B Grades & 100% Confidential
-</>}
-      description="Need help with essays, arguments, or critical thinking? Our experts are ready to guide you step by step. Get clear answers and practical support exactly when you need it.
-Reach out now and get the clarity you deserve.
-"
-      btnText="Request a FREE quote today!"
+      heading={<>Get Philosophy Class Help From the World&apos;s No. 1 Class Taker and Avail 50% Off Your First Session</>}
+      description="Most of the students want help with their philosophy class but are confused about one thing: Are these reliable? Well, with us, you don't need to stress anymore; we have an expert professional ready to handle you everything while offering 50% off your first session. So, let's get started. Share your requirements, credentials, and course details. We will handle everything with immense care."
+      btnText="Get a Free Quote"
       btnLink="/contact-us"
     />
     </div>

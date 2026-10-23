@@ -5,8 +5,8 @@ const Content_section_two = () => {
   return (
     <>
       <ContentTwo 
-        heading="Reduce Your Economics Class Stress and Hire Someone to Do My Online Economics Class for Me "
-        description="Make your economics class stress-free and pay someone to take my online economics class for me with our professional service that makes online education simple and effective. Choosing to hire economics class taker will give you individualized help from people who can do your classwork, reports, projects and class MCQ’s preparation in a timely manner. Our economics class help services guarantee step-by-step guidance, no plagiarism, and on-time delivery so that you can focus on understanding concepts rather than cramming for deadlines. With professional tutors on your side, you can upskill in tricky topics while focusing on getting good grades with a stress-free academic background."
+        heading="Pay Someone To Take My Economics Class and Reduce Your Stress"
+        description="Hire Class Buddy helps reduce your academic stress by providing a reliable learning option for overworked students. You might be thinking, how? We connect you with an expert tutor who sits down with you and covers important points from class discussions, term papers, and final exams. Our tutor also guides you through assignments and reports, helping you produce original and well-researched work while staying on schedule. With a professional tutor supporting you throughout your coursework, we can help you achieve the grades that you have always dreamed of."
       />
     </>
   )

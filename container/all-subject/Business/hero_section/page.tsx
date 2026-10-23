@@ -4,9 +4,9 @@ export default function OnlineClassHero() {
   
   // New content: Business Class Bullets array
   const points = [
-    "On-Time Delivery: Assignments delivered before deadlines.",
-    "100% Original Work: Plagiarism-free, properly cited content.",
-    "Confidential Service: Your information stays private and secure."
+    "Expert Tutors: Business degrees and real industry experience",
+    "24/7 Support: Evenings, weekends, late nights",
+    "100% Confidentiality: Your details and coursework stay private"
   ];
 
   return (
@@ -14,14 +14,12 @@ export default function OnlineClassHero() {
       <Hero 
         // New Heading
         heading={
-          <>Top-Rated & Affordable Online <span>Business Class Help for USA Students</span></>
+          <>Hire Someone to Take My Business Class and <span>Earn Better Grades</span></>
         }
         // New Subtext
         subText={
           <p>
-            Get top-rated and affordable online business class help designed for USA students 
-            who need dependable support with assignments, projects, and coursework. 
-            We focus on delivering high-quality academic assistance at low prices.
+            Many students enroll themselves in a business course, and later they regret it. There is a lot of work and time required for this course, which students may not be able to provide easily. For these reasons, students may regret their decision. Now you can get structured online business class help from us, as we provide help with weekly coursework, assignments, discussions, and difficult subjects while keeping your course requirements organized.
           </p>
         }
         // Updated Bullets array

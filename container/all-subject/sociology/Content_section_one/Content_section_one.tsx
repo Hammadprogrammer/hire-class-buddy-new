@@ -4,8 +4,8 @@ const ContentSectionOne = () => {
   return (
     <>
       <ContentOne 
-        mainHeading="Can You Take My Online Sociology Class for Me?"
-        description="Yes, we can! In Hire Class Buddy, our writers have been trained in the guidelines of the industry. They have been employed with us for a long time, and they have answered numerous “can you take my online sociology class for me” questions. They do your internet sociology class instead of you, and see that you are not falling behind in your studies. Get help with sociology class. This is the query that is most frequently asked by us. We currently have academic services that serve the online students' community. We have ensured that we offer students fast and stress-free services by answering can I hire online sociology class takers for me."
+        mainHeading="Can You Take My Sociology Class Online?"
+        description="This is the most frequently asked question: Can someone take my sociology class? Yes, Hire Class Buddy has a network of subject specialists providing customized and on-time support to students all across the USA. In addition, our tutors help keep your arguments clear and your sources solid. So, if you are looking for help with your online sociology class, this is how we provide expert class assistance at affordable prices."
       />
     </>
   );

@@ -11,6 +11,7 @@ import ProcessSection from '@/container/home/process_section/process_section'
 import ServicesSection from '@/container/home/service_section/service_section'
 import ContentSectionThree from '@/container/services/online-exam/content_section_three/content_section_three'
 import TestimonialSection from '@/container/services/online-exam/testimonial/testimonial'
+import { TimerOutlined, SchoolOutlined, HistoryEduOutlined } from '@mui/icons-material'
 
 // Meta Data Configuration
 export const metadata: Metadata = {
@@ -25,14 +26,33 @@ const page = () => {
   return (
     <>
       <OnlineHero />
-      <UniSection/>
+      <UniSection heading='Expert-Led Help for Students Searching "Hire Someone To Do My Exam"'/>
       <Features />
       <ContentSectionOne />
       <CallActionSection/>
       <Stats_section/>
       <Content_section_two/>
       <ProcessSection/>
-      <ServicesSection/>
+      <ServicesSection
+        title="Online Class Service We Offer"
+        services={[
+          {
+            icon: <TimerOutlined />,
+            title: "Online Exam",
+            desc: "Before your exam, we sit down with your notes and figure out what's actually going to be on it. Then we practice. A lot. Students usually tell us the real test felt easier than our mock ones."
+          },
+          {
+            icon: <SchoolOutlined />,
+            title: "Online Class",
+            desc: "If you hire us to take my class for you today or early in the morning. Our tutor helps you catch up, then checks in every week, so you stay caught up."
+          },
+          {
+            icon: <HistoryEduOutlined />,
+            title: "Online Assignment",
+            desc: "Our tutor helps you plan your assignment directly from scratch, helps you plan it out, and reads your draft before it goes in."
+          }
+        ]}
+      />
       <ContentSectionThree/>
       <TestimonialSection/>
     </>

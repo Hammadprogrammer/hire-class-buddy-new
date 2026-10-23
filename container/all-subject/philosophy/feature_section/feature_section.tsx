@@ -7,7 +7,6 @@ import DoneAllOutlinedIcon from '@mui/icons-material/DoneAllOutlined';
 import AutoStoriesOutlinedIcon from '@mui/icons-material/AutoStoriesOutlined';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
-import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined';
 
 const Features = () => {
   // Updated Features Data Array for Philosophy Class Help
@@ -36,11 +35,6 @@ const Features = () => {
       title: "Weekly sessions",
       desc: "Our services are built for students who need regular assistance. Our tutors can meet with you every week to go over readings and course materials, so nothing becomes heavy for you.",
       icon: <AutoStoriesOutlinedIcon />,
-    },
-    {
-      title: "Will You Take My Online Philosophy Class for Me at Affordable Rates?",
-      desc: "At Hire Class Buddy, we work alongside you as a trusted partner supporting your online philosophy class with professionalism and care. So, if you have any concerns about pricing, then yes, we offer our service at an affordable price.",
-      icon: <EmojiEventsOutlinedIcon />,
     },
   ];
 

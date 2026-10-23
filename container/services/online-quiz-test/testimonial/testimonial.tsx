@@ -3,33 +3,30 @@ import Testimonial from "@/container/All-props-comp/testimonial/testimonial";
 export default function TestimonialSection() {
   const testimonialsData = [
     {
-      text: "Absolutely lifesaving! The team helped me complete an online quiz in record time by providing correct answers and fast delivery. This service helped me so much, I ended up getting a score I never thought possible.” ",
-      author: "Order # 80182"
+      text: "Literally, I was so worried about how I was going to handle everything. My tutor helped me much more than I expected and made the difficult parts feel a lot easier.",
+      author: "Emily R."
 
     },
     {
-      text: "“I was freaking out about some upcoming tests, and these experts managed it all professionally. They provided quick responses, correct answers and crystal-clear directions. They allowed me to perform well in other classes, and I aced my tests. Totally worth every penny! ",
-      author: "Order # 21841"
+      text: "The practice questions came really close to my deadline, and some of them were honestly complicated to understand. With my tutor's help, I finally got a B+ for the first time this semester.",
+      author: "Daniel M."
     },
     {
-      text: "“The best quiz help service I have ever used. All my test answers were sent on time and everything was 100 per cent accurate. “I went from failing across all subjects to getting straight A’s. ",
-      author: "Order # 66792"
+      text: "I was drowning between working double shifts and raising a toddler, and I really needed a helping hand. Hire Class Buddy connected me with a tutor who helped me prepare properly, and I was able to secure a B grade.",
+      author: "Sarah T."
     },
     {
-      text: "Top quality and completely reliable! They completed my online tests early and communicated with me throughout the process to confirm everything would meet test requirements. I was very impressed by their professionalism.”",
-      author: "Order # 26819"
-    }, {
-      text: "Amazing experience! Reply time was lightning fast, solutions correct and communication excellent. Which is I used this service to help me get ahead in my courses, with far less stress and anxiety. They handle the test so that I can focus on learning!” ",
-      author: "Order # 68621"
+      text: "I was falling behind and needed to speed things up before my test. My tutor helped me understand the important topics, practice the questions, and feel much more confident about getting a higher grade.",
+      author: "Michael J."
     }
   ];
 
   const faqsData = [
-    { q: "Are you going to help me do my test for me? ", a: "Ans. Yes! Most of the courses can receive assistance on online tests as well and here. we have a bunch of experienced tutors who will help you not just with quizzes but also in online tests. Whether it is a multiple selection question, short-answer, you will get a score without any hassle." },
-    { q: "Are your quizzes and test solutions being 100% original and accurate?  ", a: "Ans. Absolutely. Yes, they are all written by someone who knows the subject masterfully. We check every answer for being correct but also for its quality, so you know that what you get is going to be academically sufficient." },
-    { q: "Is it safe for people to use your service while taking online quizzes and tests?   ", a: "Ans. Yes. Your privacy and security matter deeply to us. All of our communications with you and tutors are private; we do not share your personal data with any 3rd parties. We offer our customers secrecy with quizzes and tests." },
-    { q: "What subjects do you cover for quizzes and tests", a: "Ans. We have expert coverage on more than 5,000 subjects, including business, IT, nursing, engineering, math, science and humanities. Our tutors have the background and experience to propel you to success, whether your course is advanced or beginner level." },
-    { q: "How fast can you take quizzes or tests for me?  ", a: "Ans. Our service is quick and reliable, even when time is of the essence. Whether its your quiz or test that has to be completed in half an hour, or within hours? You and our experts are guaranteed to get through precisely on time." }
+    { q: "Can I hire someone to take my online MBA test safely?", a: "Our experts provide secure, personalized support to help you understand difficult topics, practice important questions, and feel more confident before test day. Your personal information is handled with care, and our support is designed to help you prepare while keeping your academic work your own." },
+    { q: "Can you help if my test is due tomorrow?", a: "Usually, yes. Message us as soon as you can, and we'll try to set up a session the same day." },
+    { q: "Do you help with MBA and business studies tests?", a: "Yes. We cover finance, accounting, marketing, management, and strategy, plus case-study style questions." },
+    { q: "Will someone take my test or quiz for me?", a: "No. That breaks school rules and can get you expelled. We help you connect with an expert tutor who helps you and takes your test while keeping connect with you." },
+    { q: "How much does test prep cost?", a: "It depends on your subject and how many sessions you need. You can pay per session or choose a package, and your first session is 50% off." }
   ];
 
   return (
@@ -37,8 +34,8 @@ export default function TestimonialSection() {
       <Testimonial
         testimonials={testimonialsData}
         faqs={faqsData}
-        title="5,000+ Students Succeeded — You can be the next!"
-        subtitle="Read what our students have to say about their journey."
+        title="1000+ Students Succeeded With Us"
+        subtitle="Read What Our Students Say About Their Journey"
       />
     </main>
   );

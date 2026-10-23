@@ -50,7 +50,7 @@ const Features = () => {
         mainHeading={<>What You Get With Our Online <span>Course Support</span></>}
         subText={
           <p>
-            Are you struggling with your coursework and midterms are just around the corner? It happens. Here's how our online course support helps you get it back together.
+            Are you struggling with your coursework and midterms are just around the corner? It happens. Here&apos;s how our online course support helps you get it back together.
           </p>
         }
         features={myFeatures}

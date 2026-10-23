@@ -6,13 +6,9 @@ const CallActionSection = () => {
   return (
     <div>
           <CallAction 
-      heading={<>Hire an Economics Class Taker Now and Enjoy Fast, Reliable Support!
-Boost Your Grades – Order Online Economics class Help and Save Big!
-
-</>}
-      description="
-Be among hundreds of students who use our premium economics class help services. We provide 24/7 around-the-clock support, we make learning easy and stress-free—all at budget-friendly prices! Join today and unlock the door to academic mastery and achievement!"
-      btnText="Request a FREE quote today!"
+      heading={<>Hire Someone to Take My Online Economics Class And Save Big With Us!</>}
+      description="Did you know? Thousands of students secure A grades by taking our online economics class and rate us 4.5/5. Our tutors are available to support you around 24/7, and sets the prices that suit the students' budget. So, sign up today and get 50% off your first session."
+      btnText="Request a Free Quote Today!"
       btnLink="/contact-us"
     />
     </div>

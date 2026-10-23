@@ -47,10 +47,10 @@ const Features = () => {
   return (
     <>
       <FeaturesSection
-        mainHeading={<>Professional Online Psychology Class Help <span>Services Trusted by the USA Students</span></>}
+        mainHeading={<>Professional Online Psychology Class Help, Across Assignments, <span>Discussions, and Beyond</span></>}
         subText={
           <p>
-            Most students register for psychology expecting an interesting discussion course filled with discussion about human behavior. But later they find it is more about memorizing definitions. For this reason, they need a reliable source of support that can help them understand how theories apply to human behavior, interpret research findings, compare psychological perspectives, and more.
+            Most students register for psychology expecting an interesting discussion course filled with discussion about human behavior. But later they find it is more about memorizing definitions. For this reason, they need a reliable source of support that can help them understand how theories apply to human behavior, interpret research findings, compare psychological perspectives, and more. So if you&apos;re looking for help with your online psychology class, we&apos;re always here for you.
           </p>
         }
         features={myFeatures}

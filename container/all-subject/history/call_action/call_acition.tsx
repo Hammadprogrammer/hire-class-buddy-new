@@ -6,10 +6,9 @@ const CallActionSection = () => {
   return (
     <div>
           <CallAction 
-      heading={<>Need Fast Answers? Chat With Our Tutors Anytime and Get 50% Off Your Initial Booking. Offer Valid for New Students Only!
-</>}
-      description="Get instant solutions for homework, quizzes, and presentations with our responsive tutors. Whether it’s a tricky problem or a last-minute assignment, we’ve got you covered. New students enjoy 25% off their first booking - grab this limited offer now!"
-      btnText="Request a FREE quote today!"
+      heading={<>Consult Today & Get <span>50% Off</span> on Your Order</>}
+      description="Do you struggle to keep up with your coursework? Many students look to hire someone to do their online history class, and we're here to help with expert guidance. We offer extensive history class support at 50% off on the first session. So just tell little about your course and what's on your mind, and we'll introduce you to a history tutor this week."
+      btnText="Request A Free Quote"
       btnLink="/contact-us"
     />
     </div>

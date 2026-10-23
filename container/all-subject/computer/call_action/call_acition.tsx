@@ -6,11 +6,9 @@ const CallActionSection = () => {
   return (
     <div>
           <CallAction 
-      heading={<>Struggling with Assignments? Get Expert Help with a Special Discount!
-Sign Up Now for Premium Computer Class Help – Affordable & Stress-Free!
-</>}
-      description="Don’t let computer stress overwhelm you. Get professional assistance for homework, projects, and assignments with a special discount on your first order. Our trusted tutors provide accurate, detailed, and deadline-ready solutions to help you achieve better results effortlessly."
-      btnText="Request a FREE quote today!"
+      heading={<>Consult Today & Get 50% Off on Your Order</>}
+      description="Most students want help with their CS class but have one big question: Is this reliable? Well, with us, you don’t need to worry. We have experienced tutors ready to help, and your first session is 50% off. So let’s book your order, share your course details and what’s due, and we’ll match you with the right tutor."
+      btnText="Get a FREE Quote"
       btnLink="/contact-us"
     />
     </div>

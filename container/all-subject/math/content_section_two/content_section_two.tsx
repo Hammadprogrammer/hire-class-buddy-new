@@ -5,8 +5,8 @@ const Content_section_two = () => {
   return (
     <>
       <ContentTwo 
-        heading="Take Online Math Class Help and Never Miss a Deadline Again- 100% Confidential and Secure "
-        description="Keeping up with assignments in any academic setting today can be tough. When you opt for a math class taker, you know that all of your classwork, discussion and projects will be done right on time. We can offer help with Math class solutions to provide you with a professional way for calculus, algebra, statistics and many more, according to your class. All the work is done with a policy of confidentiality, thus your personal information and rates are secure. Thanks to expert tutors organizing your classwork, you have more time to learn at your own speed and will manage less pressure, leading to better grades without the fear of deadlines."
+        heading="Why an Online Algebra Tutor Makes Such a Big Difference"
+        description="Algebra is kind of like climbing stairs. Skip one, and the next few get a lot harder. Maybe you didn’t fully get how to solve all exercises in two weeks. But by the week, our tutor helps you make factoring easier for you. That’s why a lot of students start working with an online algebra tutor who help in getting the exact spot where things stopped making sense and fixes it first. Then you keep going from there, one topic at a time. No more cramming the night before a test and hoping for the best. And don’t worry about privacy. Everything stays between you and your tutor. Your sessions are secure, your details are kept confidential, and we never share anything with anyone, your school included."
       />
     </>
   )

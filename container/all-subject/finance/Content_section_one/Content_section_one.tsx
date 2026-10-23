@@ -4,8 +4,8 @@ const ContentSectionOne = () => {
   return (
     <>
       <ContentOne 
-        mainHeading="100% Flexible and Affordable Finance Class Help Services that Fit Your Schedule "
-        description="Our online finance class help is completely flexible and does not burden your pocket with excessive fees; instead, it is within the reach of every student. Writing assignments, quizzes and essays at your own pace without quality being compromised with our finance class takers for hire. Our solutions are deadline-based, customized to your needs, plagiarism-free and with exact solutions required — and all these at student rates. Whether you require assistance for a single module or your entire class, we help you stay on task, turning in assignments that earn better grades and ensure confident scores even in the busiest of schedules."
+        mainHeading="Popular Finance Platform Where We Provide 100% Flexible and Affordable Service"
+        description="We aim to provide flexible online class help that doesn't put a burden on your budget. That's why we keep our pricing affordable and accessible for students. Here, our specialists across a wide range of subjects understand how to provide well-researched assignments, quizzes, and coursework. Whether you are looking for single module assistance or an entire class, we can help wherever you need it with personalized guidance at affordable pricing."
       />
     </>
   );

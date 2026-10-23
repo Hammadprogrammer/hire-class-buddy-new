@@ -4,9 +4,9 @@ export default function OnlineClassHero() {
 
   // Updated Bullets array for Proctored Exams
   const points = [
-    "Affordable tutoring plans designed for every student",
-    "PhD-qualified experts offering specialized subject guidance",
-    "24/7 professional customer support whenever you need assistance"
+    "Affordable tutoring plans designed for every student.",
+    "PhD-qualified experts offering specialized subject guidance.",
+    "24/7 professional customer support whenever you need assistance."
   ];
 
   return (

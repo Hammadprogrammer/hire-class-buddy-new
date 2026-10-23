@@ -6,9 +6,9 @@ const CallActionSection = () => {
   return (
     <div>
           <CallAction 
-      heading={<>A+ Success Guaranteed: Pay Someone to Take Online Course and Get Your First Assignment Done Free when You Book Full Course Help!</>}
-      description="Don’t miss this opportunity! Grab 50% off today and pay someone to do my course to manage your entire online course. Make your academic journey easier and more successful with us!"
-      btnText="Book your slot now!"
+      heading={<>Get A+ Grades By Simply Asking: Can You Do My Online Course For Me? 50% Off First Session</>}
+      description="If you are thinking, you can only get half off on your first session. Wait, there is more! You can get your first assignment done when you book full course help with us. So, if you’ve been meaning to hire online class help, this is an easy way to start."
+      btnText="Request a Free Quote"
       btnLink="/contact-us"
     />
     </div>

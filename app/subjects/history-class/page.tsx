@@ -10,6 +10,7 @@ import Content_section_two from '@/container/all-subject/history/content_section
 import ProcessSection from '@/container/home/process_section/process_section'
 import ServicesSection from '@/container/home/service_section/service_section'
 import ContentSectionThree from '@/container/all-subject/history/content_section_three/content_section_three'
+import { TimerOutlined, SchoolOutlined, HistoryEduOutlined } from '@mui/icons-material'
 
 // Meta Data Configuration
 export const metadata: Metadata = {
@@ -20,18 +21,36 @@ export const metadata: Metadata = {
   }
 }
 
+const historyServices = [
+  {
+    icon: <TimerOutlined />,
+    title: "Online Exam",
+    desc: "Worried about your history exam? Hire us for exam preparation support, including quizzes and written exams. Our expert tutor helps you identify important topics and practice short answers and essay questions until you can explain them confidently."
+  },
+  {
+    icon: <SchoolOutlined />,
+    title: "Online Class",
+    desc: "Having trouble balancing your coursework? Our professional history tutor helps you keep up with your online history class. Weekly sessions keep you on top of the readings and give you a place to ask everything you didn't get to ask in class."
+  },
+  {
+    icon: <HistoryEduOutlined />,
+    title: "Online Assignment",
+    desc: "Old assignment, want to get rid of these problems? No doubt, choosing a topic from scratch and preparing a final draft with proper citations can be a complicated task. That's where our tutors step in, offering guidance throughout the process at an affordable rate."
+  }
+]
+
 const page = () => {
   return (
     <>
       <OnlineClassHero />
-      <UniSection/>
+      <UniSection heading="All-in-One Exam Solution Across Major Exam Portal"/>
       <Features />
       <ContentSectionOne />
       <CallActionSection/>
       <Stats_section/>
       <Content_section_two/>
       <ProcessSection/>
-      <ServicesSection/>
+      <ServicesSection title="Service We Offer" services={historyServices}/>
       <ContentSectionThree/>
     </>
   )

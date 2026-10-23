@@ -5,8 +5,8 @@ const Stats_section = () => {
   return (
     <div>
       <StatsSection 
-      heading={<>Boost Your Grades Fast with Expert Sociology Class Help Online</>}
-      description="Struggling with your sociology assignments? Get expert online sociology class help and achieve top grades with ease and confidence. No matter whether it's your daunting questions, discussion posts or project submission, we cover it all."
+      heading={<>No More Study Worries, Hire Us!</>}
+      description="When you opt for our take my sociology class service, you will be guided by a professional tutor who understands the theories, teaching methods, and writing style in sociology. So book a 30-minute free call, and share your syllabus and the topics you've been avoiding. Our tutor will go through it all with you and tell you where to start."
     />
     </div>
   )

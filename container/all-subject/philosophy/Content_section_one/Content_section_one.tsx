@@ -4,8 +4,8 @@ const ContentSectionOne = () => {
   return (
     <>
       <ContentOne
-        mainHeading="Choose Us as Your Academic Partner and See What Else We Do For You"
-        description="We have specialized tutors with years of experience teaching students across multiple subjects. We do our best to make philosophy class stress-free, while ensuring your academic target is accomplished with confidence, precision, and reliable support."
+        mainHeading="Will You Take My Online Philosophy Class for Me at Affordable Rates?"
+        description="At Hire Class Buddy, we work alongside you as a trusted partner supporting your online philosophy class with professionalism and care. So, if you have any concerns about pricing, then yes, we offer our service at an affordable price. Our price is designed to be budget-friendly for students. Therefore, if you are someone who needs help with assignments and exams, then you can totally rely on us. Here, we provide support throughout your online philosophy course, helping you manage your online classes, your assignments, and missed quizzes all in one place."
       />
     </>
   );

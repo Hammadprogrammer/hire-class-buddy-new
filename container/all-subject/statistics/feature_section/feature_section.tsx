@@ -47,7 +47,7 @@ const Features = () => {
   return (
     <>
       <FeaturesSection
-        mainHeading={<>Key Features We Cover In Our Online Statistics Class <span>Help Service</span></>}
+        mainHeading={<>Key Features We Cover In Our Online Statistics Class <span>Help Service.</span></>}
         subText={
           <p>
             Statistics can feel like a lot, no doubt. That's why we've kept things simple, honest, and built around you. Here's what makes learning statistics with us a whole lot easier.

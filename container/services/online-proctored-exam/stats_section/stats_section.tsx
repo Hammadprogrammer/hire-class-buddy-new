@@ -5,8 +5,8 @@ const Stats_section = () => {
   return (
     <div>
       <StatsSection 
-      heading={<>Enroll in a Daunting Subject? Let Our Experts Help with Proctored Exam</>}
-      description="Juggling between work and study is like running a marathon. But here at Hire Class Buddy, we offer top-notch help with proctored exam. You just have to talk to our experts, give instructions about your exam, confirm your order and enjoy the higher grades you deserve."
+      heading={<>Request Us To Take My Proctored Exam For Me & Be At Ease!</>}
+      description="We are operational 24/7, guaranteeing 100% confidentiality and security when it comes to taking your proctored exam. Do not worry; our tutors and online proctored exam takers make sure they get you through it all the way."
     />
     </div>
   )

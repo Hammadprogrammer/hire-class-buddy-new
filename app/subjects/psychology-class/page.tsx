@@ -9,7 +9,7 @@ import Stats_section from '@/container/all-subject/psychology/stats_section/stat
 import Content_section_two from '@/container/all-subject/psychology/content_section_two/content_section_two'
 import ProcessSection from '@/container/home/process_section/process_section'
 import ServicesSection from '@/container/home/service_section/service_section'
-import ContentSectionThree from '@/container/all-subject/psychology/content_section_three/content_section_three'
+import { TimerOutlined, SchoolOutlined, HistoryEduOutlined } from '@mui/icons-material'
 
 // Meta Data Configuration
 export const metadata: Metadata = {
@@ -24,15 +24,33 @@ const page = () => {
   return (
     <>
       <OnlineClassHero />
-      <UniSection/>
+      <UniSection heading="Exam Preparation Support for Every Major Online Platform"/>
       <Features />
       <ContentSectionOne />
       <CallActionSection/>
       <Stats_section/>
       <Content_section_two/>
       <ProcessSection/>
-      <ServicesSection/>
-      <ContentSectionThree/>
+      <ServicesSection
+        title="Service We Offer"
+        services={[
+          {
+            icon: <TimerOutlined />,
+            title: "Online Exam",
+            desc: "Psychology exams require more attention to the famous theories and applied questions. Our tutor goes over the important theories and terms, and practices them with you until you fully understand each concept and feel prepared for your exam"
+          },
+          {
+            icon: <SchoolOutlined />,
+            title: "Online Class",
+            desc: "Psychology class requires someone who can help you understand theories with real-world examples, evaluate competing perspectives, and engage critically with classmates. Our expert tutor takes this online course without missing any important lessons, while keeping you updated on class activities."
+          },
+          {
+            icon: <HistoryEduOutlined />,
+            title: "Online Assignment",
+            desc: "Our psychologist expert help you write papers with proper citations and actual peer-reviewed reviews, construct logical arguments, and ensure your work remains original and aligned with your professor's guidelines."
+          }
+        ]}
+      />
     </>
   )
 }

@@ -6,8 +6,8 @@ const CallActionSection = () => {
   return (
     <div>
           <CallAction 
-      heading={<>Need Help Acing Your Physics Class? Hire a Skilled Physics Class Taker Today and get Guaranteed Results without the Hassle </>}
-      description="Get a free quote from us today and see how we help you to boost your grades. Start learning with confidence today."
+      heading={<>Consult Today & Take 50% Off On Your First Order Now!</>}
+      description="Tired of your physics class? Many students feel stuck around the same point, usually when forces and motion turn into energy and momentum. Just tell us a little about your course and where it’s getting hard. We’ll introduce you to a physics tutor this week, and your first session is 50% off."
       btnLink="/contact-us"
     />
     </div>

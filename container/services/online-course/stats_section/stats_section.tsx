@@ -5,8 +5,8 @@ const Stats_section = () => {
   return (
     <div>
       <StatsSection 
-      heading={<>Join Our 1000+ Happy Customers Who Chose to Hire Someone to Take Online Course</>}
-      description="Sign up with us now to pass your course successfully. We are a reliable team that supports all of your coursework tasks, which we take on at the most professional level. Act now — get academic help and ace your grades easily!"
+      heading={<>Pay Someone to Do Your Online Course With More Than 98% Recurring Clients</>}
+      description="Hire Class Buddy has mastered the art of helping students with online courses. We have multiple subject specialists available to help with your entire coursework. You can even join a free 30-minute call and sit down with our tutor to share your details. They will assure you that we provide a secure and reliable service to support you throughout your course."
     />
     </div>
   )

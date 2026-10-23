@@ -4,8 +4,8 @@ const ContentSectionOne = () => {
   return (
     <>
       <ContentOne
-        mainHeading="Struggling With Law Class? Here's Why Students Reach Out To Us"
-        description="Getting online help has never been simpler. We help you understand how legal rules apply to real situations, brief cases step by step, and build strong arguments. So if you're looking for online law class help, see exactly what happens after you reach out to us."
+        mainHeading="Advance Your Online Studies With Expert Help in Other Law Subjects"
+        description="Is one law course harder than the rest? Or maybe they're all the same. Worry not, we're here to explain you each. Besides general online law class help, Hire Class Buddy has tutors for nearly every area of law, including contract law, criminal law, constitutional law, torts, business law, property law, family law, international law, and legal writing. No doubt, each subject has its own rules, cases, and way of thinking, and that's why we match you with a tutor who knows your specific course. They'll help you brief cases, understand the key rules, and prepare for exams, all at an affordable price."
       />
     </>
   );

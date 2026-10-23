@@ -5,8 +5,8 @@ const Stats_section = () => {
   return (
     <div>
       <StatsSection 
-      heading={<>Don’t Let Your Overwhelming History Class Push You Away! Contact Our History Class Takers for Hire Now!</>}
-      description="Register with us and upload your classes. We will assign your class to a subject expert who will take care of parting with your pending work. Talk to us via live chat about your subject and get the best quotation and plan for you."
+      heading={<>Don&apos;t Let History Ruin Your GPA, Contact Our History Tutors for <span>Hire Now!</span></>}
+      description={"When you finally need someone to do your online history class who stays with you and says, \"Okay, start here.\" That's what this free 30-minute call is for. Share your syllabus and deadlines, and our professional tutor will help you sort out priorities and make a plan. No commitment, no sales pitch."}
     />
     </div>
   )

@@ -3,33 +3,34 @@ import Testimonial from "@/container/All-props-comp/testimonial/testimonial";
 export default function TestimonialSection() {
   const testimonialsData = [
     {
-      text: "Their online exam help was actually effective in making me grasp difficult concepts that I was having difficulty with. The tutors made it very explanatory and I felt much more confident when I was having my exams! ",
-      author: "Order # 76576"
+      text: "I contacted you really late because my exam was only two days away. I thought I had left it too late, but the tutor helped me focus on the topics I was weakest in instead of trying to study everything at once. That made a huge difference.",
+      author: "Daniel R."
 
     },
     {
-      text: "I had difficulties with time management of my study when I had numerous subjects. Reliable take my online exam solutions kept me on schedule and made my scores improve a great deal. ",
-      author: "Order # 15258"
+      text: "This professional tutor provider service is incredible. I kept getting certain questions wrong, and my tutor actually explained why instead of just giving me the answer. By exam day, I felt much calmer and better prepared.",
+      author: "Emily J."
     },
     {
-      text: "The 24/7 doubt service was a lifesaver. My tutor was always available to explain my questions whenever I had one. It also made my exam success much less stressful. ",
-      author: "Order # 34036"
+      text: "I had been falling behind for weeks and was starting to feel completely lost. The sessions were straightforward to follow. We went through the difficult chapters, reviewed my notes, and built a study plan that actually felt manageable.",
+      author: "Jason K."
     },
     {
-      text: "I liked the flexible working hours. The tutors fitted perfectly into my schedule, which implies that I was able to secure good grades without compromising other activities.",
-      author: "Order # 91113"
+      text: "What I liked most was that the tutor didn't make me feel stupid for asking basic questions. We went over everything at my pace, and I came away understanding topics I had been avoiding for most of the semester.",
+      author: "Olivia T."
     }, {
-      text: "The practice exams and feedback enabled me to understand my areas of weakness and work on them. With the help of their exam takers, my examinations were just a breeze. ",
-      author: "Order # 18535"
+      text: "Without a doubt, I had the best experience. They made a huge difference in my grades.",
+      author: "Daniel R."
     }
   ];
 
   const faqsData = [
-    { q: "What can online tutoring do to make my grades higher on exams? ", a: "Ans. Through online tutoring, there is a personalized form of guidance, different from your syllabus, strengths and your weak points. Our tutors will explain the hard concepts, exam tips, and practice questions that will enable you to have confidence and the skills to score higher." },
-    { q: "Which subjects in exams do you support? ", a: "Ans. We provide professional help in a broad spectrum of topics- math, science and business, as well as professional exams through online exams. Our tutors will guide you according to your exams or level of difficulty." },
-    { q: "Will I be able to receive assistance in the last moment before my online exam? ", a: "Ans. Yes! We are aware that during exams, time creeps by at a faster rate than anticipated. Our tutors can provide you with intensive, crash revision exams on important subjects, uncertainty, and preparation, even with minimal notice." },
-    { q: "What are your online sessions: live or recorded?", a: "Ans. We offer learning in a flexible format. You may opt to have live one-on-one sessions when you need real-time instructions or group tutorials when you want to learn as a group. You can also have recorded lessons when you want to learn in your own time. " },
-    { q: "Is your service confidential and safe? ", a: "Ans. We highly value your privacy and trust. This is all done in a safe manner, all the communications, personal details and study materials. We have professional tutors who can guarantee you a secure, confidential and conducive learning environment." }
+    { q: "Can I Hire Someone to Do My Exam?", a: "Short answer: It depends. Schools treat it as cheating, and people do get caught. We'd much rather get you ready to take it yourself." },
+    { q: "Can I Pay Someone to Do My Online Exam?", a: "Someone messaged us last week asking exactly this, three days before her stats final. We set her up with a tutor, did two practice tests, and she passed on her own. That's the kind of help we sell." },
+    { q: "Can I Hire Someone to Do My Online Exam at the Last Minute?", a: "Not to take it, no. But if it's tomorrow, message us tonight. Even one good session before the night can help you a lot." },
+    { q: "What Does \"Hire Someone to Take a Test for You\" Usually Mean?", a: "In our experience? \"I'm overwhelmed, and I don't know where to start.\" Totally fixable. Start with a tutor, a few practice questions, and a plan that's what it actually means." },
+    { q: "Can You Help If I Search \"Take My Exam for Me\"?", a: "We can't take it for you. What we can do is sit with you, figure out what you don't get yet, and quiz you until you do." },
+    { q: "Do You Keep My Information Confidential?", a: "Yes always. Even if you found us by searching \"hire someone to take my online exam,\" your details stay private, and we only use what we need to set up your sessions." }
   ];
 
   return (
@@ -37,7 +38,7 @@ export default function TestimonialSection() {
       <Testimonial
         testimonials={testimonialsData}
         faqs={faqsData}
-        title="Our success stories"
+        title="Hear From Our Happy Clients"
         subtitle="Read what our students have to say about their journey."
       />
     </main>

@@ -5,8 +5,8 @@ const Content_section_two = () => {
   return (
     <>
       <ContentTwo 
-        heading="Your Partner in Success - Reliable Do My Test for Me Service You Can Count on!"
-        description="At Hire Class Buddy, we ensure that you get professional help at really affordable prices when required. Our priority is to provide you with precise solutions, prompt support and an effortless flow, so that at every stage you can feel assured. We have the best professionals whom you can contact to resolve your queries, if any. Our professional online test helpers are focused on maintaining standards, communication and dedication to your academics. Our trusted take online test for me support gives you the means to take your test more efficiently and step closer to success."
+        heading="Text Us, Hire Someone to Take My Online Quiz and Get Trusted Support in the USA"
+        description="Having the right trusted online test support can make a huge difference. The reason is that we receive a desirable mark when we take help from an expert tutor. And Hire Class Buddy ensures you get professional help at an affordable price. Our priority is to provide precise solutions and prompt support that make every stage easier. We honestly meet deadlines and answer all questions on time, so we can do our best and give you the chance to spend more free time with your loved ones."
       />
     </>
   )

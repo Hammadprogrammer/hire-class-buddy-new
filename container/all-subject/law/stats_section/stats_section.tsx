@@ -5,8 +5,8 @@ const Stats_section = () => {
   return (
     <div>
       <StatsSection 
-      heading={<>Looking for Hire Someone to Do My Online Law Class for Me? Talk to Us, We are Live</>}
-      description="Register with us and provide the details of your class. At this time, we will have a subject specialist take your class and all outstanding work. Talk with your subject matter in live chat and request a quote for you at the most affordable cost."
+      heading={<>Hire a Law Tutor and Remove Your Stress. We Are Available For A <span>Free Call</span></>}
+      description="When you work with our law tutor, you're guided by someone who knows legal reasoning, case analysis, and the IRAC method professors expect. So don't wait any longer. Book a free 30-minute call and share your syllabus, difficult topics, and any pending assignments. Our tutor will sit down with you and explain exactly where to start."
     />
     </div>
   )

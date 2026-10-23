@@ -4,8 +4,8 @@ const ContentSectionOne = () => {
   return (
     <>
       <ContentOne 
-        mainHeading="Get Affordable & Professional Online Statistics Assignment Help in the USA"
-        description="Statistics online assignment help is really helpful for students who are studying statistics. Students who are working on statistics assignments often find it very hard and boring. If you are having trouble with your statistics assignment, you can get help from the experts at Hire Class Buddy. We are a brand that people trust to do work, and we can help you with your statistics assignment. If you hire our statistics assignment help service, you can expect to get grades. Getting online help with statistics class from us is the way to get your work done and get good grades. Just book our service. So why not get statistics assignment help from us and make your life easier? We will do all the work for you and give you the grades you want. Statistics assignment help service is what you need to succeed in your studies. "
+        mainHeading="Keep Your Grades Bright By Taking Affordable Online Statistics Assistance"
+        description="Deadlines and overwhelming expectations can be challenging, and statistics can make it even harder. If you are finding it hard to cope, hire someone to take your online statistics class and let trained hands relieve your stress. Our experts have strong knowledge of probability theory, regression analysis, and other complex models. They also provide the outsatanding result under the most affordable price range."
       />
     </>
   );

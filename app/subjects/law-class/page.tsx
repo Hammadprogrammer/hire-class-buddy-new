@@ -10,6 +10,7 @@ import Content_section_two from '@/container/all-subject/law/content_section_two
 import ProcessSection from '@/container/home/process_section/process_section'
 import ServicesSection from '@/container/home/service_section/service_section'
 import ContentSectionThree from '@/container/all-subject/law/content_section_three/content_section_three'
+import { TimerOutlined, SchoolOutlined, HistoryEduOutlined } from '@mui/icons-material'
 
 // Meta Data Configuration
 export const metadata: Metadata = {
@@ -20,18 +21,36 @@ export const metadata: Metadata = {
   }
 }
 
+const lawServices = [
+  {
+    icon: <TimerOutlined />,
+    title: "Online Exam",
+    desc: "Our professionals provide expert assistance with all your law assessments to ensure you meet the required academic standards and work toward achieving your desired results."
+  },
+  {
+    icon: <SchoolOutlined />,
+    title: "Online Class",
+    desc: "From complex subjects to general law classes, we provide help in taking these subject accurate and timely manner, ensuring that you never miss any important lessons."
+  },
+  {
+    icon: <HistoryEduOutlined />,
+    title: "Online Assignment",
+    desc: "Don't stress over online assignments in your law subject, since our professionals will sit with you, note every parameter, and help you prepare work that is original, well-researched, and aligned with your professor's guidelines."
+  }
+]
+
 const page = () => {
   return (
     <>
       <OnlineClassHero />
-      <UniSection/>
+      <UniSection heading="Complete Online Exam Solutions for All Your Needs in One Place"/>
       <Features />
       <ContentSectionOne />
       <CallActionSection/>
       <Stats_section/>
       <Content_section_two/>
       <ProcessSection/>
-      <ServicesSection/>
+      <ServicesSection title="Service We Offer" services={lawServices}/>
       <ContentSectionThree/>
     </>
   )

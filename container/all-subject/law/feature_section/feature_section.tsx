@@ -3,7 +3,6 @@ import FeaturesSection from '@/container/All-props-comp/feature_section/feature_
 
 // Icons Import
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
-import Diversity3OutlinedIcon from '@mui/icons-material/Diversity3Outlined';
 import GavelOutlinedIcon from '@mui/icons-material/GavelOutlined';
 import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined';
 import PriceCheckOutlinedIcon from '@mui/icons-material/PriceCheckOutlined';
@@ -37,11 +36,6 @@ const Features = () => {
       desc: "Our expert tutor offers plagiarism-free work checked by Turnitin. Each piece of assignment includes a full plagiarism report to ensure absolute authenticity.",
       icon: <SavingsOutlinedIcon />,
     },
-    {
-      title: "Advance Your Online Studies",
-      desc: "Is one law course harder than the rest? Or maybe they're all the same. Worry not, we're here to explain you each. Besides general online law class help, Hire Class Buddy has tutors for nearly every area of law.",
-      icon: <Diversity3OutlinedIcon />,
-    },
   ];
 
   return (
@@ -50,7 +44,7 @@ const Features = () => {
         mainHeading={<>Struggling With Law Class? <span>Here's Why Students Reach Out To Us</span></>}
         subText={
           <p>
-            Getting online help has never been simpler. We help you understand how legal rules apply to real situations, brief cases step by step, and build strong arguments.
+            Getting online help has never been simpler. We help you understand how legal rules apply to real situations, brief cases step by step, and build strong arguments. So if you&apos;re looking for online law class help, see exactly what happens after you reach out to us.
           </p>
         }
         features={myFeatures}

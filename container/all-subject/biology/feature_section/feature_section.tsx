@@ -47,10 +47,10 @@ const Features = () => {
   return (
     <>
       <FeaturesSection
-        mainHeading={<>Affordable Biology Class Help That Actually <span>Makes a Difference</span></>}
+        mainHeading={<>Explore How Our Biology Class Assistance Supports You at <span>Every Step</span></>}
         subText={
           <p>
-            Let's be honest, a lot of biology help online feels a bit sketchy. We're different. At Hire Class Buddy, our tutor sits down with you and goes through whatever's giving you trouble. Maybe it's photosynthesis, maybe it's a lab report that's due Friday, or do you need any online biology homework help at 11 p.m.? Message us. Someone will get back to you. Our prices are made for students, not companies, and we don't leave you hanging when a deadline's close. You still do the work. We just make sure you're not stuck on your own.
+            Biology can feel like a lot, especially when you&apos;re learning it online on your own. Here&apos;s how our tutors make it easier, from the first chapter to the final exam.
           </p>
         }
         features={myFeatures}

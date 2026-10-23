@@ -4,9 +4,9 @@ export default function OnlineClassHero() {
   
   // New content: Sociology Class Bullets array
   const points = [
-    "Guaranteed A or B Grades: Timely support for top results.",
-    "Progressive Payments: Pay in easy instalments.",
-    "Expert for Every Class: Qualified help in all branches."
+    "Sociology Experts: Years of studying and teaching the subject",
+    "Always Available: Evenings, weekends, late nights",
+    "Kept Private: Your details and coursework stay with us"
   ];
 
   return (
@@ -14,15 +14,16 @@ export default function OnlineClassHero() {
       <Hero 
         // New Heading
         heading={
-          <>Hire Someone to Take My Online Sociology Class- <span>100% Success Guaranteed</span></>
+          <>Hire Someone to Take My Online Sociology Class With <span>100% Guaranteed Support</span></>
         }
         // New Subtext
         subText={
-          <p>
-            Your search for a top-notch sociology class help ends here! Hire our professional 
-            sociology class takers and skyrocket your grades with ease. We offer secure and 
-            confidential solutions to all your sociology class problems.
-          </p>
+          <>
+            <p>
+              Read the same chapter three times and still can&apos;t explain it? Hire Class Buddy has professional class tutors who are experts in the field of sociology and help you manage your full course without any hassle. Our experts are committed to helping you achieve outstanding results. Well, it&apos;s not too late to get help. Contact us today, and we will be there to help you.
+            </p>
+            <p>Check what else we have:</p>
+          </>
         }
         // Updated Bullets array
         bullets={points}
