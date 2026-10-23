@@ -117,7 +117,7 @@ const Footer = () => {
             </div>
             <div className={styles.paymentSection}>
               <p>We Accept Major Cards</p>
-              <Image src="/paymenticon.png" alt="Accepted Payments" width={1024} height={356} sizes="(max-width: 600px) 90vw, 280px" className={styles.paymentImage} />
+              <Image src="/paymenticon-v2.png" alt="Accepted Payments" width={1024} height={356} sizes="(max-width: 600px) 90vw, 280px" className={styles.paymentImage} />
             </div>
           </div>
 
