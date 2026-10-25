@@ -73,7 +73,7 @@ export default function RootLayout({
           }}
         />
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPEBH39Z0T"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VL8S8FP6TD"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -87,7 +87,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-MPEBH39Z0T');
+            gtag('config', 'G-VL8S8FP6TD');
           `}
         </Script>
         <Script id="microsoft-clarity" strategy="afterInteractive">
