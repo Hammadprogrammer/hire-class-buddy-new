@@ -44,6 +44,7 @@ const Footer = () => {
     { name: "Home", url: "/" },
     { name: "About Us", url: "/about-us/" },
     { name: "Reviews", url: "/reviews/" },
+    { name: "Blog", url: "/blog/" },
     { name: "Contact Us", url: "/contact-us/" },
     { name: "Privacy Policy", url: "/privacy-policy/" },
     { name: "Terms & Conditions", url: "/terms-and-conditions/" },

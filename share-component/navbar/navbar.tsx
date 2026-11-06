@@ -155,6 +155,10 @@ const Navbar = () => {
               <Link href="/reviews/" prefetch={false} className={`${styles.navLink} ${isActive('/reviews/') ? styles.active : ''}`}>
                 Reviews
               </Link>
+
+              <Link href="/blog/" prefetch={false} className={`${styles.navLink} ${isCategoryActive('/blog') ? styles.active : ''}`}>
+                Blog
+              </Link>
             </Box>
 
             <Box className={styles.rightNav}>
@@ -237,6 +241,10 @@ const Navbar = () => {
 
             <ListItem className={`${styles.mobileListItem} ${isActive('/reviews/') ? styles.mobActive : ''}`}>
               <Link href="/reviews/" prefetch={false} onClick={handleDrawerToggle}><StarIcon /> Reviews</Link>
+            </ListItem>
+
+            <ListItem className={`${styles.mobileListItem} ${isCategoryActive('/blog') ? styles.mobActive : ''}`}>
+              <Link href="/blog/" prefetch={false} onClick={handleDrawerToggle}><MenuBook /> Blog</Link>
             </ListItem>
 
             <Box sx={{ p: 2, mt: 2 }}>
