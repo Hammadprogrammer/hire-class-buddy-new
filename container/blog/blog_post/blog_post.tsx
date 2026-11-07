@@ -66,6 +66,10 @@ const renderSection = (section: BlogSection) => (
 );
 
 const BlogPostPage = ({ post }: { post: BlogPost }) => {
+  const whatsappUrl = `https://wa.me/12027035862?text=${encodeURIComponent(
+    `Hi, I read "${post.title}" and would like help with my class.`
+  )}`;
+
   return (
     <div className={styles.main}>
       {/* --- FULL WIDTH FEATURED IMAGE --- */}
@@ -102,6 +106,23 @@ const BlogPostPage = ({ post }: { post: BlogPost }) => {
             <p key={i} className={styles.paragraph}>{p}</p>
           ))}
 
+          <div className={styles.ctaBox}>
+            <h2 className={styles.ctaTitle}>Need Help With This Class?</h2>
+            <p className={styles.ctaText}>
+              Message our team about the subject or coursework in this article. The chat
+              opens in a new tab, so you can keep this guide open while you get in touch.
+            </p>
+            <Link
+              href={whatsappUrl}
+              prefetch={false}
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              className={styles.ctaBtn}
+            >
+              Get Class Help
+            </Link>
+          </div>
+
           {post.sections.map(renderSection)}
 
           {/* Conclusion */}
@@ -118,28 +139,18 @@ const BlogPostPage = ({ post }: { post: BlogPost }) => {
               <h2 className={styles.h2}>{post.faqHeading}</h2>
               <div className={styles.faqList}>
                 {post.faqs.map((faq) => (
-                  <div key={faq.question} className={styles.faqItem}>
-                    <h3 className={styles.faqQuestion}>{faq.question}</h3>
-                    <p className={styles.paragraph}>{faq.answer}</p>
-                    {faq.list && renderList(faq.list)}
-                    {faq.numbered && renderList(faq.numbered, true)}
-                  </div>
+                  <details key={faq.question} className={styles.faqItem}>
+                    <summary className={styles.faqQuestion}>{faq.question}</summary>
+                    <div className={styles.faqAnswer}>
+                      <p className={styles.paragraph}>{faq.answer}</p>
+                      {faq.list && renderList(faq.list)}
+                      {faq.numbered && renderList(faq.numbered, true)}
+                    </div>
+                  </details>
                 ))}
               </div>
             </section>
           )}
-
-          {/* CTA */}
-          <div className={styles.ctaBox}>
-            <h3 className={styles.ctaTitle}>Need Help With Your Online Classes?</h3>
-            <p className={styles.ctaText}>
-              Hire Class Buddy connects you with expert academic support for online classes,
-              assignments, exams, and more. Get started today!
-            </p>
-            <Link href="/contact-us/" prefetch={false} className={styles.ctaBtn}>
-              Get Expert Help Now
-            </Link>
-          </div>
         </div>
       </article>
     </div>

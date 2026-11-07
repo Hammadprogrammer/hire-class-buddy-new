@@ -45,7 +45,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "13-tips-for-managing-business-classes",
     title: "13 Tips for Managing Business Classes and Meeting Deadlines",
-    metaTitle: "13 Tips for Managing Business Classes and Meeting Deadlines",
+    metaTitle: "13 Tips for Managing Business Classes",
     metaDescription:
       "Discover 13 practical tips for managing business classes, staying organized, improving productivity, and meeting deadlines effectively.",
     image: "/blog/blog1.png",
