@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.hireclassbuddy.com',
+  siteUrl: 'https://hireclassbuddy.com',
   generateRobotsTxt: true,
   outDir: 'out',
   trailingSlash: true,

@@ -41,25 +41,25 @@ const page = async ({ params }: { params: Promise<{ slug: string }> }) => {
     "@type": "BlogPosting",
     headline: post.title,
     description: post.metaDescription,
-    image: `https://www.hireclassbuddy.com${post.image}`,
+    image: `https://hireclassbuddy.com${post.image}`,
     datePublished: "2026-11-04",
     dateModified: "2026-11-04",
     author: {
       "@type": "Organization",
       name: "Hire Class Buddy",
-      url: "https://www.hireclassbuddy.com/",
+      url: "https://hireclassbuddy.com/",
     },
     publisher: {
       "@type": "Organization",
       name: "Hire Class Buddy",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.hireclassbuddy.com/logo1.png",
+        url: "https://hireclassbuddy.com/logo1.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://www.hireclassbuddy.com/blog/${post.slug}/`,
+      "@id": `https://hireclassbuddy.com/blog/${post.slug}/`,
     },
   }
 

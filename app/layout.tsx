@@ -21,8 +21,8 @@ const organizationSchema = {
   "@type": "Organization",
   name: "Hire Class Buddy",
   alternateName: "Hire Class Buddy",
-  url: "https://www.hireclassbuddy.com/",
-  logo: "https://www.hireclassbuddy.com/logo1.png",
+  url: "https://hireclassbuddy.com/",
+  logo: "https://hireclassbuddy.com/logo1.png",
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+1 (202) 703-5862",
@@ -37,7 +37,7 @@ const organizationSchema = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.hireclassbuddy.com"),
+  metadataBase: new URL("https://hireclassbuddy.com"),
   title: "Hire Class Buddy",
   description: "Get expert assistance for your classes and assignments with Hire Class Buddy.",
   verification: {

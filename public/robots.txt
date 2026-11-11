@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.hireclassbuddy.com/sitemap.xml
+Sitemap: https://hireclassbuddy.com/sitemap.xml
